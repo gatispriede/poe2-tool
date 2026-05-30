@@ -1,0 +1,1462 @@
+{
+  "build": {
+    "level": 100,
+    "className": "Witch",
+    "ascendClassName": "Blood Mage",
+    "mainSocketGroup": 9,
+    "targetVersion": "0_1",
+    "useSecondWeaponSet": false
+  },
+  "trees": [
+    {
+      "classId": 5,
+      "classInternalId": "1",
+      "ascendClassId": 2,
+      "ascendancyInternalId": "Witch2",
+      "treeVersion": "0_4",
+      "nodes": [
+        38732,
+        61333,
+        6006,
+        32054,
+        10131,
+        21984,
+        61403,
+        47177,
+        49537,
+        54521,
+        23382,
+        36293,
+        29502,
+        34621,
+        30117,
+        59342,
+        26196,
+        41965,
+        8821,
+        61601,
+        61419,
+        20677,
+        55708,
+        38535,
+        15775,
+        45702,
+        4140,
+        2254,
+        8569,
+        47168,
+        56162,
+        59362,
+        29611,
+        33722,
+        58016,
+        46197,
+        55596,
+        51741,
+        17505,
+        8540,
+        28975,
+        38105,
+        53975,
+        38493,
+        10295,
+        51749,
+        57710,
+        55104,
+        18651,
+        5088,
+        8415,
+        36302,
+        3251,
+        18845,
+        45569,
+        36814,
+        59093,
+        31692,
+        47931,
+        11672,
+        30141,
+        11736,
+        62153,
+        57821,
+        26383,
+        27785,
+        47976,
+        4739,
+        5501,
+        56334,
+        14446,
+        47307,
+        32474,
+        3165,
+        1755,
+        7960,
+        46171,
+        32763,
+        33254,
+        51184,
+        11741,
+        29959,
+        46819,
+        16499,
+        722,
+        28774,
+        16596,
+        50485,
+        52254,
+        60269,
+        38537,
+        8616,
+        46989,
+        45230,
+        42290,
+        30808,
+        61834,
+        59538,
+        6891,
+        36639,
+        33180,
+        23040,
+        55621,
+        38541,
+        28229,
+        14267,
+        17711,
+        3025,
+        63863,
+        56640,
+        32009,
+        54447,
+        56265,
+        26682,
+        31223,
+        40783,
+        28267,
+        59822,
+        55947,
+        13724,
+        61421,
+        19125,
+        535,
+        41768,
+        62230,
+        48821,
+        19355,
+        22290,
+        29009,
+        26905,
+        15618,
+        23416,
+        41753,
+        39567,
+        50192,
+        46554,
+        45885,
+        16705,
+        40345,
+        50104,
+        2672,
+        44299,
+        50755,
+        4346,
+        55190,
+        48773,
+        4519,
+        28982,
+        62677,
+        5314,
+        13823,
+        10398,
+        39131,
+        37991,
+        31765,
+        13407
+      ],
+      "masteryEffects": ""
+    }
+  ],
+  "skillGroups": [
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "SigilOfPowerPlayer",
+          "nameSpec": "Sigil of Power",
+          "variantId": "SigilOfPower",
+          "gemId": "Metadata/Items/Gems/SkillGemSigilOfPower",
+          "level": 20,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "ProlongedDurationSupportPlayerTwo",
+          "nameSpec": "Prolonged Duration II",
+          "variantId": "ProlongedDurationSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportSecondWindPlayerThree",
+          "nameSpec": "Second Wind III",
+          "variantId": "SecondWindSupportThree",
+          "gemId": "Metadata/Items/Gems/SupportGemSecondWindThree",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportCooldownRecoveryPlayerTwo",
+          "nameSpec": "Cooldown Recovery II",
+          "variantId": "CooldownRecoverySupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportRapidCastingPlayerTwo",
+          "nameSpec": "Rapid Casting II",
+          "variantId": "RapidCastingSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportMagnifiedAreaPlayerTwo",
+          "nameSpec": "Magnified Area II",
+          "variantId": "MagnifiedAreaSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "LightningWarpPlayer",
+          "nameSpec": "Lightning Warp",
+          "variantId": "LightningWarp",
+          "gemId": "Metadata/Items/Gems/SkillGemLightningWarp",
+          "level": 9,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportEfficiencyPlayerTwo",
+          "nameSpec": "Efficiency II",
+          "variantId": "EfficiencySupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemInspirationTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportPersistentGroundPlayerThree",
+          "nameSpec": "Persistent Ground III",
+          "variantId": "PersistentGroundSupportThree",
+          "gemId": "Metadata/Items/Gem/SupportGemDomainThree",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportRapidCastingPlayerTwo",
+          "nameSpec": "Rapid Casting II",
+          "variantId": "RapidCastingSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": null,
+          "nameSpec": "Unleash",
+          "variantId": null,
+          "gemId": null,
+          "level": 0,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportFleetingRemnantsPlayerTwo",
+          "nameSpec": "Harmonic Remnants II",
+          "variantId": "FleetingRemnantsSupportTwo",
+          "gemId": "Metadata/Items/Gem/SupportGemDissipateTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "OrbOfStormsPlayer",
+          "nameSpec": "Orb of Storms",
+          "variantId": "OrbOfStorms",
+          "gemId": "Metadata/Items/Gems/SkillGemOrbOfStorms",
+          "level": 21,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportEfficiencyPlayerTwo",
+          "nameSpec": "Efficiency II",
+          "variantId": "EfficiencySupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemInspirationTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportIncreaseLimitPlayerTwo",
+          "nameSpec": "Overabundance II",
+          "variantId": "IncreaseLimitSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": null,
+          "nameSpec": "Unleash",
+          "variantId": null,
+          "gemId": null,
+          "level": 0,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportArbitersIgnitionPlayer",
+          "nameSpec": "Arbiter's Ignition",
+          "variantId": "ArbitersIngitionSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemArbitersIgnition",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportXophsPyrePlayer",
+          "nameSpec": "Xoph's Pyre",
+          "variantId": "XophsPyreSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemXophsPyre",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "ElementalWeaknessPlayer",
+          "nameSpec": "Elemental Weakness",
+          "variantId": "ElementalWeakness",
+          "gemId": "Metadata/Items/Gem/SkillGemElementalWeakness",
+          "level": 21,
+          "quality": 23,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportEfficiencyPlayerTwo",
+          "nameSpec": "Efficiency II",
+          "variantId": "EfficiencySupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemInspirationTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportRitualisticCursePlayer",
+          "nameSpec": "Ritualistic Curse",
+          "variantId": "RitualisticCurseSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemRitualisticCurse",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportMagnifiedAreaPlayerTwo",
+          "nameSpec": "Magnified Area II",
+          "variantId": "MagnifiedAreaSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportFocusedCursePlayer",
+          "nameSpec": "Focused Curse",
+          "variantId": "FocusedCurseSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemFocusedCurse",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportCursedGroundPlayer",
+          "nameSpec": "Cursed Ground",
+          "variantId": "CursedGroundSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemCursedGround",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "SparkPlayer",
+          "nameSpec": "Spark",
+          "variantId": "Spark",
+          "gemId": "Metadata/Items/Gems/SkillGemSpark",
+          "level": 21,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportEfficiencyPlayerTwo",
+          "nameSpec": "Efficiency II",
+          "variantId": "EfficiencySupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemInspirationTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportForkPlayer",
+          "nameSpec": "Fork",
+          "variantId": "ForkSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemFork",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportProjectileAccelerationPlayerThree",
+          "nameSpec": "Projectile Acceleration III",
+          "variantId": "ProjectileAccelerationSupportThree",
+          "gemId": "Metadata/Items/Gems/SupportGemAccelerationThree",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportConsideredCastingPlayer",
+          "nameSpec": "Considered Casting",
+          "variantId": "ConsideredCastingSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemConsideredCasting",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportEshsRadiancePlayer",
+          "nameSpec": "Esh's Radiance",
+          "variantId": "EshsRadianceSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemEshsRadiance",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 2,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "MetaCastOnCritPlayer",
+          "nameSpec": "Cast on Critical",
+          "variantId": "CastOnCriticalStrike",
+          "gemId": "Metadata/Items/Gems/SkillGemCastOnCritical",
+          "level": 21,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "ArcPlayer",
+          "nameSpec": "Arc",
+          "variantId": "Arc",
+          "gemId": "Metadata/Items/Gems/SkillGemArc",
+          "level": 21,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "CometPlayer",
+          "nameSpec": "Comet",
+          "variantId": "Comet",
+          "gemId": "Metadata/Items/Gems/SkillGemComet",
+          "level": 21,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportBoundlessEnergyPlayerTwo",
+          "nameSpec": "Boundless Energy II",
+          "variantId": "BoundlessEnergySupportTwo",
+          "gemId": "Metadata/Items/Gem/SupportGemImpetusTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportDiallasDesirePlayer",
+          "nameSpec": "Dialla's Desire",
+          "variantId": "DiallasDesireSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemDiallasDesire",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportUhtredAuguryPlayer",
+          "nameSpec": "Uhtred's Augury",
+          "variantId": "UhtredAugurySupport",
+          "gemId": "Metadata/Items/Gem/SupportGemUhtredsAugury",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "ArcticArmourPlayer",
+          "nameSpec": "Arctic Armour",
+          "variantId": "ArcticArmour",
+          "gemId": "Metadata/Items/Gems/SkillGemArcticArmour",
+          "level": 20,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportChillingIcePlayer",
+          "nameSpec": "Frost Nexus",
+          "variantId": "ChillingIceSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemFrostNexus",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportFreezePlayer",
+          "nameSpec": "Freeze",
+          "variantId": "FreezeSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemGlaciation",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportColdMasteryPlayer",
+          "nameSpec": "Cold Mastery",
+          "variantId": "ColdMasterySupport",
+          "gemId": "Metadata/Items/Gems/SupportGemColdMastery",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportColdPenetrationPlayer",
+          "nameSpec": "Cold Penetration",
+          "variantId": "ColdPenetrationSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemColdPenetration",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportTulsStillnessPlayer",
+          "nameSpec": "Tul's Stillness",
+          "variantId": "TulsStillnessSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemTulsStillness",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "BallLightningPlayer",
+          "nameSpec": "Ball Lightning",
+          "variantId": "BallLightning",
+          "gemId": "Metadata/Items/Gems/SkillGemBallLightning",
+          "level": 11,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportEfficiencyPlayerTwo",
+          "nameSpec": "Efficiency II",
+          "variantId": "EfficiencySupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemInspirationTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportRapidCastingPlayerTwo",
+          "nameSpec": "Rapid Casting II",
+          "variantId": "RapidCastingSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportMultishotPlayerTwo",
+          "nameSpec": "Multishot II",
+          "variantId": "MultishotSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemScattershotTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportProjectileAccelerationPlayer",
+          "nameSpec": "Projectile Acceleration I",
+          "variantId": "ProjectileAccelerationSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemAcceleration",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "LifeRemnantsPlayer",
+          "nameSpec": "Life Remnants",
+          "variantId": "AscendancyLifeRemnants",
+          "gemId": "Metadata/Items/Gem/SkillGemAscendancyLifeRemnants",
+          "level": 20,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportInterludePlayer",
+          "nameSpec": "Remnant Potency I",
+          "variantId": "RemnantPotencySupport",
+          "gemId": "Metadata/Items/Gem/SupportGemInterlude",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportFleetingRemnantsPlayerTwo",
+          "nameSpec": "Harmonic Remnants II",
+          "variantId": "FleetingRemnantsSupportTwo",
+          "gemId": "Metadata/Items/Gem/SupportGemDissipateTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportKhatalsRejuvenationPlayer",
+          "nameSpec": "Khatal's Rejuvenation",
+          "variantId": "KhatalsRejuvenationSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemKhatalsRejuvenation",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "SiphonElementsPlayer",
+          "nameSpec": "Siphon Elements",
+          "variantId": "SiphonElements",
+          "gemId": "Metadata/Items/Gem/SkillGemSiphonElements",
+          "level": 21,
+          "quality": 23,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportFleetingRemnantsPlayerTwo",
+          "nameSpec": "Harmonic Remnants II",
+          "variantId": "FleetingRemnantsSupportTwo",
+          "gemId": "Metadata/Items/Gem/SupportGemDissipateTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportColdMasteryPlayer",
+          "nameSpec": "Cold Mastery",
+          "variantId": "ColdMasterySupport",
+          "gemId": "Metadata/Items/Gems/SupportGemColdMastery",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "TimeOfNeedPlayer",
+          "nameSpec": "Time of Need",
+          "variantId": "TimeOfNeed",
+          "gemId": "Metadata/Items/Gem/SkillGemTimeOfNeed",
+          "level": 21,
+          "quality": 23,
+          "enabled": true
+        },
+        {
+          "skillId": "CompressedDurationSupportPlayerTwo",
+          "nameSpec": "Compressed Duration II",
+          "variantId": "CompressedDurationSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemFastForwardTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportUhtredOmenPlayer",
+          "nameSpec": "Uhtred's Omen",
+          "variantId": "UhtredOmenSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemUhtredsOmen",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "SigilOfPowerPlayer",
+          "nameSpec": "Sigil of Power",
+          "variantId": "SigilOfPower",
+          "gemId": "Metadata/Items/Gems/SkillGemSigilOfPower",
+          "level": 19,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": null,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "LifeRemnantsPlayer",
+          "nameSpec": "Life Remnants",
+          "variantId": "AscendancyLifeRemnants",
+          "gemId": "Metadata/Items/Gem/SkillGemAscendancyLifeRemnants",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": null,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "SigilOfPowerPlayer",
+          "nameSpec": "Sigil of Power",
+          "variantId": "SigilOfPower",
+          "gemId": "Metadata/Items/Gems/SkillGemSigilOfPower",
+          "level": 19,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": null,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "SigilOfPowerPlayer",
+          "nameSpec": "Sigil of Power",
+          "variantId": "SigilOfPower",
+          "gemId": "Metadata/Items/Gems/SkillGemSigilOfPower",
+          "level": 20,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "equipped": {
+    "Gloves": {
+      "id": "5",
+      "rarity": "RARE",
+      "name": "Sol Paw",
+      "base": "Opulent Gloves",
+      "itemLevel": 79,
+      "quality": 21,
+      "sockets": "S S S",
+      "levelReq": 70,
+      "runes": [
+        "Tecrod's Gaze",
+        "Fenumus' Rune of Spinning",
+        "Soul Core of Tacati"
+      ],
+      "implicits": [
+        "{enchant}{rune}8% increased Cast Speed",
+        "{enchant}{rune}+11% to Chaos Resistance",
+        "{enchant}{rune}25% increased Life Cost Efficiency",
+        "{enchant}{rune}Bonded: 20% increased Mana Cost Efficiency while on Low Mana"
+      ],
+      "explicits": [
+        "{desecrated}15% chance to Gain Arcane Surge when you deal a Critical Hit",
+        "+54 to maximum Energy Shield",
+        "142% increased Energy Shield",
+        "+49 to maximum Life",
+        "18% increased Rarity of Items found",
+        "27% increased Critical Damage Bonus",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Sol Paw",
+        "Opulent Gloves",
+        "Energy Shield: 293",
+        "Unique ID: 697f54368b1faa2a0822991ad621326f97835c5c7ad1dc5e5c6654d4f254bb1c",
+        "Item Level: 79",
+        "Quality: 21",
+        "Sockets: S S S",
+        "Rune: Tecrod's Gaze",
+        "Rune: Fenumus' Rune of Spinning",
+        "Rune: Soul Core of Tacati",
+        "LevelReq: 70",
+        "Implicits: 4",
+        "{enchant}{rune}8% increased Cast Speed",
+        "{enchant}{rune}+11% to Chaos Resistance",
+        "{enchant}{rune}25% increased Life Cost Efficiency",
+        "{enchant}{rune}Bonded: 20% increased Mana Cost Efficiency while on Low Mana",
+        "{desecrated}15% chance to Gain Arcane Surge when you deal a Critical Hit",
+        "+54 to maximum Energy Shield",
+        "142% increased Energy Shield",
+        "+49 to maximum Life",
+        "18% increased Rarity of Items found",
+        "27% increased Critical Damage Bonus",
+        "Corrupted"
+      ]
+    },
+    "Weapon 1": {
+      "id": "7",
+      "rarity": "RARE",
+      "name": "Corpse Cry",
+      "base": "Chiming Staff",
+      "itemLevel": 80,
+      "quality": 20,
+      "sockets": "S S S S",
+      "levelReq": 84,
+      "runes": [
+        "Hedgewitch Assandra's Rune of Wisdom",
+        "Greater Iron Rune",
+        "Saqawal's Rune of the Sky",
+        "Greater Vision Rune"
+      ],
+      "implicits": [
+        "{enchant}{rune}30% increased Spell Damage",
+        "{enchant}{rune}+1 to Level of all Spell Skills",
+        "{enchant}{rune}24% increased Critical Hit Chance for Spells",
+        "{enchant}{rune}Gain 5% of Damage as Extra Damage of all Elements",
+        "{enchant}{rune}Bonded: 25% increased Critical Damage Bonus",
+        "{enchant}{rune}Bonded: 12% chance when collecting an Elemental Infusion to gain an",
+        "{enchant}{rune}additional Elemental Infusion of the same type",
+        "{enchant}{rune}Bonded: Archon recovery period expires 30% faster",
+        "{enchant}{rune}Bonded: Break Armour on Critical Hit with Spells equal to 12% of Physical Damage dealt",
+        "Grants Skill: Level 19 Sigil of Power"
+      ],
+      "explicits": [
+        "{fractured}+6 to Level of all Spell Skills",
+        "{desecrated}50% increased Cast Speed",
+        "Gain 56% of Damage as Extra Fire Damage",
+        "Gain 60% of Damage as Extra Lightning Damage",
+        "237% increased Spell Damage",
+        "109% increased Critical Hit Chance for Spells",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Corpse Cry",
+        "Chiming Staff",
+        "Unique ID: 0688cefb22ce5fe582297b83e7e6a6a9695ca6aa7a687b30dad9916c2d1cac7c",
+        "Item Level: 80",
+        "Quality: 20",
+        "Sockets: S S S S",
+        "Rune: Hedgewitch Assandra's Rune of Wisdom",
+        "Rune: Greater Iron Rune",
+        "Rune: Saqawal's Rune of the Sky",
+        "Rune: Greater Vision Rune",
+        "LevelReq: 84",
+        "Implicits: 10",
+        "{enchant}{rune}30% increased Spell Damage",
+        "{enchant}{rune}+1 to Level of all Spell Skills",
+        "{enchant}{rune}24% increased Critical Hit Chance for Spells",
+        "{enchant}{rune}Gain 5% of Damage as Extra Damage of all Elements",
+        "{enchant}{rune}Bonded: 25% increased Critical Damage Bonus",
+        "{enchant}{rune}Bonded: 12% chance when collecting an Elemental Infusion to gain an",
+        "{enchant}{rune}additional Elemental Infusion of the same type",
+        "{enchant}{rune}Bonded: Archon recovery period expires 30% faster",
+        "{enchant}{rune}Bonded: Break Armour on Critical Hit with Spells equal to 12% of Physical Damage dealt",
+        "Grants Skill: Level 19 Sigil of Power",
+        "{fractured}+6 to Level of all Spell Skills",
+        "{desecrated}50% increased Cast Speed",
+        "Gain 56% of Damage as Extra Fire Damage",
+        "Gain 60% of Damage as Extra Lightning Damage",
+        "237% increased Spell Damage",
+        "109% increased Critical Hit Chance for Spells",
+        "Corrupted"
+      ]
+    },
+    "Flask 1": {
+      "id": "13",
+      "rarity": "MAGIC",
+      "name": "Bubbling Ultimate Life Flask of the Ample",
+      "base": null,
+      "itemLevel": 81,
+      "quality": 20,
+      "sockets": null,
+      "levelReq": 60,
+      "runes": [],
+      "implicits": [],
+      "explicits": [
+        "28% of Recovery applied Instantly",
+        "70% increased Charges"
+      ],
+      "rawLines": [
+        "Rarity: MAGIC",
+        "Bubbling Ultimate Life Flask of the Ample",
+        "Unique ID: 63727b843dc29b37c57ec7909f9f422dccd5fbfb7b8e36aa093f321d0cdca2cf",
+        "Item Level: 81",
+        "Quality: 20",
+        "LevelReq: 60",
+        "Implicits: 0",
+        "28% of Recovery applied Instantly",
+        "70% increased Charges"
+      ]
+    },
+    "Amulet": {
+      "id": "9",
+      "rarity": "RARE",
+      "name": "Eagle Medallion",
+      "base": "Gold Amulet",
+      "itemLevel": 84,
+      "quality": null,
+      "sockets": null,
+      "levelReq": 35,
+      "runes": [],
+      "implicits": [
+        "20% increased Rarity of Items found",
+        "Allocates Fast Metabolism"
+      ],
+      "explicits": [
+        "{fractured}+3 to Level of all Spell Skills",
+        "{desecrated}14% increased Rarity of Items found",
+        "+50 to Spirit",
+        "18% increased Rarity of Items found",
+        "+18% to all Elemental Resistances",
+        "23% increased Global Defences"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Eagle Medallion",
+        "Gold Amulet",
+        "Unique ID: 6e082a81756e3ba71ba79efa1bc56cd5703dedabedefce07f552f2a51ec253d1",
+        "Item Level: 84",
+        "LevelReq: 35",
+        "Implicits: 2",
+        "20% increased Rarity of Items found",
+        "Allocates Fast Metabolism",
+        "{fractured}+3 to Level of all Spell Skills",
+        "{desecrated}14% increased Rarity of Items found",
+        "+50 to Spirit",
+        "18% increased Rarity of Items found",
+        "+18% to all Elemental Resistances",
+        "23% increased Global Defences"
+      ]
+    },
+    "Charm 1": {
+      "id": "11",
+      "rarity": "UNIQUE",
+      "name": "The Fall of the Axe",
+      "base": "Silver Charm",
+      "itemLevel": 83,
+      "quality": 7,
+      "sockets": null,
+      "levelReq": 10,
+      "runes": [],
+      "implicits": [
+        "Used when you are affected by a Slow"
+      ],
+      "explicits": [
+        "Grants Onslaught during effect"
+      ],
+      "rawLines": [
+        "Rarity: UNIQUE",
+        "The Fall of the Axe",
+        "Silver Charm",
+        "Unique ID: bac0418a4fee974f98ac1301ec1116ad1934b05a1dc6455e79ac8b9faa721967",
+        "Item Level: 83",
+        "Quality: 7",
+        "LevelReq: 10",
+        "Implicits: 1",
+        "Used when you are affected by a Slow",
+        "Grants Onslaught during effect"
+      ]
+    },
+    "Flask 2": {
+      "id": "12",
+      "rarity": "MAGIC",
+      "name": "Seething Ultimate Mana Flask of the Ample",
+      "base": null,
+      "itemLevel": 81,
+      "quality": 20,
+      "sockets": null,
+      "levelReq": 60,
+      "runes": [],
+      "implicits": [],
+      "explicits": [
+        "50% reduced Amount Recovered",
+        "Instant Recovery",
+        "70% increased Charges"
+      ],
+      "rawLines": [
+        "Rarity: MAGIC",
+        "Seething Ultimate Mana Flask of the Ample",
+        "Unique ID: 66b1821760e538b920a52e090970d8a1b8248a668514bcc2b05a50e096d55806",
+        "Item Level: 81",
+        "Quality: 20",
+        "LevelReq: 60",
+        "Implicits: 0",
+        "50% reduced Amount Recovered",
+        "Instant Recovery",
+        "70% increased Charges"
+      ]
+    },
+    "Boots": {
+      "id": "3",
+      "rarity": "RARE",
+      "name": "Gloom Spark",
+      "base": "Sekhema Sandals",
+      "itemLevel": 82,
+      "quality": 30,
+      "sockets": "S S",
+      "levelReq": 80,
+      "runes": [
+        "Farrul's Rune of the Chase",
+        "Soul Core of Tacati"
+      ],
+      "implicits": [
+        "{enchant}{rune}5% increased Movement Speed",
+        "{enchant}{rune}+11% to Chaos Resistance",
+        "{enchant}{rune}Bonded: 10% increased Cooldown Recovery Rate"
+      ],
+      "explicits": [
+        "{fractured}+45% to Lightning Resistance",
+        "{desecrated}+44% to Fire Resistance",
+        "35% increased Movement Speed",
+        "+58 to maximum Energy Shield",
+        "100% increased Energy Shield",
+        "+44% to Cold Resistance",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Gloom Spark",
+        "Sekhema Sandals",
+        "Energy Shield: 364",
+        "Unique ID: 5eef4a71670304504f22cbca7b149d1c15eca297fd0f5bbea034019ea3426c3e",
+        "Item Level: 82",
+        "Quality: 30",
+        "Sockets: S S",
+        "Rune: Farrul's Rune of the Chase",
+        "Rune: Soul Core of Tacati",
+        "LevelReq: 80",
+        "Implicits: 3",
+        "{enchant}{rune}5% increased Movement Speed",
+        "{enchant}{rune}+11% to Chaos Resistance",
+        "{enchant}{rune}Bonded: 10% increased Cooldown Recovery Rate",
+        "{fractured}+45% to Lightning Resistance",
+        "{desecrated}+44% to Fire Resistance",
+        "35% increased Movement Speed",
+        "+58 to maximum Energy Shield",
+        "100% increased Energy Shield",
+        "+44% to Cold Resistance",
+        "Corrupted"
+      ]
+    },
+    "Weapon 1 Swap": {
+      "id": "8",
+      "rarity": "RARE",
+      "name": "Rapture Call",
+      "base": "Chiming Staff",
+      "itemLevel": 82,
+      "quality": 20,
+      "sockets": "S",
+      "levelReq": 90,
+      "runes": [
+        "Greater Body Rune"
+      ],
+      "implicits": [
+        "{enchant}{rune}+35 to maximum Energy Shield",
+        "{enchant}{rune}Bonded: 5% increased maximum Life",
+        "Grants Skill: Level 20 Sigil of Power"
+      ],
+      "explicits": [
+        "+6 to Level of all Spell Skills"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Rapture Call",
+        "Chiming Staff",
+        "Unique ID: 7e8f7045e9b9fa1dd811dfb7e6b238ae636f81d79f1f2e04900e6cd2374e0ec9",
+        "Item Level: 82",
+        "Quality: 20",
+        "Sockets: S",
+        "Rune: Greater Body Rune",
+        "LevelReq: 90",
+        "Implicits: 3",
+        "{enchant}{rune}+35 to maximum Energy Shield",
+        "{enchant}{rune}Bonded: 5% increased maximum Life",
+        "Grants Skill: Level 20 Sigil of Power",
+        "+6 to Level of all Spell Skills"
+      ]
+    },
+    "Body Armour": {
+      "id": "2",
+      "rarity": "UNIQUE",
+      "name": "Atziri's Splendour",
+      "base": "Sacrificial Regalia",
+      "itemLevel": 83,
+      "quality": 23,
+      "sockets": "S S S S S S",
+      "levelReq": 65,
+      "runes": [
+        "Soul Core of Citaqualotl",
+        "Soul Core of Citaqualotl",
+        "Soul Core of Citaqualotl",
+        "Soul Core of Citaqualotl",
+        "Soul Core of Citaqualotl",
+        "Soul Core of Citaqualotl"
+      ],
+      "implicits": [
+        "{enchant}{rune}+30% to all Elemental Resistances",
+        "+1 to Level of all Corrupted Skill Gems"
+      ],
+      "explicits": [
+        "Only Soul Cores can be Socketed in this item",
+        "Has no Attribute Requirements",
+        "297% increased Energy Shield",
+        "+20% to all Elemental Resistances",
+        "Skills from Corrupted Gems have 50% of Mana Costs Converted to Life Costs",
+        "{mutated}+179 to maximum Energy Shield",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: UNIQUE",
+        "Atziri's Splendour",
+        "Sacrificial Regalia",
+        "Armour: 331",
+        "Evasion: 301",
+        "Energy Shield: 1328",
+        "Unique ID: 870167c07f692db6c3282246b3eec8c98a8508d1fb99cefbf3481daff883822e",
+        "Item Level: 83",
+        "Quality: 23",
+        "Sockets: S S S S S S",
+        "Rune: Soul Core of Citaqualotl",
+        "Rune: Soul Core of Citaqualotl",
+        "Rune: Soul Core of Citaqualotl",
+        "Rune: Soul Core of Citaqualotl",
+        "Rune: Soul Core of Citaqualotl",
+        "Rune: Soul Core of Citaqualotl",
+        "LevelReq: 65",
+        "Implicits: 2",
+        "{enchant}{rune}+30% to all Elemental Resistances",
+        "+1 to Level of all Corrupted Skill Gems",
+        "Only Soul Cores can be Socketed in this item",
+        "Has no Attribute Requirements",
+        "297% increased Energy Shield",
+        "+20% to all Elemental Resistances",
+        "Skills from Corrupted Gems have 50% of Mana Costs Converted to Life Costs",
+        "{mutated}+179 to maximum Energy Shield",
+        "Corrupted"
+      ]
+    },
+    "Ring 1": {
+      "id": "1",
+      "rarity": "UNIQUE",
+      "name": "Seed of Cataclysm",
+      "base": "Lazuli Ring",
+      "itemLevel": 80,
+      "quality": null,
+      "sockets": null,
+      "levelReq": 0,
+      "runes": [],
+      "implicits": [
+        "+30 to maximum Mana",
+        "19% increased Critical Damage Bonus",
+        "30% increased Damage"
+      ],
+      "explicits": [
+        "48% increased Critical Hit Chance for Spells",
+        "57% increased Critical Spell Damage Bonus",
+        "+16% to Chaos Resistance",
+        "10% increased Mana Cost of Skills",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: UNIQUE",
+        "Seed of Cataclysm",
+        "Lazuli Ring",
+        "Unique ID: e0fc458d2de0a848d8b30369aed5d4285d7f62a6369300be86b6a3142958abe3",
+        "Item Level: 80",
+        "LevelReq: 0",
+        "Implicits: 3",
+        "+30 to maximum Mana",
+        "19% increased Critical Damage Bonus",
+        "30% increased Damage",
+        "48% increased Critical Hit Chance for Spells",
+        "57% increased Critical Spell Damage Bonus",
+        "+16% to Chaos Resistance",
+        "10% increased Mana Cost of Skills",
+        "Corrupted"
+      ]
+    },
+    "Belt": {
+      "id": "4",
+      "rarity": "UNIQUE",
+      "name": "Soul Tether",
+      "base": "Long Belt",
+      "itemLevel": 79,
+      "quality": null,
+      "sockets": null,
+      "levelReq": 20,
+      "runes": [],
+      "implicits": [
+        "17% increased Charm Effect Duration",
+        "Has 2 Charm Slots",
+        "25% increased maximum Energy Shield"
+      ],
+      "explicits": [
+        "+56 to maximum Energy Shield",
+        "+28 to Intelligence",
+        "Excess Life Recovery from Leech is applied to Energy Shield",
+        "{mutated}13% increased Energy Shield Recovery rate",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: UNIQUE",
+        "Soul Tether",
+        "Long Belt",
+        "Charm Slots: 2",
+        "Unique ID: 0245accf6c4b5a8e62163fa2800c61dbec206a6ba751461d8c076613f5453047",
+        "Item Level: 79",
+        "LevelReq: 20",
+        "Implicits: 3",
+        "17% increased Charm Effect Duration",
+        "Has 2 Charm Slots",
+        "25% increased maximum Energy Shield",
+        "+56 to maximum Energy Shield",
+        "+28 to Intelligence",
+        "Excess Life Recovery from Leech is applied to Energy Shield",
+        "{mutated}13% increased Energy Shield Recovery rate",
+        "Corrupted"
+      ]
+    },
+    "Charm 2": {
+      "id": "15",
+      "rarity": "UNIQUE",
+      "name": "Rite of Passage",
+      "base": "Golden Charm",
+      "itemLevel": 80,
+      "quality": 0,
+      "sockets": null,
+      "levelReq": 50,
+      "runes": [],
+      "implicits": [
+        "Used when you kill a Rare or Unique enemy"
+      ],
+      "explicits": [
+        "Possessed by Spirit Of The Bear for 20 seconds on use"
+      ],
+      "rawLines": [
+        "Rarity: UNIQUE",
+        "Rite of Passage",
+        "Golden Charm",
+        "Unique ID: 6fde30f6af1b72c521052fa7a3defd511b70ac144d082b3b777b0cacc9834a0a",
+        "Item Level: 80",
+        "Quality: 0",
+        "LevelReq: 50",
+        "Implicits: 1",
+        "Used when you kill a Rare or Unique enemy",
+        "Possessed by Spirit Of The Bear for 20 seconds on use"
+      ]
+    },
+    "Charm 3": {
+      "id": "14",
+      "rarity": "MAGIC",
+      "name": "Clinician's Thawing Charm of the Brewer",
+      "base": null,
+      "itemLevel": 81,
+      "quality": 21,
+      "sockets": null,
+      "levelReq": 12,
+      "runes": [],
+      "implicits": [
+        "Used when you become Frozen"
+      ],
+      "explicits": [
+        "32% increased Duration",
+        "27% reduced Charges per use"
+      ],
+      "rawLines": [
+        "Rarity: MAGIC",
+        "Clinician's Thawing Charm of the Brewer",
+        "Unique ID: b4831ba085dca16b288ca2503fd70dc1ea209d3a2f9b17b8fdaf3bbcc095bb92",
+        "Item Level: 81",
+        "Quality: 21",
+        "LevelReq: 12",
+        "Implicits: 1",
+        "Used when you become Frozen",
+        "32% increased Duration",
+        "27% reduced Charges per use"
+      ]
+    },
+    "Helmet": {
+      "id": "6",
+      "rarity": "UNIQUE",
+      "name": "The Vertex",
+      "base": "Tribal Mask",
+      "itemLevel": 82,
+      "quality": 20,
+      "sockets": "S",
+      "levelReq": 50,
+      "runes": [
+        "Idol of Eeshta"
+      ],
+      "implicits": [
+        "{enchant}{rune}12% increased Cost Efficiency",
+        "{enchant}{rune}Bonded: Meta Skills have 12% increased Reservation Efficiency",
+        "+20 to Spirit"
+      ],
+      "explicits": [
+        "Has no Attribute Requirements",
+        "133% increased Evasion and Energy Shield",
+        "25% increased Critical Hit Chance",
+        "+13% to Chaos Resistance",
+        "{mutated}+4 to Level of all Skills",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: UNIQUE",
+        "The Vertex",
+        "Tribal Mask",
+        "Evasion: 185",
+        "Energy Shield: 78",
+        "Unique ID: a0b6d2a56878c37e0337116fda94b1fef005d97ad55d6329e5e14c4debf43b3a",
+        "Item Level: 82",
+        "Quality: 20",
+        "Sockets: S",
+        "Rune: Idol of Eeshta",
+        "LevelReq: 50",
+        "Implicits: 3",
+        "{enchant}{rune}12% increased Cost Efficiency",
+        "{enchant}{rune}Bonded: Meta Skills have 12% increased Reservation Efficiency",
+        "+20 to Spirit",
+        "Has no Attribute Requirements",
+        "133% increased Evasion and Energy Shield",
+        "25% increased Critical Hit Chance",
+        "+13% to Chaos Resistance",
+        "{mutated}+4 to Level of all Skills",
+        "Corrupted"
+      ]
+    },
+    "Ring 2": {
+      "id": "10",
+      "rarity": "RARE",
+      "name": "Ghoul Turn",
+      "base": "Gold Ring",
+      "itemLevel": 81,
+      "quality": null,
+      "sockets": null,
+      "levelReq": 40,
+      "runes": [],
+      "implicits": [
+        "14% increased Rarity of Items found"
+      ],
+      "explicits": [
+        "{fractured}19% increased Rarity of Items found",
+        "{desecrated}28% increased Spell Damage while on Full Energy Shield",
+        "+115 to maximum Life",
+        "18% increased Rarity of Items found",
+        "27% increased Cast Speed",
+        "+23% to Chaos Resistance"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Ghoul Turn",
+        "Gold Ring",
+        "Unique ID: 12aea68f99ba5aae7b9c7147406f5e3f7981c369f8f6147e2a0ba8a2a3cde0a4",
+        "Item Level: 81",
+        "LevelReq: 40",
+        "Implicits: 1",
+        "14% increased Rarity of Items found",
+        "{fractured}19% increased Rarity of Items found",
+        "{desecrated}28% increased Spell Damage while on Full Energy Shield",
+        "+115 to maximum Life",
+        "18% increased Rarity of Items found",
+        "27% increased Cast Speed",
+        "+23% to Chaos Resistance"
+      ]
+    }
+  }
+}

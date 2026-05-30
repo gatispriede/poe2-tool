@@ -11,9 +11,12 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.7.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-scripts": "5.0.1",
+    "scichart": "^3.0.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -21,7 +24,23 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "explore": "node scripts/explore.js",
+    "check-keystones": "node scripts/check-keystones.js",
+    "eject": "react-scripts eject",
+    "extract:passives": "node scripts/extractPassiveSkills.js",
+    "extract:passives:wiki": "node scripts/extractPassiveSkillsWikiTable.js",
+    "extract:passives:wiki:full": "node scripts/extractPassiveSkillsWikiTableFull.js",
+    "extract:passives:wiki:json": "node scripts/extractPassiveSkillsWikiTableJson.js",
+    "extract:sample-passives": "node scripts/extractFromSampleHtml.js",
+    "extract:skills": "node scripts/extractSkillGems.js",
+    "extract:elemental-skills": "node scripts/extractElementalSkillGems.js",
+    "extract:wands": "node scripts/extractWands.js",
+    "extract:weapon-mods": "node scripts/extractWeaponMods.js",
+    "extract:quarterstaffs": "node scripts/extractQuarterstaffs.js",
+    "extract:pob-skills": "node scripts/extractPoBSkillsEnhanced.js",
+    "extract:weapon-mods-pob": "node scripts/extractWeaponModsPoB.js",
+    "extract:skill-descriptions": "node scripts/extractSkillDescriptions.js",
+    "sync-data": "node scripts/sync-data/index.js"
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +59,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^5.8.0",
+    "luaparse": "^0.3.1",
+    "zod": "^4.4.3"
   }
 }

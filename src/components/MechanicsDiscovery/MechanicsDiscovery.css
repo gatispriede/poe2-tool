@@ -1,0 +1,260 @@
+.mech-root {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  color: #ece5d6;
+  font-family: Georgia, serif;
+}
+
+.mech-head h2 {
+  margin: 0 0 8px;
+  color: #c58602;
+}
+.mech-head p {
+  color: #9c9279;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 760px;
+}
+.mech-head em { color: #5fd6cd; font-style: italic; }
+.mech-head strong { color: #f1d6a0; }
+
+.mech-stats {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #6f5a2e;
+}
+.mech-stats span { letter-spacing: 0.04em; }
+
+/* View tabs (Archetypes / Chains) */
+.mech-tabs {
+  display: flex;
+  gap: 4px;
+  margin-top: 14px;
+  border-bottom: 1px solid #2c2a23;
+}
+.mech-tab {
+  padding: 8px 16px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: #9c9279;
+  font-family: Georgia, serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.mech-tab:hover { color: #ece5d6; }
+.mech-tab.active {
+  color: #c58602;
+  border-bottom-color: #c58602;
+}
+
+/* Archetype map */
+.mech-arch { margin-top: 18px; }
+.mech-arch-intro {
+  color: #9c9279;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 760px;
+}
+.mech-arch-intro strong { color: #f1d6a0; }
+.mech-arch-class { margin: 22px 0; }
+.mech-arch-class h3 {
+  margin: 0 0 10px;
+  color: #c58602;
+  font-size: 1.05rem;
+  border-bottom: 1px solid #2c2a23;
+  padding-bottom: 6px;
+}
+.mech-arch-card {
+  background: #16140f;
+  border: 1px solid #2c2a23;
+  border-radius: 6px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+.mech-arch-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.mech-arch-name {
+  color: #ece5d6;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.mech-arch-badge {
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  padding: 1px 6px;
+}
+.mech-arch-chain {
+  margin: 8px 0;
+  color: #b9b09a;
+  font-size: 0.88rem;
+  font-style: italic;
+}
+.mech-arch-evidence {
+  color: #4ad6a0;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+.mech-arch-levers {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+}
+.mech-arch-lever {
+  display: grid;
+  grid-template-columns: 84px 220px 1fr;
+  gap: 10px;
+  align-items: baseline;
+  font-size: 0.82rem;
+}
+.mech-arch-lever-w {
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
+  text-align: right;
+  font-weight: bold;
+}
+.mech-arch-lever-name { color: #ece5d6; }
+.mech-arch-lever-note { color: #8f8a76; }
+.mech-arch-discover {
+  margin-top: 10px;
+  padding: 8px 10px;
+  background: #1c1a13;
+  border-left: 2px solid #c58602;
+  border-radius: 0 4px 4px 0;
+  color: #d8b86a;
+  font-size: 0.83rem;
+  line-height: 1.45;
+}
+@media (max-width: 680px) {
+  .mech-arch-lever {
+    grid-template-columns: 1fr;
+    gap: 1px;
+  }
+  .mech-arch-lever-w { text-align: left; }
+}
+
+.mech-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 18px 0;
+  align-items: center;
+}
+.mech-chip {
+  padding: 5px 11px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background: transparent;
+  color: #888;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+.mech-chip:hover { border-color: #c58602; color: #c58602; }
+.mech-chip.active { border-color: #c58602; background: #c5860222; color: #f1d6a0; }
+.mech-search {
+  margin-left: auto;
+  padding: 7px 12px;
+  background: #1a1a1a;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.85rem;
+  min-width: 240px;
+}
+
+.mech-group {
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  background: #131316;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.mech-group-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: #18181d;
+  border-bottom: 1px solid #2a2a2a;
+}
+.mech-token {
+  font-weight: 700;
+  color: #f1d6a0;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+.mech-weight {
+  font-size: 0.7rem;
+  color: #e0913f;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.mech-count {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: #6f5a2e;
+}
+.mech-principle {
+  margin: 0;
+  padding: 10px 16px;
+  color: #b8b09a;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  font-style: italic;
+  border-bottom: 1px solid #222;
+}
+
+.mech-chain-list { padding: 6px 0; }
+.mech-chain {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 7px 16px;
+  border-bottom: 1px solid #1c1c1c;
+}
+.mech-chain:last-child { border-bottom: none; }
+.mech-node {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.mech-node:last-child { text-align: right; }
+.mech-node small {
+  font-weight: 400;
+  color: #6b6453;
+  font-size: 0.68rem;
+  margin-top: 2px;
+}
+.mech-arrow {
+  color: #c58602;
+  font-size: 0.72rem;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.mech-more {
+  padding: 8px 16px;
+  color: #6f5a2e;
+  font-size: 0.75rem;
+  font-style: italic;
+}
+.mech-empty {
+  padding: 40px;
+  text-align: center;
+  color: #555;
+}

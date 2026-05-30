@@ -1,0 +1,24 @@
+[
+  {
+    "id": "sample-physical-node",
+    "name": "Sample Physical Node",
+    "stats": [
+      "10% increased Physical Damage"
+    ],
+    "sourceHeaders": [
+      "Name",
+      "Effect"
+    ]
+  },
+  {
+    "id": "sample-attack-speed-node",
+    "name": "Sample Attack Speed Node",
+    "stats": [
+      "5% increased Attack Speed"
+    ],
+    "sourceHeaders": [
+      "Name",
+      "Effect"
+    ]
+  }
+]

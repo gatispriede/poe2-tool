@@ -1,0 +1,1186 @@
+{
+  "prefixes": [
+    {
+      "id": "LocalIncreasedPhysicalDamagePercent8",
+      "type": "Prefix",
+      "affix": "Merciless",
+      "level": 82,
+      "group": "LocalPhysicalDamagePercent",
+      "stats": [
+        "(170-179)% increased Physical Damage"
+      ],
+      "category": "physical_damage, damage, physical, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "physical_damage",
+        "damage",
+        "physical",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalIncreasedPhysicalDamagePercent7",
+      "type": "Prefix",
+      "affix": "Tyrannical",
+      "level": 75,
+      "group": "LocalPhysicalDamagePercent",
+      "stats": [
+        "(155-169)% increased Physical Damage"
+      ],
+      "category": "physical_damage, damage, physical, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "physical_damage",
+        "damage",
+        "physical",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalIncreasedPhysicalDamagePercent6",
+      "type": "Prefix",
+      "affix": "Cruel",
+      "level": 60,
+      "group": "LocalPhysicalDamagePercent",
+      "stats": [
+        "(135-154)% increased Physical Damage"
+      ],
+      "category": "physical_damage, damage, physical, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "physical_damage",
+        "damage",
+        "physical",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating8",
+      "type": "Prefix",
+      "affix": "Dictator's",
+      "level": 81,
+      "group": "LocalPhysicalDamagePercentAndAccuracy",
+      "stats": [
+        "(75-79)% increased Physical Damage",
+        "+(175-200) to Accuracy Rating"
+      ],
+      "category": "physical_damage, damage, physical, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "physical_damage",
+        "damage",
+        "physical",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating7",
+      "type": "Prefix",
+      "affix": "Emperor's",
+      "level": 70,
+      "group": "LocalPhysicalDamagePercentAndAccuracy",
+      "stats": [
+        "(65-74)% increased Physical Damage",
+        "+(150-174) to Accuracy Rating"
+      ],
+      "category": "physical_damage, damage, physical, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "physical_damage",
+        "damage",
+        "physical",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalAddedFireDamage10",
+      "type": "Prefix",
+      "affix": "Carbonising",
+      "level": 81,
+      "group": "LocalFireDamage",
+      "stats": [
+        "Adds (88-101) to (133-154) Fire Damage"
+      ],
+      "category": "elemental_damage, damage, elemental, fire, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Sceptre"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "fire",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalAddedFireDamage9",
+      "type": "Prefix",
+      "affix": "Cremating",
+      "level": 75,
+      "group": "LocalFireDamage",
+      "stats": [
+        "Adds (62-85) to (101-129) Fire Damage"
+      ],
+      "category": "elemental_damage, damage, elemental, fire, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Sceptre"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "fire",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalAddedFireDamage8",
+      "type": "Prefix",
+      "affix": "Blasting",
+      "level": 65,
+      "group": "LocalFireDamage",
+      "stats": [
+        "Adds (47-59) to (74-97) Fire Damage"
+      ],
+      "category": "elemental_damage, damage, elemental, fire, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Sceptre"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "fire",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalAddedColdDamage10",
+      "type": "Prefix",
+      "affix": "Entombing",
+      "level": 81,
+      "group": "LocalColdDamage",
+      "stats": [
+        "Adds (72-83) to (109-126) Cold Damage"
+      ],
+      "category": "elemental_damage, damage, elemental, cold, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Sceptre"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "cold",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalAddedColdDamage9",
+      "type": "Prefix",
+      "affix": "Glaciating",
+      "level": 75,
+      "group": "LocalColdDamage",
+      "stats": [
+        "Adds (51-70) to (83-106) Cold Damage"
+      ],
+      "category": "elemental_damage, damage, elemental, cold, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Sceptre"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "cold",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalAddedColdDamage8",
+      "type": "Prefix",
+      "affix": "Crystallising",
+      "level": 65,
+      "group": "LocalColdDamage",
+      "stats": [
+        "Adds (38-53) to (61-85) Cold Damage"
+      ],
+      "category": "elemental_damage, damage, elemental, cold, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Sceptre"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "cold",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalAddedLightningDamage10",
+      "type": "Prefix",
+      "affix": "Electrocuting",
+      "level": 81,
+      "group": "LocalLightningDamage",
+      "stats": [
+        "Adds (14-20) to (175-256) Lightning Damage"
+      ],
+      "category": "elemental_damage, damage, elemental, lightning, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Sceptre"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "lightning",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalAddedLightningDamage9",
+      "type": "Prefix",
+      "affix": "Discharging",
+      "level": 75,
+      "group": "LocalLightningDamage",
+      "stats": [
+        "Adds (10-14) to (131-191) Lightning Damage"
+      ],
+      "category": "elemental_damage, damage, elemental, lightning, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Sceptre"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "lightning",
+        "attack"
+      ]
+    },
+    {
+      "id": "LocalAddedLightningDamage8",
+      "type": "Prefix",
+      "affix": "Arcing",
+      "level": 65,
+      "group": "LocalLightningDamage",
+      "stats": [
+        "Adds (8-10) to (97-142) Lightning Damage"
+      ],
+      "category": "elemental_damage, damage, elemental, lightning, attack",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Sceptre"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "lightning",
+        "attack"
+      ]
+    },
+    {
+      "id": "SpellDamageOnWeapon8",
+      "type": "Prefix",
+      "affix": "Runic",
+      "level": 80,
+      "group": "WeaponSpellDamage",
+      "stats": [
+        "(105-119)% increased Spell Damage"
+      ],
+      "category": "caster_damage, damage, caster",
+      "applicableWeapons": [
+        "Wand"
+      ],
+      "modTags": [
+        "caster_damage",
+        "damage",
+        "caster"
+      ]
+    },
+    {
+      "id": "SpellDamageOnWeapon7",
+      "type": "Prefix",
+      "affix": "Glyphic",
+      "level": 70,
+      "group": "WeaponSpellDamage",
+      "stats": [
+        "(90-104)% increased Spell Damage"
+      ],
+      "category": "caster_damage, damage, caster",
+      "applicableWeapons": [
+        "Wand"
+      ],
+      "modTags": [
+        "caster_damage",
+        "damage",
+        "caster"
+      ]
+    },
+    {
+      "id": "SpellDamageOnWeapon6",
+      "type": "Prefix",
+      "affix": "Incanter's",
+      "level": 60,
+      "group": "WeaponSpellDamage",
+      "stats": [
+        "(75-89)% increased Spell Damage"
+      ],
+      "category": "caster_damage, damage, caster",
+      "applicableWeapons": [
+        "Wand"
+      ],
+      "modTags": [
+        "caster_damage",
+        "damage",
+        "caster"
+      ]
+    },
+    {
+      "id": "SpellDamageOnTwoHandWeapon8",
+      "type": "Prefix",
+      "affix": "Runic",
+      "level": 80,
+      "group": "WeaponSpellDamageTwoHand",
+      "stats": [
+        "(150-169)% increased Spell Damage"
+      ],
+      "category": "caster_damage, damage, caster",
+      "applicableWeapons": [
+        "Staff"
+      ],
+      "modTags": [
+        "caster_damage",
+        "damage",
+        "caster"
+      ]
+    },
+    {
+      "id": "SpellDamageOnTwoHandWeapon7",
+      "type": "Prefix",
+      "affix": "Glyphic",
+      "level": 70,
+      "group": "WeaponSpellDamageTwoHand",
+      "stats": [
+        "(130-149)% increased Spell Damage"
+      ],
+      "category": "caster_damage, damage, caster",
+      "applicableWeapons": [
+        "Staff"
+      ],
+      "modTags": [
+        "caster_damage",
+        "damage",
+        "caster"
+      ]
+    },
+    {
+      "id": "SpellDamageOnTwoHandWeapon6",
+      "type": "Prefix",
+      "affix": "Incanter's",
+      "level": 60,
+      "group": "WeaponSpellDamageTwoHand",
+      "stats": [
+        "(110-129)% increased Spell Damage"
+      ],
+      "category": "caster_damage, damage, caster",
+      "applicableWeapons": [
+        "Staff"
+      ],
+      "modTags": [
+        "caster_damage",
+        "damage",
+        "caster"
+      ]
+    },
+    {
+      "id": "AddedSpellFireDamage8",
+      "type": "Prefix",
+      "affix": "Cremating",
+      "level": 80,
+      "group": "SpellAddedFireDamage",
+      "stats": [
+        "Adds (49-65) to (74-98) Fire Damage to Spells"
+      ],
+      "category": "elemental_damage, damage, elemental, fire, caster",
+      "applicableWeapons": [
+        "Wand",
+        "Sceptre",
+        "Staff"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "fire",
+        "caster"
+      ]
+    },
+    {
+      "id": "AddedSpellFireDamage7",
+      "type": "Prefix",
+      "affix": "Blasting",
+      "level": 68,
+      "group": "SpellAddedFireDamage",
+      "stats": [
+        "Adds (37-49) to (56-74) Fire Damage to Spells"
+      ],
+      "category": "elemental_damage, damage, elemental, fire, caster",
+      "applicableWeapons": [
+        "Wand",
+        "Sceptre",
+        "Staff"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "fire",
+        "caster"
+      ]
+    },
+    {
+      "id": "AddedSpellColdDamage8",
+      "type": "Prefix",
+      "affix": "Glaciating",
+      "level": 80,
+      "group": "SpellAddedColdDamage",
+      "stats": [
+        "Adds (40-54) to (61-80) Cold Damage to Spells"
+      ],
+      "category": "elemental_damage, damage, elemental, cold, caster",
+      "applicableWeapons": [
+        "Wand",
+        "Sceptre",
+        "Staff"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "cold",
+        "caster"
+      ]
+    },
+    {
+      "id": "AddedSpellColdDamage7",
+      "type": "Prefix",
+      "affix": "Crystallising",
+      "level": 68,
+      "group": "SpellAddedColdDamage",
+      "stats": [
+        "Adds (31-41) to (46-61) Cold Damage to Spells"
+      ],
+      "category": "elemental_damage, damage, elemental, cold, caster",
+      "applicableWeapons": [
+        "Wand",
+        "Sceptre",
+        "Staff"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "cold",
+        "caster"
+      ]
+    },
+    {
+      "id": "AddedSpellLightningDamage8",
+      "type": "Prefix",
+      "affix": "Electrocuting",
+      "level": 80,
+      "group": "SpellAddedLightningDamage",
+      "stats": [
+        "Adds (8-11) to (129-171) Lightning Damage to Spells"
+      ],
+      "category": "elemental_damage, damage, elemental, lightning, caster",
+      "applicableWeapons": [
+        "Wand",
+        "Sceptre",
+        "Staff"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "lightning",
+        "caster"
+      ]
+    },
+    {
+      "id": "AddedSpellLightningDamage7",
+      "type": "Prefix",
+      "affix": "Discharging",
+      "level": 68,
+      "group": "SpellAddedLightningDamage",
+      "stats": [
+        "Adds (6-8) to (98-130) Lightning Damage to Spells"
+      ],
+      "category": "elemental_damage, damage, elemental, lightning, caster",
+      "applicableWeapons": [
+        "Wand",
+        "Sceptre",
+        "Staff"
+      ],
+      "modTags": [
+        "elemental_damage",
+        "damage",
+        "elemental",
+        "lightning",
+        "caster"
+      ]
+    }
+  ],
+  "suffixes": [
+    {
+      "id": "LocalIncreasedAttackSpeed8",
+      "type": "Suffix",
+      "affix": "of Celebration",
+      "level": 77,
+      "group": "LocalIncreasedAttackSpeed",
+      "stats": [
+        "(26-28)% increased Attack Speed"
+      ],
+      "category": "attack, speed",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "attack",
+        "speed"
+      ]
+    },
+    {
+      "id": "LocalIncreasedAttackSpeed7",
+      "type": "Suffix",
+      "affix": "of Infamy",
+      "level": 60,
+      "group": "LocalIncreasedAttackSpeed",
+      "stats": [
+        "(23-25)% increased Attack Speed"
+      ],
+      "category": "attack, speed",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "attack",
+        "speed"
+      ]
+    },
+    {
+      "id": "LocalIncreasedAttackSpeed6",
+      "type": "Suffix",
+      "affix": "of Fame",
+      "level": 45,
+      "group": "LocalIncreasedAttackSpeed",
+      "stats": [
+        "(20-22)% increased Attack Speed"
+      ],
+      "category": "attack, speed",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "attack",
+        "speed"
+      ]
+    },
+    {
+      "id": "LocalCriticalStrikeChance6",
+      "type": "Suffix",
+      "affix": "of Unmaking",
+      "level": 73,
+      "group": "LocalBaseCriticalStrikeChance",
+      "stats": [
+        "+(4.41-5)% to Critical Hit Chance"
+      ],
+      "category": "attack, critical",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "id": "LocalCriticalStrikeChance5",
+      "type": "Suffix",
+      "affix": "of Ruin",
+      "level": 59,
+      "group": "LocalBaseCriticalStrikeChance",
+      "stats": [
+        "+(3.81-4.4)% to Critical Hit Chance"
+      ],
+      "category": "attack, critical",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "id": "LocalCriticalStrikeChance4",
+      "type": "Suffix",
+      "affix": "of Calamity",
+      "level": 44,
+      "group": "LocalBaseCriticalStrikeChance",
+      "stats": [
+        "+(3.11-3.8)% to Critical Hit Chance"
+      ],
+      "category": "attack, critical",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "id": "LocalCriticalMultiplier6",
+      "type": "Suffix",
+      "affix": "of Potency",
+      "level": 73,
+      "group": "LocalCriticalStrikeMultiplier",
+      "stats": [
+        "+(38-42)% to Critical Damage Bonus"
+      ],
+      "category": "attack, critical",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "id": "LocalCriticalMultiplier5",
+      "type": "Suffix",
+      "affix": "of Devastation",
+      "level": 59,
+      "group": "LocalCriticalStrikeMultiplier",
+      "stats": [
+        "+(33-37)% to Critical Damage Bonus"
+      ],
+      "category": "attack, critical",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "id": "LocalCriticalMultiplier4",
+      "type": "Suffix",
+      "affix": "of Ferocity",
+      "level": 44,
+      "group": "LocalCriticalStrikeMultiplier",
+      "stats": [
+        "+(28-32)% to Critical Damage Bonus"
+      ],
+      "category": "attack, critical",
+      "applicableWeapons": [
+        "One Handed Sword",
+        "Two Handed Sword",
+        "One Handed Axe",
+        "Two Handed Axe",
+        "One Handed Mace",
+        "Two Handed Mace",
+        "Bow",
+        "Crossbow",
+        "Dagger",
+        "Claw",
+        "Spear",
+        "Flail",
+        "Staff",
+        "Sceptre",
+        "Quarterstaff"
+      ],
+      "modTags": [
+        "attack",
+        "critical"
+      ]
+    },
+    {
+      "id": "IncreasedCastSpeed7",
+      "type": "Suffix",
+      "affix": "of Finesse",
+      "level": 80,
+      "group": "IncreasedCastSpeed",
+      "stats": [
+        "(33-35)% increased Cast Speed"
+      ],
+      "category": "caster, speed",
+      "applicableWeapons": [
+        "Wand",
+        "Sceptre"
+      ],
+      "modTags": [
+        "caster",
+        "speed"
+      ]
+    },
+    {
+      "id": "IncreasedCastSpeed6",
+      "type": "Suffix",
+      "affix": "of Prestidigitation",
+      "level": 70,
+      "group": "IncreasedCastSpeed",
+      "stats": [
+        "(29-32)% increased Cast Speed"
+      ],
+      "category": "caster, speed",
+      "applicableWeapons": [
+        "Wand",
+        "Sceptre"
+      ],
+      "modTags": [
+        "caster",
+        "speed"
+      ]
+    },
+    {
+      "id": "IncreasedCastSpeed5",
+      "type": "Suffix",
+      "affix": "of Legerdemain",
+      "level": 60,
+      "group": "IncreasedCastSpeed",
+      "stats": [
+        "(25-28)% increased Cast Speed"
+      ],
+      "category": "caster, speed",
+      "applicableWeapons": [
+        "Wand",
+        "Sceptre"
+      ],
+      "modTags": [
+        "caster",
+        "speed"
+      ]
+    },
+    {
+      "id": "IncreasedCastSpeedTwoHand7",
+      "type": "Suffix",
+      "affix": "of Finesse",
+      "level": 80,
+      "group": "IncreasedCastSpeedTwoHand",
+      "stats": [
+        "(50-52)% increased Cast Speed"
+      ],
+      "category": "caster, speed",
+      "applicableWeapons": [
+        "Staff"
+      ],
+      "modTags": [
+        "caster",
+        "speed"
+      ]
+    },
+    {
+      "id": "IncreasedCastSpeedTwoHand6",
+      "type": "Suffix",
+      "affix": "of Prestidigitation",
+      "level": 70,
+      "group": "IncreasedCastSpeedTwoHand",
+      "stats": [
+        "(44-49)% increased Cast Speed"
+      ],
+      "category": "caster, speed",
+      "applicableWeapons": [
+        "Staff"
+      ],
+      "modTags": [
+        "caster",
+        "speed"
+      ]
+    },
+    {
+      "id": "IncreasedCastSpeedTwoHand5",
+      "type": "Suffix",
+      "affix": "of Legerdemain",
+      "level": 60,
+      "group": "IncreasedCastSpeedTwoHand",
+      "stats": [
+        "(38-43)% increased Cast Speed"
+      ],
+      "category": "caster, speed",
+      "applicableWeapons": [
+        "Staff"
+      ],
+      "modTags": [
+        "caster",
+        "speed"
+      ]
+    },
+    {
+      "id": "SpellCriticalStrikeChance7",
+      "type": "Suffix",
+      "affix": "of Ruin",
+      "level": 76,
+      "group": "SpellCriticalStrikeChance",
+      "stats": [
+        "(95-105)% increased Critical Hit Chance for Spells"
+      ],
+      "category": "caster, critical",
+      "applicableWeapons": [
+        "Wand",
+        "Staff",
+        "Sceptre"
+      ],
+      "modTags": [
+        "caster",
+        "critical"
+      ]
+    },
+    {
+      "id": "SpellCriticalStrikeChance6",
+      "type": "Suffix",
+      "affix": "of Unmaking",
+      "level": 59,
+      "group": "SpellCriticalStrikeChance",
+      "stats": [
+        "(80-94)% increased Critical Hit Chance for Spells"
+      ],
+      "category": "caster, critical",
+      "applicableWeapons": [
+        "Wand",
+        "Staff",
+        "Sceptre"
+      ],
+      "modTags": [
+        "caster",
+        "critical"
+      ]
+    },
+    {
+      "id": "SpellCriticalStrikeChance5",
+      "type": "Suffix",
+      "affix": "of Havoc",
+      "level": 44,
+      "group": "SpellCriticalStrikeChance",
+      "stats": [
+        "(65-79)% increased Critical Hit Chance for Spells"
+      ],
+      "category": "caster, critical",
+      "applicableWeapons": [
+        "Wand",
+        "Staff",
+        "Sceptre"
+      ],
+      "modTags": [
+        "caster",
+        "critical"
+      ]
+    }
+  ]
+}

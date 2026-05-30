@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# External PoB-PoE2 data clone (synced locally, not part of this repo)
+/PathOfBuilding-PoE2

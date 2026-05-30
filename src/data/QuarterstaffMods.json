@@ -1,0 +1,608 @@
+{
+  "prefixes": [
+    {
+      "id": "dictators-phys",
+      "name": "Dictator's (Phys Damage)",
+      "description": "Increases Physical Damage - Highest Tier",
+      "type": "prefix",
+      "tier": 1,
+      "effects": {
+        "localIncreasedPhysicalDamagePct": {
+          "min": 170,
+          "max": 179
+        }
+      },
+      "itemLevelReq": 83,
+      "tags": [
+        "damage",
+        "physical"
+      ]
+    },
+    {
+      "id": "flaring-fire",
+      "name": "Flaring (Fire Damage)",
+      "description": "Adds Fire Damage - Highest Tier",
+      "type": "prefix",
+      "tier": 1,
+      "effects": {
+        "addedFireDamageMin": {
+          "min": 48,
+          "max": 72
+        },
+        "addedFireDamageMax": {
+          "min": 91,
+          "max": 118
+        }
+      },
+      "itemLevelReq": 76,
+      "tags": [
+        "damage",
+        "elemental",
+        "fire"
+      ]
+    },
+    {
+      "id": "entombing-cold",
+      "name": "Entombing (Cold Damage)",
+      "description": "Adds Cold Damage - Highest Tier",
+      "type": "prefix",
+      "tier": 1,
+      "effects": {
+        "addedColdDamageMin": {
+          "min": 45,
+          "max": 67
+        },
+        "addedColdDamageMax": {
+          "min": 84,
+          "max": 112
+        }
+      },
+      "itemLevelReq": 76,
+      "tags": [
+        "damage",
+        "elemental",
+        "cold"
+      ]
+    },
+    {
+      "id": "electrocuting-lightning",
+      "name": "Electrocuting (Lightning Damage)",
+      "description": "Adds Lightning Damage - Highest Tier",
+      "type": "prefix",
+      "tier": 1,
+      "effects": {
+        "addedLightningDamageMin": {
+          "min": 9,
+          "max": 16
+        },
+        "addedLightningDamageMax": {
+          "min": 102,
+          "max": 156
+        }
+      },
+      "itemLevelReq": 76,
+      "tags": [
+        "damage",
+        "elemental",
+        "lightning"
+      ]
+    },
+    {
+      "id": "emperors-phys",
+      "name": "Emperor's (Phys Damage)",
+      "description": "Increases Physical Damage - High Tier",
+      "type": "prefix",
+      "tier": 2,
+      "effects": {
+        "localIncreasedPhysicalDamagePct": {
+          "min": 155,
+          "max": 169
+        }
+      },
+      "itemLevelReq": 73,
+      "tags": [
+        "damage",
+        "physical"
+      ]
+    },
+    {
+      "id": "incinerating-fire",
+      "name": "Incinerating (Fire Damage)",
+      "description": "Adds Fire Damage - High Tier",
+      "type": "prefix",
+      "tier": 2,
+      "effects": {
+        "addedFireDamageMin": {
+          "min": 39,
+          "max": 58
+        },
+        "addedFireDamageMax": {
+          "min": 74,
+          "max": 97
+        }
+      },
+      "itemLevelReq": 64,
+      "tags": [
+        "damage",
+        "elemental",
+        "fire"
+      ]
+    },
+    {
+      "id": "glaciated-cold",
+      "name": "Glaciated (Cold Damage)",
+      "description": "Adds Cold Damage - High Tier",
+      "type": "prefix",
+      "tier": 2,
+      "effects": {
+        "addedColdDamageMin": {
+          "min": 37,
+          "max": 55
+        },
+        "addedColdDamageMax": {
+          "min": 69,
+          "max": 92
+        }
+      },
+      "itemLevelReq": 64,
+      "tags": [
+        "damage",
+        "elemental",
+        "cold"
+      ]
+    },
+    {
+      "id": "discharging-lightning",
+      "name": "Discharging (Lightning Damage)",
+      "description": "Adds Lightning Damage - High Tier",
+      "type": "prefix",
+      "tier": 2,
+      "effects": {
+        "addedLightningDamageMin": {
+          "min": 7,
+          "max": 13
+        },
+        "addedLightningDamageMax": {
+          "min": 84,
+          "max": 128
+        }
+      },
+      "itemLevelReq": 64,
+      "tags": [
+        "damage",
+        "elemental",
+        "lightning"
+      ]
+    },
+    {
+      "id": "tyrannical-phys",
+      "name": "Tyrannical (Phys Damage)",
+      "description": "Increases Physical Damage - Medium Tier",
+      "type": "prefix",
+      "tier": 3,
+      "effects": {
+        "localIncreasedPhysicalDamagePct": {
+          "min": 140,
+          "max": 154
+        }
+      },
+      "itemLevelReq": 60,
+      "tags": [
+        "damage",
+        "physical"
+      ]
+    },
+    {
+      "id": "blasting-fire",
+      "name": "Blasting (Fire Damage)",
+      "description": "Adds Fire Damage - Medium Tier",
+      "type": "prefix",
+      "tier": 3,
+      "effects": {
+        "addedFireDamageMin": {
+          "min": 31,
+          "max": 47
+        },
+        "addedFireDamageMax": {
+          "min": 60,
+          "max": 78
+        }
+      },
+      "itemLevelReq": 52,
+      "tags": [
+        "damage",
+        "elemental",
+        "fire"
+      ]
+    },
+    {
+      "id": "freezing-cold",
+      "name": "Freezing (Cold Damage)",
+      "description": "Adds Cold Damage - Medium Tier",
+      "type": "prefix",
+      "tier": 3,
+      "effects": {
+        "addedColdDamageMin": {
+          "min": 30,
+          "max": 44
+        },
+        "addedColdDamageMax": {
+          "min": 56,
+          "max": 74
+        }
+      },
+      "itemLevelReq": 52,
+      "tags": [
+        "damage",
+        "elemental",
+        "cold"
+      ]
+    },
+    {
+      "id": "arcing-lightning",
+      "name": "Arcing (Lightning Damage)",
+      "description": "Adds Lightning Damage - Medium Tier",
+      "type": "prefix",
+      "tier": 3,
+      "effects": {
+        "addedLightningDamageMin": {
+          "min": 6,
+          "max": 11
+        },
+        "addedLightningDamageMax": {
+          "min": 68,
+          "max": 104
+        }
+      },
+      "itemLevelReq": 52,
+      "tags": [
+        "damage",
+        "elemental",
+        "lightning"
+      ]
+    },
+    {
+      "id": "merciless-phys",
+      "name": "Merciless (Phys Damage)",
+      "description": "Increases Physical Damage - Lower Tier",
+      "type": "prefix",
+      "tier": 4,
+      "effects": {
+        "localIncreasedPhysicalDamagePct": {
+          "min": 110,
+          "max": 124
+        }
+      },
+      "itemLevelReq": 44,
+      "tags": [
+        "damage",
+        "physical"
+      ]
+    },
+    {
+      "id": "heated-fire",
+      "name": "Heated (Fire Damage)",
+      "description": "Adds Fire Damage - Lower Tier",
+      "type": "prefix",
+      "tier": 4,
+      "effects": {
+        "addedFireDamageMin": {
+          "min": 21,
+          "max": 32
+        },
+        "addedFireDamageMax": {
+          "min": 41,
+          "max": 53
+        }
+      },
+      "itemLevelReq": 35,
+      "tags": [
+        "damage",
+        "elemental",
+        "fire"
+      ]
+    },
+    {
+      "id": "incisive-crit",
+      "name": "Incisive (Crit Chance)",
+      "description": "Increases Critical Strike Chance",
+      "type": "prefix",
+      "tier": 1,
+      "effects": {
+        "localIncreasedCriticalStrikeChancePct": {
+          "min": 40,
+          "max": 44
+        }
+      },
+      "itemLevelReq": 73,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "tempered-hybrid",
+      "name": "Tempered (Phys + Quality)",
+      "description": "Increases Physical Damage and Quality",
+      "type": "prefix",
+      "tier": 2,
+      "effects": {
+        "localIncreasedPhysicalDamagePct": {
+          "min": 80,
+          "max": 94
+        },
+        "localIncreasedDamagePct": {
+          "min": 5,
+          "max": 10
+        }
+      },
+      "itemLevelReq": 54,
+      "tags": [
+        "damage",
+        "physical",
+        "hybrid"
+      ]
+    }
+  ],
+  "suffixes": [
+    {
+      "id": "of-annihilation-crit",
+      "name": "of Annihilation (Crit Multi + Chance)",
+      "description": "Increases Critical Strike Multiplier and Chance - Highest Tier",
+      "type": "suffix",
+      "tier": 1,
+      "effects": {
+        "localIncreasedCriticalStrikeChancePct": {
+          "min": 30,
+          "max": 34
+        },
+        "localIncreasedCriticalStrikeMultiplierPct": {
+          "min": 38,
+          "max": 42
+        }
+      },
+      "itemLevelReq": 82,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "of-devastation-crit",
+      "name": "of Devastation (Crit Multi)",
+      "description": "Increases Critical Strike Multiplier - Highest Tier",
+      "type": "suffix",
+      "tier": 1,
+      "effects": {
+        "localIncreasedCriticalStrikeMultiplierPct": {
+          "min": 45,
+          "max": 50
+        }
+      },
+      "itemLevelReq": 76,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "of-annulling-crit",
+      "name": "of Annulling (Crit Multi + Chance)",
+      "description": "Increases Critical Strike Multiplier and Chance - High Tier",
+      "type": "suffix",
+      "tier": 2,
+      "effects": {
+        "localIncreasedCriticalStrikeChancePct": {
+          "min": 25,
+          "max": 29
+        },
+        "localIncreasedCriticalStrikeMultiplierPct": {
+          "min": 32,
+          "max": 37
+        }
+      },
+      "itemLevelReq": 73,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "of-destruction-crit",
+      "name": "of Destruction (Crit Multi)",
+      "description": "Increases Critical Strike Multiplier - High Tier",
+      "type": "suffix",
+      "tier": 2,
+      "effects": {
+        "localIncreasedCriticalStrikeMultiplierPct": {
+          "min": 38,
+          "max": 44
+        }
+      },
+      "itemLevelReq": 64,
+      "tags": [
+        "critical"
+      ]
+    },
+    {
+      "id": "of-fury-speed",
+      "name": "of Fury (Attack Speed)",
+      "description": "Increases Attack Speed - Highest Tier",
+      "type": "suffix",
+      "tier": 1,
+      "effects": {
+        "localIncreasedAttackSpeedPct": {
+          "min": 27,
+          "max": 30
+        }
+      },
+      "itemLevelReq": 82,
+      "tags": [
+        "attack",
+        "speed"
+      ]
+    },
+    {
+      "id": "of-zeal-speed",
+      "name": "of Zeal (Attack Speed)",
+      "description": "Increases Attack Speed - High Tier",
+      "type": "suffix",
+      "tier": 2,
+      "effects": {
+        "localIncreasedAttackSpeedPct": {
+          "min": 22,
+          "max": 26
+        }
+      },
+      "itemLevelReq": 73,
+      "tags": [
+        "attack",
+        "speed"
+      ]
+    },
+    {
+      "id": "of-fervor-speed",
+      "name": "of Fervor (Attack Speed)",
+      "description": "Increases Attack Speed - Medium Tier",
+      "type": "suffix",
+      "tier": 3,
+      "effects": {
+        "localIncreasedAttackSpeedPct": {
+          "min": 17,
+          "max": 21
+        }
+      },
+      "itemLevelReq": 60,
+      "tags": [
+        "attack",
+        "speed"
+      ]
+    },
+    {
+      "id": "of-mastery-hybrid",
+      "name": "of Mastery (Speed + Accuracy)",
+      "description": "Increases Attack Speed and Accuracy",
+      "type": "suffix",
+      "tier": 2,
+      "effects": {
+        "localIncreasedAttackSpeedPct": {
+          "min": 10,
+          "max": 14
+        },
+        "localIncreasedAccuracyRatingPct": {
+          "min": 180,
+          "max": 220
+        }
+      },
+      "itemLevelReq": 64,
+      "tags": [
+        "attack",
+        "speed",
+        "accuracy",
+        "hybrid"
+      ]
+    },
+    {
+      "id": "of-precision-acc",
+      "name": "of Precision (Accuracy)",
+      "description": "Increases Accuracy Rating - Highest Tier",
+      "type": "suffix",
+      "tier": 1,
+      "effects": {
+        "localIncreasedAccuracyRatingPct": {
+          "min": 320,
+          "max": 365
+        }
+      },
+      "itemLevelReq": 76,
+      "tags": [
+        "accuracy"
+      ]
+    },
+    {
+      "id": "of-focus-acc",
+      "name": "of Focus (Accuracy)",
+      "description": "Increases Accuracy Rating - High Tier",
+      "type": "suffix",
+      "tier": 2,
+      "effects": {
+        "localIncreasedAccuracyRatingPct": {
+          "min": 260,
+          "max": 319
+        }
+      },
+      "itemLevelReq": 64,
+      "tags": [
+        "accuracy"
+      ]
+    },
+    {
+      "id": "of-penetrating-special",
+      "name": "of Penetrating (Crit Penetration)",
+      "description": "Critical Strikes Penetrate Elemental Resistances",
+      "type": "suffix",
+      "tier": 1,
+      "effects": {
+        "criticalStrikePenetrationPct": {
+          "min": 38,
+          "max": 42
+        }
+      },
+      "itemLevelReq": 73,
+      "tags": [
+        "critical",
+        "penetration"
+      ]
+    },
+    {
+      "id": "of-spite-special",
+      "name": "of Spite (More Dmg vs Low Life)",
+      "description": "More Damage against Low Life Enemies",
+      "type": "suffix",
+      "tier": 2,
+      "effects": {
+        "moreDamageVsLowLifePct": {
+          "min": 38,
+          "max": 42
+        }
+      },
+      "itemLevelReq": 60,
+      "tags": [
+        "damage",
+        "conditional"
+      ]
+    },
+    {
+      "id": "of-onslaught-special",
+      "name": "of Onslaught (Gain Onslaught)",
+      "description": "Chance to Gain Onslaught on Kill",
+      "type": "suffix",
+      "tier": 2,
+      "effects": {
+        "chanceToGainOnslaughtOnKillPct": {
+          "min": 10,
+          "max": 15
+        }
+      },
+      "itemLevelReq": 55,
+      "tags": [
+        "buff",
+        "onslaught"
+      ]
+    },
+    {
+      "id": "of-evisceration-special",
+      "name": "of Evisceration (Bleed on Crit)",
+      "description": "Chance to inflict Bleeding on Critical Strike",
+      "type": "suffix",
+      "tier": 2,
+      "effects": {
+        "chanceToBleedOnCritPct": {
+          "min": 30,
+          "max": 35
+        }
+      },
+      "itemLevelReq": 50,
+      "tags": [
+        "ailment",
+        "bleed"
+      ]
+    }
+  ]
+}

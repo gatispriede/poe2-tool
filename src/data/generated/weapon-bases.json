@@ -1,0 +1,8660 @@
+[
+  {
+    "id": "Dull Hatchet",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 4,
+      "PhysicalMax": 10,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Hook Axe",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants 1 Rage on Hit",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "axe",
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "str": 9
+    },
+    "weapon": {
+      "PhysicalMin": 5,
+      "PhysicalMax": 14,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Bearded Axe",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 10,
+      "str": 17,
+      "dex": 9
+    },
+    "weapon": {
+      "PhysicalMin": 8,
+      "PhysicalMax": 21,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Extended Cleaver",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Has no Accuracy Penalty from Range",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "axe",
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "str": 25,
+      "dex": 12
+    },
+    "weapon": {
+      "PhysicalMin": 8,
+      "PhysicalMax": 25,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Bandit Hatchet",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 20,
+      "str": 30,
+      "dex": 14
+    },
+    "weapon": {
+      "PhysicalMin": 13,
+      "PhysicalMax": 31,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Crescent Axe",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 26,
+      "str": 38,
+      "dex": 17
+    },
+    "weapon": {
+      "PhysicalMin": 18,
+      "PhysicalMax": 37,
+      "CritChanceBase": 6.5,
+      "AttackRateBase": 1.4,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Carving Hatchet",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "str": 47,
+      "dex": 20
+    },
+    "weapon": {
+      "PhysicalMin": 19,
+      "PhysicalMax": 44,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Sacrificial Axe",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Gain (28-35) Mana per enemy killed",
+    "implicitModTypes": [
+      [
+        "resource",
+        "mana"
+      ]
+    ],
+    "tags": [
+      "axe",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 37,
+      "str": 52,
+      "dex": 22
+    },
+    "weapon": {
+      "PhysicalMin": 20,
+      "PhysicalMax": 42,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Boarding Hatchet",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 63,
+      "dex": 26
+    },
+    "weapon": {
+      "PhysicalMin": 24,
+      "PhysicalMax": 55,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Fury Cleaver",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "10% increased Damage taken",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "axe",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 48,
+      "str": 67,
+      "dex": 27
+    },
+    "weapon": {
+      "PhysicalMin": 30,
+      "PhysicalMax": 62,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Battle Axe",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "str": 72,
+      "dex": 29
+    },
+    "weapon": {
+      "PhysicalMin": 28,
+      "PhysicalMax": 65,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Profane Cleaver",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 54,
+      "str": 75,
+      "dex": 30
+    },
+    "weapon": {
+      "PhysicalMin": 26,
+      "PhysicalMax": 69,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Dread Hatchet",
+    "category": "axe",
+    "type": "One Hand Axe",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "str": 89,
+      "dex": 36
+    },
+    "weapon": {
+      "PhysicalMin": 34,
+      "PhysicalMax": 79,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Splitting Greataxe",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "ezomyte_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 8,
+      "PhysicalMax": 20,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Light Halberd",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "ezomyte_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "str": 9
+    },
+    "weapon": {
+      "PhysicalMin": 10,
+      "PhysicalMax": 25,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.25,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Executioner Greataxe",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Culling Strike",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "axe",
+      "default",
+      "ezomyte_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 10,
+      "str": 17,
+      "dex": 9
+    },
+    "weapon": {
+      "PhysicalMin": 10,
+      "PhysicalMax": 41,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Arched Greataxe",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "maraketh_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "str": 25,
+      "dex": 12
+    },
+    "weapon": {
+      "PhysicalMin": 17,
+      "PhysicalMax": 59,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.15,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Elegant Glaive",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "maraketh_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 20,
+      "str": 30,
+      "dex": 14
+    },
+    "weapon": {
+      "PhysicalMin": 19,
+      "PhysicalMax": 64,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Savage Greataxe",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Gain (34-43) Life per enemy killed",
+    "implicitModTypes": [
+      [
+        "resource",
+        "life"
+      ]
+    ],
+    "tags": [
+      "axe",
+      "default",
+      "maraketh_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 27,
+      "str": 39,
+      "dex": 17
+    },
+    "weapon": {
+      "PhysicalMin": 23,
+      "PhysicalMax": 70,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Rending Halberd",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "str": 47,
+      "dex": 20
+    },
+    "weapon": {
+      "PhysicalMin": 27,
+      "PhysicalMax": 91,
+      "CritChanceBase": 6.5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Jagged Greataxe",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "(15-25)% chance to cause Bleeding on Hit",
+    "implicitModTypes": [
+      [
+        "bleed",
+        "physical",
+        "attack",
+        "ailment"
+      ]
+    ],
+    "tags": [
+      "axe",
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 40,
+      "str": 56,
+      "dex": 23
+    },
+    "weapon": {
+      "PhysicalMin": 43,
+      "PhysicalMax": 99,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.15,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Reaver Glaive",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 63,
+      "dex": 26
+    },
+    "weapon": {
+      "PhysicalMin": 43,
+      "PhysicalMax": 113,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Ember Greataxe",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 50,
+      "str": 70,
+      "dex": 28
+    },
+    "weapon": {
+      "FireMin": 58,
+      "FireMax": 154,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Ceremonial Halberd",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Cannot use Projectile Attacks",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "axe",
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "str": 72,
+      "dex": 29
+    },
+    "weapon": {
+      "PhysicalMin": 53,
+      "PhysicalMax": 123,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Monument Greataxe",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 57,
+      "str": 79,
+      "dex": 32
+    },
+    "weapon": {
+      "PhysicalMin": 48,
+      "PhysicalMax": 143,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Vile Greataxe",
+    "category": "axe",
+    "type": "Two Hand Axe",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "axe",
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "str": 89,
+      "dex": 36
+    },
+    "weapon": {
+      "PhysicalMin": 59,
+      "PhysicalMax": 155,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Crude Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ezomyte_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 6,
+      "PhysicalMax": 9,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Shortbow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ezomyte_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 5,
+      "dex": 12
+    },
+    "weapon": {
+      "PhysicalMin": 7,
+      "PhysicalMax": 14,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.25,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Warden Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "(20-30)% chance to Chain an additional time",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "bow",
+      "default",
+      "ezomyte_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 11,
+      "dex": 23
+    },
+    "weapon": {
+      "PhysicalMin": 12,
+      "PhysicalMax": 20,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.15,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Recurve Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "maraketh_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "dex": 31
+    },
+    "weapon": {
+      "PhysicalMin": 15,
+      "PhysicalMax": 31,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.1,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Composite Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "maraketh_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 22,
+      "dex": 41
+    },
+    "weapon": {
+      "PhysicalMin": 19,
+      "PhysicalMax": 31,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Dualstring Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "+50% Surpassing chance to fire an additional Arrow",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "bow",
+      "default",
+      "maraketh_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 28,
+      "dex": 52
+    },
+    "weapon": {
+      "PhysicalMin": 19,
+      "PhysicalMax": 35,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.15,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Cultist Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "dex": 60
+    },
+    "weapon": {
+      "PhysicalMin": 22,
+      "PhysicalMax": 36,
+      "ChaosMin": 7,
+      "ChaosMax": 19,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Zealot Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 39,
+      "dex": 70
+    },
+    "weapon": {
+      "PhysicalMin": 31,
+      "PhysicalMax": 47,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Artillery Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "50% reduced Projectile Range",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "bow",
+      "default",
+      "karui_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "dex": 80
+    },
+    "weapon": {
+      "PhysicalMin": 39,
+      "PhysicalMax": 72,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.15,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Tribal Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "karui_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 50,
+      "dex": 89
+    },
+    "weapon": {
+      "PhysicalMin": 38,
+      "PhysicalMax": 57,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Greatbow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "str": 92,
+      "dex": 92
+    },
+    "weapon": {
+      "PhysicalMin": 40,
+      "PhysicalMax": 82,
+      "CritChanceBase": 6.5,
+      "AttackRateBase": 1.15,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Double Limb Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 56,
+      "dex": 99
+    },
+    "weapon": {
+      "PhysicalMin": 42,
+      "PhysicalMax": 63,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Heavy Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "dex": 114
+    },
+    "weapon": {
+      "PhysicalMin": 45,
+      "PhysicalMax": 75,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Snakewood Shortbow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "dex": 80
+    },
+    "weapon": {
+      "PhysicalMin": 29,
+      "PhysicalMax": 54,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.25,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Protector Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "(20-30)% chance to Chain an additional time",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 48,
+      "dex": 86
+    },
+    "weapon": {
+      "PhysicalMin": 35,
+      "PhysicalMax": 53,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.15,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Rider Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 51,
+      "dex": 91
+    },
+    "weapon": {
+      "PhysicalMin": 36,
+      "PhysicalMax": 61,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Twin Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "+50% Surpassing chance to fire an additional Arrow",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 54,
+      "dex": 96
+    },
+    "weapon": {
+      "PhysicalMin": 32,
+      "PhysicalMax": 60,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.15,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Adherent Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 59,
+      "dex": 104
+    },
+    "weapon": {
+      "PhysicalMin": 35,
+      "PhysicalMax": 59,
+      "ChaosMin": 14,
+      "ChaosMax": 32,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Militant Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 62,
+      "dex": 109
+    },
+    "weapon": {
+      "PhysicalMin": 46,
+      "PhysicalMax": 69,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Ironwood Shortbow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 67,
+      "dex": 134
+    },
+    "weapon": {
+      "PhysicalMin": 41,
+      "PhysicalMax": 76,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.25,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Cavalry Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 72,
+      "dex": 149
+    },
+    "weapon": {
+      "PhysicalMin": 49,
+      "PhysicalMax": 82,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Guardian Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "(20-30)% chance to Chain an additional time",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 77,
+      "dex": 163
+    },
+    "weapon": {
+      "PhysicalMin": 53,
+      "PhysicalMax": 88,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.15,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Gemini Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "+50% Surpassing chance to fire an additional Arrow",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 78,
+      "dex": 163
+    },
+    "weapon": {
+      "PhysicalMin": 39,
+      "PhysicalMax": 72,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.15,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Fanatic Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 79,
+      "dex": 163
+    },
+    "weapon": {
+      "PhysicalMin": 47,
+      "PhysicalMax": 79,
+      "ChaosMin": 28,
+      "ChaosMax": 64,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Warmonger Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "bow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 77,
+      "dex": 163
+    },
+    "weapon": {
+      "PhysicalMin": 56,
+      "PhysicalMax": 84,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Obliterator Bow",
+    "category": "bow",
+    "type": "Bow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "50% reduced Projectile Range",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "bow",
+      "default",
+      "karui_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 78,
+      "dex": 163
+    },
+    "weapon": {
+      "PhysicalMin": 62,
+      "PhysicalMax": 115,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.15,
+      "Range": 120
+    }
+  },
+  {
+    "id": "Crude Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "claw",
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 4,
+      "PhysicalMax": 10,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.65,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Pict Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "claw",
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 6,
+      "dex": 14
+    },
+    "weapon": {
+      "PhysicalMin": 4,
+      "PhysicalMax": 16,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.7,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Wolfbone Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants 8 Life per Enemy Hit",
+    "implicitModTypes": [
+      [
+        "resource",
+        "life",
+        "attack"
+      ]
+    ],
+    "tags": [
+      "claw",
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 12,
+      "dex": 24
+    },
+    "weapon": {
+      "PhysicalMin": 7,
+      "PhysicalMax": 23,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Forked Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "claw",
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "dex": 31
+    },
+    "weapon": {
+      "PhysicalMin": 10,
+      "PhysicalMax": 26,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Plated Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "claw",
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 22,
+      "dex": 41
+    },
+    "weapon": {
+      "PhysicalMin": 13,
+      "PhysicalMax": 31,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Edged Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "(15-25)% chance to Blind Enemies on hit",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "claw",
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 28,
+      "dex": 52
+    },
+    "weapon": {
+      "PhysicalMin": 11,
+      "PhysicalMax": 38,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.7,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Arced Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "claw",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "dex": 60
+    },
+    "weapon": {
+      "PhysicalMin": 12,
+      "PhysicalMax": 46,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.65,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Hooked Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "claw",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 36,
+      "dex": 65
+    },
+    "weapon": {
+      "PhysicalMin": 16,
+      "PhysicalMax": 49,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Razorglass Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "claw",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "dex": 80
+    },
+    "weapon": {
+      "PhysicalMin": 23,
+      "PhysicalMax": 54,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Sharktooth Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "claw",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 49,
+      "dex": 87
+    },
+    "weapon": {
+      "PhysicalMin": 25,
+      "PhysicalMax": 52,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.7,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Armoured Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "claw",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "dex": 92
+    },
+    "weapon": {
+      "PhysicalMin": 27,
+      "PhysicalMax": 63,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Piercing Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "claw",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 55,
+      "dex": 97
+    },
+    "weapon": {
+      "PhysicalMin": 23,
+      "PhysicalMax": 68,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Talon Claw",
+    "category": "claw",
+    "type": "Claw",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "claw",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "dex": 114
+    },
+    "weapon": {
+      "PhysicalMin": 23,
+      "PhysicalMax": 79,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.65,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Makeshift Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "ezomyte_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 7,
+      "PhysicalMax": 12,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.8
+    }
+  },
+  {
+    "id": "Tense Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "(20-30)% increased Bolt Speed",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "crossbow",
+      "default",
+      "ezomyte_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "str": 8,
+      "dex": 8
+    },
+    "weapon": {
+      "PhysicalMin": 8,
+      "PhysicalMax": 15,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.85
+    }
+  },
+  {
+    "id": "Sturdy Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "ezomyte_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 10,
+      "str": 13,
+      "dex": 13
+    },
+    "weapon": {
+      "PhysicalMin": 11,
+      "PhysicalMax": 26,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 120,
+      "ReloadTimeBase": 0.75
+    }
+  },
+  {
+    "id": "Varnished Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "maraketh_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "str": 19,
+      "dex": 19
+    },
+    "weapon": {
+      "PhysicalMin": 12,
+      "PhysicalMax": 36,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.8
+    }
+  },
+  {
+    "id": "Dyad Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Loads an additional bolt",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "crossbow",
+      "default",
+      "maraketh_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 20,
+      "str": 22,
+      "dex": 22
+    },
+    "weapon": {
+      "PhysicalMin": 9,
+      "PhysicalMax": 37,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 1.1
+    }
+  },
+  {
+    "id": "Alloy Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "maraketh_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 26,
+      "str": 28,
+      "dex": 28
+    },
+    "weapon": {
+      "PhysicalMin": 12,
+      "PhysicalMax": 50,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.7,
+      "Range": 120,
+      "ReloadTimeBase": 0.7
+    }
+  },
+  {
+    "id": "Bombard Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grenade Skills Fire an additional Projectile",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "str": 34,
+      "dex": 34
+    },
+    "weapon": {
+      "PhysicalMin": 14,
+      "PhysicalMax": 56,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.65,
+      "Range": 120,
+      "ReloadTimeBase": 0.75
+    }
+  },
+  {
+    "id": "Construct Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 38,
+      "str": 39,
+      "dex": 39
+    },
+    "weapon": {
+      "PhysicalMin": 18,
+      "PhysicalMax": 72,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.8
+    }
+  },
+  {
+    "id": "Blackfire Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "karui_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 45,
+      "dex": 45
+    },
+    "weapon": {
+      "PhysicalMin": 20,
+      "PhysicalMax": 80,
+      "CritChanceBase": 7,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.85
+    }
+  },
+  {
+    "id": "Piercing Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "(20-30)% chance to Pierce an Enemy",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "crossbow",
+      "default",
+      "karui_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 50,
+      "str": 49,
+      "dex": 49
+    },
+    "weapon": {
+      "PhysicalMin": 21,
+      "PhysicalMax": 84,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.65,
+      "Range": 120,
+      "ReloadTimeBase": 0.85
+    }
+  },
+  {
+    "id": "Cumbrous Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "+1 to maximum number of Summoned Ballista Totems",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "str": 51,
+      "dex": 51
+    },
+    "weapon": {
+      "PhysicalMin": 19,
+      "PhysicalMax": 76,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.9
+    }
+  },
+  {
+    "id": "Dedalian Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 56,
+      "str": 55,
+      "dex": 55
+    },
+    "weapon": {
+      "PhysicalMin": 25,
+      "PhysicalMax": 99,
+      "CritChanceBase": 7,
+      "AttackRateBase": 1.55,
+      "Range": 120,
+      "ReloadTimeBase": 0.85
+    }
+  },
+  {
+    "id": "Esoteric Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "str": 63,
+      "dex": 63
+    },
+    "weapon": {
+      "PhysicalMin": 28,
+      "PhysicalMax": 113,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.8
+    }
+  },
+  {
+    "id": "Taut Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "(20-30)% increased Bolt Speed",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 45,
+      "dex": 45
+    },
+    "weapon": {
+      "PhysicalMin": 20,
+      "PhysicalMax": 79,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.85
+    }
+  },
+  {
+    "id": "Robust Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 48,
+      "str": 48,
+      "dex": 48
+    },
+    "weapon": {
+      "PhysicalMin": 22,
+      "PhysicalMax": 89,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 120,
+      "ReloadTimeBase": 0.75
+    }
+  },
+  {
+    "id": "Painted Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 51,
+      "str": 50,
+      "dex": 50
+    },
+    "weapon": {
+      "PhysicalMin": 23,
+      "PhysicalMax": 92,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.8
+    }
+  },
+  {
+    "id": "Twin Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Loads an additional bolt",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 54,
+      "str": 53,
+      "dex": 53
+    },
+    "weapon": {
+      "PhysicalMin": 20,
+      "PhysicalMax": 82,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 1.1
+    }
+  },
+  {
+    "id": "Cannonade Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grenade Skills Fire an additional Projectile",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 59,
+      "str": 58,
+      "dex": 58
+    },
+    "weapon": {
+      "PhysicalMin": 23,
+      "PhysicalMax": 90,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.65,
+      "Range": 120,
+      "ReloadTimeBase": 0.75
+    }
+  },
+  {
+    "id": "Bleak Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 62,
+      "str": 60,
+      "dex": 60
+    },
+    "weapon": {
+      "PhysicalMin": 27,
+      "PhysicalMax": 109,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.8
+    }
+  },
+  {
+    "id": "Stout Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 67,
+      "str": 74,
+      "dex": 74
+    },
+    "weapon": {
+      "PhysicalMin": 30,
+      "PhysicalMax": 119,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 120,
+      "ReloadTimeBase": 0.75
+    }
+  },
+  {
+    "id": "Engraved Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 72,
+      "str": 82,
+      "dex": 82
+    },
+    "weapon": {
+      "PhysicalMin": 31,
+      "PhysicalMax": 124,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.8
+    }
+  },
+  {
+    "id": "Flexed Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "(20-30)% increased Bolt Speed",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 77,
+      "str": 89,
+      "dex": 89
+    },
+    "weapon": {
+      "PhysicalMin": 32,
+      "PhysicalMax": 127,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.85
+    }
+  },
+  {
+    "id": "Gemini Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Loads an additional bolt",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 78,
+      "str": 89,
+      "dex": 89
+    },
+    "weapon": {
+      "PhysicalMin": 28,
+      "PhysicalMax": 112,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 1.1
+    }
+  },
+  {
+    "id": "Siege Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grenade Skills Fire an additional Projectile",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 79,
+      "str": 89,
+      "dex": 89
+    },
+    "weapon": {
+      "PhysicalMin": 29,
+      "PhysicalMax": 115,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.65,
+      "Range": 120,
+      "ReloadTimeBase": 0.75
+    }
+  },
+  {
+    "id": "Desolate Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "crossbow",
+      "default",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 77,
+      "str": 89,
+      "dex": 89
+    },
+    "weapon": {
+      "PhysicalMin": 33,
+      "PhysicalMax": 132,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 120,
+      "ReloadTimeBase": 0.8
+    }
+  },
+  {
+    "id": "Elegant Crossbow",
+    "category": "crossbow",
+    "type": "Crossbow",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "(20-30)% chance to Pierce an Enemy",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "crossbow",
+      "default",
+      "karui_basetype",
+      "ranged",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 78,
+      "str": 89,
+      "dex": 89
+    },
+    "weapon": {
+      "PhysicalMin": 31,
+      "PhysicalMax": 123,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.65,
+      "Range": 120,
+      "ReloadTimeBase": 0.85
+    }
+  },
+  {
+    "id": "Ethereal Blade",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "dagger",
+      "default",
+      "not_for_sale",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 5,
+      "PhysicalMax": 10,
+      "CritChanceBase": 6,
+      "AttackRateBase": 1.5,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Glass Shank",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "dagger",
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 3,
+      "PhysicalMax": 10,
+      "CritChanceBase": 15,
+      "AttackRateBase": 1.55,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Crone Knife",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Leeches 4% of Physical Damage as Mana",
+    "implicitModTypes": [
+      [
+        "resource",
+        "mana",
+        "physical",
+        "attack"
+      ]
+    ],
+    "tags": [
+      "dagger",
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 6,
+      "dex": 9,
+      "int": 9
+    },
+    "weapon": {
+      "PhysicalMin": 4,
+      "PhysicalMax": 15,
+      "CritChanceBase": 15,
+      "AttackRateBase": 1.55,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Simple Dagger",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "dagger",
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 12,
+      "dex": 15,
+      "int": 15
+    },
+    "weapon": {
+      "PhysicalMin": 8,
+      "PhysicalMax": 19,
+      "CritChanceBase": 15,
+      "AttackRateBase": 1.55,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Skinning Knife",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "dagger",
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "dex": 19,
+      "int": 19
+    },
+    "weapon": {
+      "PhysicalMin": 8,
+      "PhysicalMax": 22,
+      "CritChanceBase": 13.5,
+      "AttackRateBase": 1.65,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Moon Dagger",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "dagger",
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 20,
+      "dex": 22,
+      "int": 22
+    },
+    "weapon": {
+      "ColdMin": 11,
+      "ColdMax": 26,
+      "CritChanceBase": 15,
+      "AttackRateBase": 1.55,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Engraved Knife",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "dagger",
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 27,
+      "dex": 29,
+      "int": 29
+    },
+    "weapon": {
+      "PhysicalMin": 11,
+      "PhysicalMax": 34,
+      "CritChanceBase": 13.5,
+      "AttackRateBase": 1.55,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Obsidian Dagger",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "dagger",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "dex": 34,
+      "int": 34
+    },
+    "weapon": {
+      "PhysicalMin": 13,
+      "PhysicalMax": 39,
+      "CritChanceBase": 15,
+      "AttackRateBase": 1.55,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Bloodletting Dagger",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "25% of Spell Mana Cost Converted to Life Cost",
+    "implicitModTypes": [
+      [
+        "resource",
+        "life",
+        "caster"
+      ]
+    ],
+    "tags": [
+      "dagger",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 39,
+      "dex": 39,
+      "int": 39
+    },
+    "weapon": {
+      "PhysicalMin": 18,
+      "PhysicalMax": 42,
+      "CritChanceBase": 15,
+      "AttackRateBase": 1.5,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Mail Breaker",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Breaks (400-500) Armour on Critical Hit",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "dagger",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "dex": 45,
+      "int": 45
+    },
+    "weapon": {
+      "PhysicalMin": 19,
+      "PhysicalMax": 44,
+      "CritChanceBase": 15,
+      "AttackRateBase": 1.5,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Kris Knife",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "dagger",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 49,
+      "dex": 49,
+      "int": 49
+    },
+    "weapon": {
+      "PhysicalMin": 16,
+      "PhysicalMax": 48,
+      "CritChanceBase": 15,
+      "AttackRateBase": 1.65,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Parrying Dagger",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "dagger",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "dex": 51,
+      "int": 51
+    },
+    "weapon": {
+      "PhysicalMin": 16,
+      "PhysicalMax": 55,
+      "CritChanceBase": 15,
+      "AttackRateBase": 1.55,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Arcane Dirk",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "dagger",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 56,
+      "dex": 55,
+      "int": 55
+    },
+    "weapon": {
+      "PhysicalMin": 22,
+      "PhysicalMax": 52,
+      "CritChanceBase": 15,
+      "AttackRateBase": 1.55,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Cinquedea",
+    "category": "dagger",
+    "type": "Dagger",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "dagger",
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "dex": 63,
+      "int": 63
+    },
+    "weapon": {
+      "PhysicalMin": 21,
+      "PhysicalMax": 62,
+      "CritChanceBase": 15,
+      "AttackRateBase": 1.55,
+      "Range": 10
+    }
+  },
+  {
+    "id": "Splintered Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "flail",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 6,
+      "PhysicalMax": 9,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Chain Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "flail",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 6,
+      "str": 12
+    },
+    "weapon": {
+      "PhysicalMin": 8,
+      "PhysicalMax": 14,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Holy Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "flail",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 11,
+      "str": 18,
+      "int": 9
+    },
+    "weapon": {
+      "PhysicalMin": 10,
+      "PhysicalMax": 17,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Iron Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "flail",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "str": 25,
+      "int": 12
+    },
+    "weapon": {
+      "PhysicalMin": 14,
+      "PhysicalMax": 23,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Twin Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Bifurcates Critical Hits",
+    "implicitModTypes": [
+      [
+        "critical"
+      ]
+    ],
+    "tags": [
+      "default",
+      "flail",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 20,
+      "str": 30,
+      "int": 14
+    },
+    "weapon": {
+      "PhysicalMin": 8,
+      "PhysicalMax": 18,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Slender Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "flail",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 26,
+      "str": 38,
+      "int": 17
+    },
+    "weapon": {
+      "PhysicalMin": 19,
+      "PhysicalMax": 32,
+      "CritChanceBase": 8,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Stone Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Unblockable",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "flail",
+      "one_hand_weapon",
+      "onehand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "str": 47,
+      "int": 20
+    },
+    "weapon": {
+      "PhysicalMin": 23,
+      "PhysicalMax": 38,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Ring Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "flail",
+      "one_hand_weapon",
+      "onehand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 38,
+      "str": 54,
+      "int": 23
+    },
+    "weapon": {
+      "PhysicalMin": 23,
+      "PhysicalMax": 44,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Guarded Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "flail",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 63,
+      "int": 26
+    },
+    "weapon": {
+      "PhysicalMin": 31,
+      "PhysicalMax": 57,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Icicle Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "flail",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 47,
+      "str": 66,
+      "int": 27
+    },
+    "weapon": {
+      "ColdMin": 24,
+      "ColdMax": 55,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Tearing Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "flail",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "str": 72,
+      "int": 29
+    },
+    "weapon": {
+      "PhysicalMin": 27,
+      "PhysicalMax": 56,
+      "CritChanceBase": 12.5,
+      "AttackRateBase": 1.4,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Great Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "flail",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 58,
+      "str": 80,
+      "int": 32
+    },
+    "weapon": {
+      "PhysicalMin": 35,
+      "PhysicalMax": 58,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Abyssal Flail",
+    "category": "flail",
+    "type": "Flail",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "flail",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "str": 89,
+      "int": 36
+    },
+    "weapon": {
+      "PhysicalMin": 36,
+      "PhysicalMax": 66,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Wooden Club",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 6,
+      "PhysicalMax": 10,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Smithing Hammer",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "str": 11
+    },
+    "weapon": {
+      "PhysicalMin": 5,
+      "PhysicalMax": 9,
+      "FireMin": 5,
+      "FireMax": 9,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Slim Mace",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 10,
+      "str": 21
+    },
+    "weapon": {
+      "PhysicalMin": 11,
+      "PhysicalMax": 17,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Spiked Club",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "str": 31
+    },
+    "weapon": {
+      "PhysicalMin": 15,
+      "PhysicalMax": 24,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Warpick",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "+(5-10)% to Critical Damage Bonus",
+    "implicitModTypes": [
+      [
+        "damage",
+        "attack",
+        "critical"
+      ]
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 22,
+      "str": 41
+    },
+    "weapon": {
+      "PhysicalMin": 18,
+      "PhysicalMax": 24,
+      "CritChanceBase": 7,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Plated Mace",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 26,
+      "str": 48
+    },
+    "weapon": {
+      "PhysicalMin": 18,
+      "PhysicalMax": 38,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.4,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Brigand Mace",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "str": 60
+    },
+    "weapon": {
+      "PhysicalMin": 28,
+      "PhysicalMax": 38,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Construct Hammer",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "40% chance to Daze on Hit",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 36,
+      "str": 65
+    },
+    "weapon": {
+      "PhysicalMin": 31,
+      "PhysicalMax": 38,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.4,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Morning Star",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 80
+    },
+    "weapon": {
+      "PhysicalMin": 33,
+      "PhysicalMax": 49,
+      "CritChanceBase": 6.5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Jade Club",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Always Hits",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 49,
+      "str": 87
+    },
+    "weapon": {
+      "PhysicalMin": 31,
+      "PhysicalMax": 51,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Lumen Mace",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "str": 92
+    },
+    "weapon": {
+      "PhysicalMin": 36,
+      "PhysicalMax": 60,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Execratus Hammer",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 55,
+      "str": 97
+    },
+    "weapon": {
+      "PhysicalMin": 40,
+      "PhysicalMax": 60,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Torment Club",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "str": 114
+    },
+    "weapon": {
+      "PhysicalMin": 44,
+      "PhysicalMax": 73,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Kalguuran Forgehammer",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Has 3 Sockets",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 47
+    },
+    "weapon": {
+      "PhysicalMin": 30,
+      "PhysicalMax": 49,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Calescent Hammer",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 80
+    },
+    "weapon": {
+      "PhysicalMin": 22,
+      "PhysicalMax": 37,
+      "FireMin": 22,
+      "FireMax": 37,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Flared Mace",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 48,
+      "str": 86
+    },
+    "weapon": {
+      "PhysicalMin": 33,
+      "PhysicalMax": 50,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Battle Pick",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "+(5-10)% to Critical Damage Bonus",
+    "implicitModTypes": [
+      [
+        "damage",
+        "attack",
+        "critical"
+      ]
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 51,
+      "str": 91
+    },
+    "weapon": {
+      "PhysicalMin": 35,
+      "PhysicalMax": 47,
+      "CritChanceBase": 7,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Marching Mace",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 54,
+      "str": 96
+    },
+    "weapon": {
+      "PhysicalMin": 33,
+      "PhysicalMax": 69,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.4,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Bandit Mace",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 59,
+      "str": 104
+    },
+    "weapon": {
+      "PhysicalMin": 45,
+      "PhysicalMax": 61,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Structured Hammer",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "40% chance to Daze on Hit",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 62,
+      "str": 109
+    },
+    "weapon": {
+      "PhysicalMin": 49,
+      "PhysicalMax": 60,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.4,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Flanged Mace",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 67,
+      "str": 134
+    },
+    "weapon": {
+      "PhysicalMin": 45,
+      "PhysicalMax": 67,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Crown Mace",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 72,
+      "str": 149
+    },
+    "weapon": {
+      "PhysicalMin": 43,
+      "PhysicalMax": 89,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.4,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Molten Hammer",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 77,
+      "str": 163
+    },
+    "weapon": {
+      "PhysicalMin": 35,
+      "PhysicalMax": 59,
+      "FireMin": 35,
+      "FireMax": 59,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Strife Pick",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "+(5-10)% to Critical Damage Bonus",
+    "implicitModTypes": [
+      [
+        "damage",
+        "attack",
+        "critical"
+      ]
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 78,
+      "str": 163
+    },
+    "weapon": {
+      "PhysicalMin": 49,
+      "PhysicalMax": 66,
+      "CritChanceBase": 7,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Fortified Hammer",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "40% chance to Daze on Hit",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 79,
+      "str": 163
+    },
+    "weapon": {
+      "PhysicalMin": 60,
+      "PhysicalMax": 73,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.4,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Marauding Mace",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 77,
+      "str": 163
+    },
+    "weapon": {
+      "PhysicalMin": 51,
+      "PhysicalMax": 84,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Akoyan Club",
+    "category": "mace",
+    "type": "One Hand Mace",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Always Hits",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "mace",
+      "one_hand_weapon",
+      "onehand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 78,
+      "str": 163
+    },
+    "weapon": {
+      "PhysicalMin": 46,
+      "PhysicalMax": 76,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.45,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Felled Greatclub",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 13,
+      "PhysicalMax": 18,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Oak Greathammer",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Causes (20-40)% increased Stun Buildup",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "str": 11
+    },
+    "weapon": {
+      "PhysicalMin": 16,
+      "PhysicalMax": 30,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Forge Maul",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Crushes Enemies on Hit",
+    "implicitModTypes": [
+      [
+        "physical"
+      ]
+    ],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 11,
+      "str": 23
+    },
+    "weapon": {
+      "PhysicalMin": 26,
+      "PhysicalMax": 35,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.05,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Studded Greatclub",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "maraketh_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "str": 31
+    },
+    "weapon": {
+      "PhysicalMin": 32,
+      "PhysicalMax": 48,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Cultist Greathammer",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Strikes deal Splash Damage",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "maraketh_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 22,
+      "str": 41
+    },
+    "weapon": {
+      "PhysicalMin": 36,
+      "PhysicalMax": 49,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.05,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Temple Maul",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "maraketh_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 28,
+      "str": 52
+    },
+    "weapon": {
+      "PhysicalMin": 35,
+      "PhysicalMax": 72,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Leaden Greathammer",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "str": 60
+    },
+    "weapon": {
+      "PhysicalMin": 58,
+      "PhysicalMax": 78,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Crumbling Maul",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 38,
+      "str": 68
+    },
+    "weapon": {
+      "PhysicalMin": 62,
+      "PhysicalMax": 75,
+      "CritChanceBase": 8,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Pointed Maul",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 80
+    },
+    "weapon": {
+      "PhysicalMin": 68,
+      "PhysicalMax": 102,
+      "CritChanceBase": 6.5,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Totemic Greatclub",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Warcries Empower an additional Attack",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 50,
+      "str": 89
+    },
+    "weapon": {
+      "PhysicalMin": 77,
+      "PhysicalMax": 105,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Greatmace",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "str": 92
+    },
+    "weapon": {
+      "PhysicalMin": 74,
+      "PhysicalMax": 124,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Precise Greathammer",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 54,
+      "str": 96
+    },
+    "weapon": {
+      "PhysicalMin": 87,
+      "PhysicalMax": 118,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Giant Maul",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "str": 114
+    },
+    "weapon": {
+      "PhysicalMin": 96,
+      "PhysicalMax": 144,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Snakewood Greathammer",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Causes (20-40)% increased Stun Buildup",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 80
+    },
+    "weapon": {
+      "PhysicalMin": 62,
+      "PhysicalMax": 115,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.05,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Blacksmith Maul",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Crushes Enemies on Hit",
+    "implicitModTypes": [
+      [
+        "physical"
+      ]
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 48,
+      "str": 86
+    },
+    "weapon": {
+      "PhysicalMin": 75,
+      "PhysicalMax": 102,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.05,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Zealot Greathammer",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Strikes deal Splash Damage",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 51,
+      "str": 91
+    },
+    "weapon": {
+      "PhysicalMin": 70,
+      "PhysicalMax": 95,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.05,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Solemn Maul",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 54,
+      "str": 96
+    },
+    "weapon": {
+      "PhysicalMin": 59,
+      "PhysicalMax": 123,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Heavy Greathammer",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 59,
+      "str": 104
+    },
+    "weapon": {
+      "PhysicalMin": 94,
+      "PhysicalMax": 127,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Disintegrating Maul",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 62,
+      "str": 109
+    },
+    "weapon": {
+      "PhysicalMin": 92,
+      "PhysicalMax": 112,
+      "CritChanceBase": 8,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Anvil Maul",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Crushes Enemies on Hit",
+    "implicitModTypes": [
+      [
+        "physical"
+      ]
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 67,
+      "str": 134
+    },
+    "weapon": {
+      "PhysicalMin": 101,
+      "PhysicalMax": 136,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.05,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Sacred Maul",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 72,
+      "str": 149
+    },
+    "weapon": {
+      "PhysicalMin": 76,
+      "PhysicalMax": 158,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Ironwood Greathammer",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Causes (30-50)% increased Stun Buildup",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 77,
+      "str": 163
+    },
+    "weapon": {
+      "PhysicalMin": 105,
+      "PhysicalMax": 196,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Fanatic Greathammer",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Strikes deal Splash Damage",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 78,
+      "str": 163
+    },
+    "weapon": {
+      "PhysicalMin": 101,
+      "PhysicalMax": 137,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.05,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Ruination Maul",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 79,
+      "str": 163
+    },
+    "weapon": {
+      "PhysicalMin": 104,
+      "PhysicalMax": 127,
+      "CritChanceBase": 8,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Massive Greathammer",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 77,
+      "str": 163
+    },
+    "weapon": {
+      "PhysicalMin": 119,
+      "PhysicalMax": 161,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Tawhoan Greatclub",
+    "category": "mace",
+    "type": "Two Hand Mace",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Warcries Empower an additional Attack",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "mace",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 78,
+      "str": 163
+    },
+    "weapon": {
+      "PhysicalMin": 113,
+      "PhysicalMax": 153,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.1,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Rattling Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Skeletal Warrior Minion",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Stoic Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Discipline",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Lupine Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Skeletal Warrior Minion",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Omen Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Malice",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Ochre Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Skeletal Warrior Minion",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Shrine Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Purity of Lightning",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Devouring Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Skeletal Warrior Minion",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Clasped Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Heart of Ice",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Devotional Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Skeletal Warrior Minion",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Wrath Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Fulmination",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Aromatic Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Skeletal Warrior Minion",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Pious Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Skeletal Warrior Minion",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Hallowed Sceptre",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Skeletal Warrior Minion",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Shrine Sceptre (Purity of Fire)",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Purity of Fire",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Shrine Sceptre (Purity of Cold)",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Purity of Ice",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Shrine Sceptre (Purity of Lighting)",
+    "category": "sceptre",
+    "type": "Sceptre",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Purity of Lightning",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "sceptre"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Hardwood Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 5,
+      "PhysicalMax": 9,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Ironhead Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 5,
+      "dex": 10
+    },
+    "weapon": {
+      "PhysicalMin": 9,
+      "PhysicalMax": 12,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Hunting Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\n(15-25)% chance to Maim on Hit",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 10,
+      "str": 9,
+      "dex": 17
+    },
+    "weapon": {
+      "PhysicalMin": 10,
+      "PhysicalMax": 17,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Winged Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "str": 12,
+      "dex": 25
+    },
+    "weapon": {
+      "PhysicalMin": 12,
+      "PhysicalMax": 22,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.7,
+      "Range": 15
+    }
+  },
+  {
+    "id": "War Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\n(25-35)% increased Projectile Speed with this Weapon",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 21,
+      "str": 14,
+      "dex": 31
+    },
+    "weapon": {
+      "PhysicalMin": 16,
+      "PhysicalMax": 27,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Forked Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 26,
+      "str": 17,
+      "dex": 38
+    },
+    "weapon": {
+      "PhysicalMin": 13,
+      "PhysicalMax": 38,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Barbed Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\nBleeding you inflict deals Damage (10-20)% faster",
+    "implicitModTypes": [
+      [
+        "physical_damage",
+        "bleed",
+        "damage",
+        "physical",
+        "attack",
+        "ailment"
+      ]
+    ],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "str": 20,
+      "dex": 47
+    },
+    "weapon": {
+      "PhysicalMin": 20,
+      "PhysicalMax": 38,
+      "CritChanceBase": 6,
+      "AttackRateBase": 1.5,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Broad Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\n25% increased Melee Strike Range with this weapon",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 40,
+      "str": 26,
+      "dex": 55
+    },
+    "weapon": {
+      "PhysicalMin": 32,
+      "PhysicalMax": 48,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.4,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Crossblade Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\nPrevent +(3-7)% of Damage from Deflected Hits",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 26,
+      "dex": 63
+    },
+    "weapon": {
+      "PhysicalMin": 25,
+      "PhysicalMax": 52,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Seaglass Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 51,
+      "str": 29,
+      "dex": 71,
+      "int": 50
+    },
+    "weapon": {
+      "PhysicalMin": 29,
+      "PhysicalMax": 53,
+      "CritChanceBase": 7,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Sword Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "str": 29,
+      "dex": 72
+    },
+    "weapon": {
+      "PhysicalMin": 30,
+      "PhysicalMax": 56,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Striking Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 55,
+      "str": 31,
+      "dex": 76
+    },
+    "weapon": {
+      "PhysicalMin": 11,
+      "PhysicalMax": 45,
+      "LightningMin": 11,
+      "LightningMax": 45,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Helix Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "str": 36,
+      "dex": 89
+    },
+    "weapon": {
+      "PhysicalMin": 37,
+      "PhysicalMax": 68,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Steelhead Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 26,
+      "dex": 63
+    },
+    "weapon": {
+      "PhysicalMin": 33,
+      "PhysicalMax": 44,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Coursing Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\n(15-25)% chance to Maim on Hit",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 48,
+      "str": 27,
+      "dex": 67
+    },
+    "weapon": {
+      "PhysicalMin": 31,
+      "PhysicalMax": 52,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Swift Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\n(25-35)% increased Projectile Speed with this Weapon",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 51,
+      "str": 29,
+      "dex": 71
+    },
+    "weapon": {
+      "PhysicalMin": 32,
+      "PhysicalMax": 53,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Branched Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 54,
+      "str": 30,
+      "dex": 75
+    },
+    "weapon": {
+      "PhysicalMin": 23,
+      "PhysicalMax": 69,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Jagged Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\nBleeding you inflict deals Damage (10-20)% faster",
+    "implicitModTypes": [
+      [
+        "physical_damage",
+        "bleed",
+        "damage",
+        "physical",
+        "attack",
+        "ailment"
+      ]
+    ],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 59,
+      "str": 33,
+      "dex": 81
+    },
+    "weapon": {
+      "PhysicalMin": 33,
+      "PhysicalMax": 61,
+      "CritChanceBase": 6,
+      "AttackRateBase": 1.5,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Massive Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\n25% increased Melee Strike Range with this weapon",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 62,
+      "str": 40,
+      "dex": 80
+    },
+    "weapon": {
+      "PhysicalMin": 46,
+      "PhysicalMax": 69,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.4,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Orichalcum Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 67,
+      "str": 41,
+      "dex": 104
+    },
+    "weapon": {
+      "PhysicalMin": 46,
+      "PhysicalMax": 62,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Soaring Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 70,
+      "str": 41,
+      "dex": 115
+    },
+    "weapon": {
+      "PhysicalMin": 35,
+      "PhysicalMax": 65,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.7,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Pronged Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 72,
+      "str": 46,
+      "dex": 115
+    },
+    "weapon": {
+      "PhysicalMin": 30,
+      "PhysicalMax": 89,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Stalking Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\n(15-25)% chance to Maim on Hit",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 77,
+      "str": 50,
+      "dex": 127
+    },
+    "weapon": {
+      "PhysicalMin": 47,
+      "PhysicalMax": 79,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Flying Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\n(25-35)% increased Projectile Speed with this Weapon",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 78,
+      "str": 50,
+      "dex": 127
+    },
+    "weapon": {
+      "PhysicalMin": 46,
+      "PhysicalMax": 77,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Grand Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\n25% increased Melee Strike Range with this weapon",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 79,
+      "str": 68,
+      "dex": 109
+    },
+    "weapon": {
+      "PhysicalMin": 56,
+      "PhysicalMax": 84,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.4,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Spiked Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\nBleeding you inflict deals Damage (10-20)% faster",
+    "implicitModTypes": [
+      [
+        "physical_damage",
+        "bleed",
+        "damage",
+        "physical",
+        "attack",
+        "ailment"
+      ]
+    ],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 77,
+      "str": 50,
+      "dex": 127
+    },
+    "weapon": {
+      "PhysicalMin": 41,
+      "PhysicalMax": 76,
+      "CritChanceBase": 6,
+      "AttackRateBase": 1.5,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Guardian Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw\\nPrevent +(3-7)% of Damage from Deflected Hits",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 75,
+      "str": 50,
+      "dex": 127
+    },
+    "weapon": {
+      "PhysicalMin": 38,
+      "PhysicalMax": 79,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Akoyan Spear",
+    "category": "spear",
+    "type": "Spear",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Spear Throw",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "spear",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 78,
+      "str": 50,
+      "dex": 127,
+      "int": 90
+    },
+    "weapon": {
+      "PhysicalMin": 39,
+      "PhysicalMax": 72,
+      "CritChanceBase": 7,
+      "AttackRateBase": 1.6,
+      "Range": 15
+    }
+  },
+  {
+    "id": "Ashen Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Firebolt",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Gelid Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Freezing Shards",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_chaos_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [
+      "no_chaos_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Voltaic Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Lightning Bolt",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_physical_spell_mods",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_physical_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Spriggan Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Firebolt",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Pyrophyte Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Solar Orb",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Chiming Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Sigil of Power",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Rending Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Soulrend",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Reaping Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Reap",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Icicle Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Firebolt",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_chaos_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [
+      "no_chaos_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Roaring Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Unleash",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Paralysing Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Enervating Nova",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_physical_spell_mods",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_physical_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Sanctified Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Consecrate",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Dark Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Dark Pact",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Ravenous Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Feast of Flesh",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Permafrost Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Heart of Ice",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Reflecting Staff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "Grants Skill: Level (1-20) Mirror of Refraction",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "staff",
+      "twohand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Wrapped Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 7,
+      "PhysicalMax": 12,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Long Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "16% increased Melee Strike Range with this weapon",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "dex": 9
+    },
+    "weapon": {
+      "PhysicalMin": 9,
+      "PhysicalMax": 18,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Gothic Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 11,
+      "dex": 18,
+      "int": 9
+    },
+    "weapon": {
+      "PhysicalMin": 16,
+      "PhysicalMax": 26,
+      "CritChanceBase": 12,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Crackling Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "dex": 25,
+      "int": 12
+    },
+    "weapon": {
+      "PhysicalMin": 5,
+      "PhysicalMax": 22,
+      "LightningMin": 1,
+      "LightningMax": 35,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Crescent Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 20,
+      "dex": 30,
+      "int": 14
+    },
+    "weapon": {
+      "PhysicalMin": 19,
+      "PhysicalMax": 39,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.5,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Steelpoint Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 28,
+      "dex": 41,
+      "int": 18
+    },
+    "weapon": {
+      "PhysicalMin": 28,
+      "PhysicalMax": 51,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Slicing Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "vaal_basetype",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "dex": 47,
+      "int": 20
+    },
+    "weapon": {
+      "PhysicalMin": 29,
+      "PhysicalMax": 60,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Barrier Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "+(12-18)% to Block chance",
+    "implicitModTypes": [
+      [
+        "block"
+      ]
+    ],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "vaal_basetype",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 37,
+      "dex": 52,
+      "int": 22
+    },
+    "weapon": {
+      "PhysicalMin": 35,
+      "PhysicalMax": 58,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Hefty Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "(20-50)% chance to Daze on Hit",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "dex": 63,
+      "int": 26
+    },
+    "weapon": {
+      "PhysicalMin": 39,
+      "PhysicalMax": 81,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.3,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Smooth Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 49,
+      "dex": 68,
+      "int": 28
+    },
+    "weapon": {
+      "PhysicalMin": 59,
+      "PhysicalMax": 79,
+      "CritChanceBase": 0,
+      "AttackRateBase": 1.5,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Anima Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "dex": 72,
+      "int": 29
+    },
+    "weapon": {
+      "PhysicalMin": 47,
+      "PhysicalMax": 79,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Graceful Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 56,
+      "dex": 77,
+      "int": 31
+    },
+    "weapon": {
+      "PhysicalMin": 47,
+      "PhysicalMax": 87,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Wyrm Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "dex": 89,
+      "int": 36
+    },
+    "weapon": {
+      "PhysicalMin": 57,
+      "PhysicalMax": 94,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Reaching Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "16% increased Melee Strike Range with this weapon",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "dex": 63,
+      "int": 26
+    },
+    "weapon": {
+      "PhysicalMin": 35,
+      "PhysicalMax": 72,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Barbarous Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 48,
+      "dex": 67,
+      "int": 27
+    },
+    "weapon": {
+      "PhysicalMin": 42,
+      "PhysicalMax": 71,
+      "CritChanceBase": 12,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Arcing Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 51,
+      "dex": 71,
+      "int": 29
+    },
+    "weapon": {
+      "PhysicalMin": 14,
+      "PhysicalMax": 55,
+      "LightningMin": 1,
+      "LightningMax": 75,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Waxing Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 54,
+      "dex": 75,
+      "int": 30
+    },
+    "weapon": {
+      "PhysicalMin": 39,
+      "PhysicalMax": 82,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.5,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Bladed Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 59,
+      "dex": 81,
+      "int": 33
+    },
+    "weapon": {
+      "PhysicalMin": 45,
+      "PhysicalMax": 94,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Guardian Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "+(12-18)% to Block chance",
+    "implicitModTypes": [
+      [
+        "block"
+      ]
+    ],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 62,
+      "dex": 85,
+      "int": 34
+    },
+    "weapon": {
+      "PhysicalMin": 52,
+      "PhysicalMax": 86,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Sinister Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 67,
+      "dex": 104,
+      "int": 41
+    },
+    "weapon": {
+      "PhysicalMin": 55,
+      "PhysicalMax": 91,
+      "CritChanceBase": 12,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Lunar Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 72,
+      "dex": 115,
+      "int": 46
+    },
+    "weapon": {
+      "PhysicalMin": 50,
+      "PhysicalMax": 103,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.5,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Striking Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "16% increased Melee Strike Range with this weapon",
+    "implicitModTypes": [
+      [
+        "attack"
+      ]
+    ],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 77,
+      "dex": 127,
+      "int": 50
+    },
+    "weapon": {
+      "PhysicalMin": 53,
+      "PhysicalMax": 111,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Bolting Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 78,
+      "dex": 127,
+      "int": 50
+    },
+    "weapon": {
+      "PhysicalMin": 24,
+      "PhysicalMax": 97,
+      "LightningMin": 1,
+      "LightningMax": 100,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Aegis Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "+(12-18)% to Block chance",
+    "implicitModTypes": [
+      [
+        "block"
+      ]
+    ],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 79,
+      "dex": 127,
+      "int": 50
+    },
+    "weapon": {
+      "PhysicalMin": 58,
+      "PhysicalMax": 97,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Razor Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 77,
+      "dex": 127,
+      "int": 50
+    },
+    "weapon": {
+      "PhysicalMin": 65,
+      "PhysicalMax": 108,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.4,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Skullcrusher Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": "(20-50)% chance to Daze on Hit",
+    "implicitModTypes": [
+      []
+    ],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 75,
+      "dex": 127,
+      "int": 50
+    },
+    "weapon": {
+      "PhysicalMin": 59,
+      "PhysicalMax": 122,
+      "CritChanceBase": 10,
+      "AttackRateBase": 1.3,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Dreaming Quarterstaff",
+    "category": "staff",
+    "type": "Staff",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "karui_basetype",
+      "two_hand_weapon",
+      "twohand",
+      "warstaff",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 78,
+      "dex": 127,
+      "int": 50
+    },
+    "weapon": {
+      "PhysicalMin": 99,
+      "PhysicalMax": 133,
+      "CritChanceBase": 0,
+      "AttackRateBase": 1.5,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Golden Blade",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 6,
+      "PhysicalMax": 9,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Energy Blade One Handed",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "not_for_sale",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 0,
+      "PhysicalMax": 0,
+      "CritChanceBase": 7,
+      "AttackRateBase": 1.7,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Shortsword",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 6,
+      "PhysicalMax": 9,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Broadsword",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 6,
+      "str": 9,
+      "dex": 9
+    },
+    "weapon": {
+      "PhysicalMin": 8,
+      "PhysicalMax": 13,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Vampiric Blade",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 11,
+      "str": 14,
+      "dex": 14
+    },
+    "weapon": {
+      "PhysicalMin": 11,
+      "PhysicalMax": 20,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Scimitar",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "str": 19,
+      "dex": 19
+    },
+    "weapon": {
+      "PhysicalMin": 14,
+      "PhysicalMax": 23,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Charred Shortsword",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 21,
+      "str": 23,
+      "dex": 23
+    },
+    "weapon": {
+      "PhysicalMin": 19,
+      "PhysicalMax": 34,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Sickle Sword",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 28,
+      "str": 29,
+      "dex": 29
+    },
+    "weapon": {
+      "PhysicalMin": 18,
+      "PhysicalMax": 38,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Falchion",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "str": 34,
+      "dex": 34
+    },
+    "weapon": {
+      "PhysicalMin": 27,
+      "PhysicalMax": 37,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Treasured Blade",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 40,
+      "str": 40,
+      "dex": 40
+    },
+    "weapon": {
+      "PhysicalMin": 27,
+      "PhysicalMax": 45,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Cutlass",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 45,
+      "dex": 45
+    },
+    "weapon": {
+      "PhysicalMin": 33,
+      "PhysicalMax": 49,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Runic Shortsword",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 50,
+      "str": 49,
+      "dex": 49
+    },
+    "weapon": {
+      "PhysicalMin": 26,
+      "PhysicalMax": 55,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.65,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Messer",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "str": 51,
+      "dex": 51
+    },
+    "weapon": {
+      "PhysicalMin": 30,
+      "PhysicalMax": 56,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.6,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Commander Sword",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 54,
+      "str": 53,
+      "dex": 53
+    },
+    "weapon": {
+      "PhysicalMin": 36,
+      "PhysicalMax": 60,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.5,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Dark Blade",
+    "category": "sword",
+    "type": "One Hand Sword",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "one_hand_weapon",
+      "onehand",
+      "sword",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "str": 63,
+      "dex": 63
+    },
+    "weapon": {
+      "PhysicalMin": 43,
+      "PhysicalMax": 65,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.55,
+      "Range": 11
+    }
+  },
+  {
+    "id": "Keyblade",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "not_for_sale",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 1,
+      "PhysicalMax": 1,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.2,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Energy Blade Two Handed",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "not_for_sale",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 0,
+      "PhysicalMax": 0,
+      "CritChanceBase": 7,
+      "AttackRateBase": 1.6,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Corroded Longsword",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": {
+      "PhysicalMin": 9,
+      "PhysicalMax": 16,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.3,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Iron Greatsword",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 6,
+      "str": 9,
+      "dex": 9
+    },
+    "weapon": {
+      "PhysicalMin": 13,
+      "PhysicalMax": 23,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.35,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Blessed Claymore",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "ezomyte_basetype",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 11,
+      "str": 14,
+      "dex": 14
+    },
+    "weapon": {
+      "PhysicalMin": 19,
+      "PhysicalMax": 32,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.3,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Broad Greatsword",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 16,
+      "str": 19,
+      "dex": 19
+    },
+    "weapon": {
+      "PhysicalMin": 25,
+      "PhysicalMax": 42,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.25,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Rippled Greatsword",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 22,
+      "str": 24,
+      "dex": 24
+    },
+    "weapon": {
+      "PhysicalMin": 28,
+      "PhysicalMax": 52,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.3,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Arced Longsword",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "maraketh_basetype",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 28,
+      "str": 29,
+      "dex": 29
+    },
+    "weapon": {
+      "PhysicalMin": 31,
+      "PhysicalMax": 58,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.35,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Stone Greatsword",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 33,
+      "str": 34,
+      "dex": 34
+    },
+    "weapon": {
+      "PhysicalMin": 40,
+      "PhysicalMax": 67,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.3,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Obsidian Greatsword",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "vaal_basetype",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 36,
+      "str": 37,
+      "dex": 37
+    },
+    "weapon": {
+      "PhysicalMin": 49,
+      "PhysicalMax": 73,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.25,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Keen Greatsword",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 45,
+      "str": 45,
+      "dex": 45
+    },
+    "weapon": {
+      "PhysicalMin": 45,
+      "PhysicalMax": 94,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.3,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Ancient Greatblade",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 49,
+      "str": 49,
+      "dex": 49
+    },
+    "weapon": {
+      "PhysicalMin": 55,
+      "PhysicalMax": 103,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.25,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Flanged Greatblade",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 52,
+      "str": 51,
+      "dex": 51
+    },
+    "weapon": {
+      "PhysicalMin": 51,
+      "PhysicalMax": 106,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.3,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Regalia Longsword",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 54,
+      "str": 53,
+      "dex": 53
+    },
+    "weapon": {
+      "PhysicalMin": 61,
+      "PhysicalMax": 92,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.35,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Ultra Greatsword",
+    "category": "sword",
+    "type": "Two Hand Sword",
+    "quality": 20,
+    "socketLimit": 4,
+    "implicit": null,
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "sword",
+      "two_hand_weapon",
+      "twohand",
+      "weapon"
+    ],
+    "excludeTags": [],
+    "req": {
+      "level": 65,
+      "str": 63,
+      "dex": 63
+    },
+    "weapon": {
+      "PhysicalMin": 72,
+      "PhysicalMax": 119,
+      "CritChanceBase": 5,
+      "AttackRateBase": 1.3,
+      "Range": 13
+    }
+  },
+  {
+    "id": "Withered Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Chaos Bolt",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Bone Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Bone Blast",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Attuned Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Mana Drain",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Siphoning Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Power Siphon",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Volatile Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Volatile Dead",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Galvanic Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Galvanic Field",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_physical_spell_mods",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_physical_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Acrid Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Decompose",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Offering Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Exsanguinate",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [
+      "no_chaos_spell_mods",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Frigid Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Chaos Bolt",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_chaos_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [
+      "no_chaos_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Torture Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Chaos Bolt",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Critical Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Chaos Bolt",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Primordial Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Wither",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [
+      "no_cold_spell_mods",
+      "no_fire_spell_mods",
+      "no_lightning_spell_mods",
+      "no_physical_spell_mods"
+    ],
+    "req": {},
+    "weapon": null
+  },
+  {
+    "id": "Dueling Wand",
+    "category": "wand",
+    "type": "Wand",
+    "quality": 20,
+    "socketLimit": 3,
+    "implicit": "Grants Skill: Level (1-20) Spellslinger",
+    "implicitModTypes": [],
+    "tags": [
+      "default",
+      "onehand",
+      "wand"
+    ],
+    "excludeTags": [],
+    "req": {},
+    "weapon": null
+  }
+]

@@ -1,0 +1,6894 @@
+[
+  {
+    "name": "The Anvil",
+    "baseType": "Bloodstone Amulet",
+    "variants": [
+      "Pre 0.2.0",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [
+      "{tags:life}+(30-40) to maximum Life"
+    ],
+    "explicits": [
+      "{tags:speed}10% reduced Movement Speed",
+      "{tags:speed}10% reduced Skill Speed",
+      "{tags:defences}(25-50)% increased Armour",
+      "25% increased Block chance",
+      "+(5-10)% to maximum Block chance"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Astramentis",
+    "baseType": "Stellar Amulet",
+    "variants": [
+      "Pre 0.2.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "{tags:attribute}+(5-7) to all Attributes"
+    ],
+    "explicits": [
+      "{tags:attribute}+(50-100) to all Attributes",
+      "{tags:physical,attack}-4 Physical Damage taken from Attack Hits"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Beacon of Azis",
+    "baseType": "Solar Amulet",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "+(10-15) to Spirit"
+    ],
+    "explicits": [
+      "{tags:mana}+(60-100) to maximum Mana",
+      "+30 to Spirit",
+      "30% increased Light Radius",
+      "Critical Hits ignore Enemy Monster Elemental Resistances"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Carnage Heart",
+    "baseType": "Amber Amulet",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "{tags:attribute}+(10-15) to Strength"
+    ],
+    "explicits": [
+      "{tags:life}20% reduced maximum Life",
+      "{tags:attribute}+(10-20) to all Attributes",
+      "{tags:fire,cold,lightning}+(10-20)% to all Elemental Resistances",
+      "(100-200)% increased amount of Life Leeched"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Choir of the Storm",
+    "baseType": "Jade Amulet",
+    "source": "Drops from unique{Xesht, We That Are One} in normal{Twisted Domain}",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Level (1-20) Lightning Bolt",
+      "{tags:attribute}+(10-15) to Dexterity"
+    ],
+    "explicits": [
+      "{tags:lightning}+(50-100)% to Lightning Resistance",
+      "{tags:lightning}Critical Hits Ignore Enemy Monster Lightning Resistance",
+      "Trigger Lightning Bolt Skill on Critical Hit"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Defiance of Destiny",
+    "baseType": "Jade Amulet",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.2.1",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 4,
+    "implicits": [
+      "{tags:attribute}+(10-15) to Dexterity"
+    ],
+    "explicits": [
+      "{tags:life}(6-10)% increased maximum Life",
+      "{tags:attribute}+(10-20) to Strength",
+      "{tags:mana}(25-40)% increased Mana Regeneration Rate",
+      "{tags:life}Recover (20-30)% of Missing Life before being Hit by an Enemy"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "The Everlasting Gaze",
+    "baseType": "Azure Amulet",
+    "variants": [
+      "Pre 0.2.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "{tags:mana}(20-30)% increased Mana Regeneration Rate"
+    ],
+    "explicits": [
+      "{tags:mana}+(40-60) to maximum Mana",
+      "{tags:mana}50% increased Mana Regeneration Rate",
+      "{tags:defences}Gain (4-6)% of maximum Mana as Extra maximum Energy Shield"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Eye of Chayula",
+    "baseType": "Gold Amulet",
+    "variants": [
+      "Pre 0.2.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "(12-20)% increased Rarity of Items found"
+    ],
+    "explicits": [
+      "{tags:life}(20-30)% reduced maximum Life",
+      "{tags:attribute}+(10-15) to all Attributes",
+      "Cannot be Light Stunned"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Fireflower",
+    "baseType": "Solar Amulet",
+    "variants": [
+      "Pre 0.2.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "+(10-15) to Spirit"
+    ],
+    "explicits": [
+      "(10-15)% increased Rarity of Items found",
+      "{tags:mana}(30-40)% increased Mana Regeneration Rate",
+      "{tags:fire}Take 100 Fire Damage when you Ignite an Enemy",
+      "{tags:fire}+(1-4) to Level of all Fire Skills"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Fixation of Yix",
+    "baseType": "Stellar Amulet",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:attribute}+(5-7) to all Attributes"
+    ],
+    "explicits": [
+      "{tags:life}+100 to maximum Life",
+      "Allies in your Presence have (30-50)% increased Critical Hit Chance",
+      "Allies in your Presence have (30-50)% increased Critical Damage Bonus",
+      "{tags:attack,speed}Allies in your Presence have (10-20)% increased Attack Speed",
+      "{tags:caster,speed}Allies in your Presence have (10-20)% increased Cast Speed",
+      "50% reduced Presence Area of Effect"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Hinekora's Sight",
+    "baseType": "Stellar Amulet",
+    "league": "Rise of the Abyssal",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Future-Past",
+      "{tags:attribute}+(5-7) to all Attributes"
+    ],
+    "explicits": [
+      "{tags:attack}+(300-600) to Accuracy Rating",
+      "{tags:defences}+(300-600) to Evasion Rating",
+      "Cannot be Blinded"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Idol of Uldurn",
+    "baseType": "Crimson Amulet",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:life}(2-4) Life Regeneration per second"
+    ],
+    "explicits": [
+      "{tags:life}+(60-80) to maximum Life",
+      "{tags:attribute}+(10-20) to Dexterity",
+      "Skills have +1 to Limit"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Igniferis",
+    "baseType": "Crimson Amulet",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:life}(2-4) Life Regeneration per second"
+    ],
+    "explicits": [
+      "{tags:fire}+(10-20)% to Fire Resistance",
+      "{tags:mana}(20-30)% increased Mana Regeneration Rate",
+      "25% reduced Light Radius",
+      "Life Recovery from Regeneration is not applied",
+      "Every 4 seconds, Recover 1 Life for every 0.2 Life Recovery per second from Regeneration"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Ligurium Talisman",
+    "baseType": "Lapis Amulet",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:attribute}+(10-15) to Intelligence"
+    ],
+    "explicits": [
+      "{tags:defences}+(30-40) to maximum Energy Shield",
+      "+(25-35) to Spirit",
+      "{tags:attribute}+(20-30) to Intelligence",
+      "Life Regeneration is applied to Energy Shield instead"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "The Pandemonius",
+    "baseType": "Lapis Amulet",
+    "source": "Drops from unique{Xesht, We That Are One} in normal{Twisted Domain}",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "{tags:attribute}+(10-15) to Intelligence"
+    ],
+    "explicits": [
+      "{tags:cold}+(50-100)% to Cold Resistance",
+      "{tags:cold}Damage Penetrates 75% Cold Resistance",
+      "Blind Chilled enemies on Hit"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Revered Resin",
+    "baseType": "Amber Amulet",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:attribute}+(10-15) to Strength"
+    ],
+    "explicits": [
+      "{tags:life}+(40-60) to maximum Life",
+      "{tags:life}(20-30)% increased Flask Life Recovery rate",
+      "Life Flasks gain (0.17-0.25) charges per Second"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Rondel of Fragility",
+    "baseType": "Lunar Amulet",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:defences}+(20-30) to maximum Energy Shield"
+    ],
+    "explicits": [
+      "{tags:speed}(15-30)% increased Skill Speed",
+      "(20-30)% increased Critical Hit Chance",
+      "{tags:fire,cold,lightning}-30% to all Elemental Resistances",
+      "(30-50)% increased Damage"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Serpent's Egg",
+    "baseType": "Gold Amulet",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(12-20)% increased Rarity of Items found"
+    ],
+    "explicits": [
+      "{tags:attribute}+(10-20) to all Attributes",
+      "{tags:chaos}+(17-23)% to Chaos Resistance",
+      "{tags:mana}(20-30)% increased Mana Regeneration Rate",
+      "Gain an additional Charge when you gain a Charge"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Stone of Lazhwar",
+    "baseType": "Lapis Amulet",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:attribute}+(10-15) to Intelligence"
+    ],
+    "explicits": [
+      "{tags:mana}+(50-100) to maximum Mana",
+      "{tags:caster,speed}(15-25)% increased Cast Speed",
+      "+(15-25)% to Block Chance while holding a Focus"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Surefooted Sigil",
+    "baseType": "Jade Amulet",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:attribute}+(10-15) to Dexterity"
+    ],
+    "explicits": [
+      "{tags:life}+(40-60) to maximum Life",
+      "{tags:attribute}+(5-15) to Dexterity",
+      "+1 metre to Dodge Roll distance",
+      "50% increased Evasion Rating if you've Dodge Rolled Recently"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Strugglescream",
+    "baseType": "Stellar Amulet",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "{tags:attribute}+(5-7) to all Attributes"
+    ],
+    "explicits": [
+      "Can have 3 additional Instilled Modifiers"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Ungil's Harmony",
+    "baseType": "Azure Amulet",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "{tags:mana}(20-30)% increased Mana Regeneration Rate"
+    ],
+    "explicits": [
+      "{tags:life}+(30-50) to maximum Life",
+      "{tags:mana}+(30-50) to maximum Mana",
+      "(100-200)% increased Critical Hit Chance",
+      "+(60-100) to Stun Threshold",
+      "Your Critical Hits do not deal extra Damage"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Xoph's Blood",
+    "baseType": "Amber Amulet",
+    "source": "Drops from unique{Xesht, We That Are One} in normal{Twisted Domain}",
+    "variants": [
+      "Pre 0.3.0",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [
+      "{tags:attribute}+(10-15) to Strength"
+    ],
+    "explicits": [
+      "{tags:life}(10-20)% increased maximum Life",
+      "{tags:fire}+(20-30)% to Fire Resistance",
+      "Enemies in your Presence have -25% to Fire Resistance"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Yoke of Suffering",
+    "baseType": "Bloodstone Amulet",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.2.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "{tags:life}+(30-40) to maximum Life"
+    ],
+    "explicits": [
+      "{tags:fire,cold,lightning}+(10-15)% to all Elemental Resistances",
+      "(15-30)% increased Elemental Damage",
+      "Enemies take (15-20)% increased Damage for each Elemental Ailment type among",
+      "your Ailments on them",
+      "(30-40)% reduced Duration of Ignite, Shock and Chill on Enemies"
+    ],
+    "category": "amulet"
+  },
+  {
+    "name": "Bijouborne",
+    "baseType": "Double Belt",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "+(50-100) to maximum Mana",
+      "Has (1-3) Charm Slot"
+    ],
+    "explicits": [
+      "(10-50)% reduced Charm Effect Duration",
+      "+2 Charm Slots",
+      "+(15-25) to Dexterity",
+      "(20-30)% increased Charm Charges gained"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Birthright Buckle",
+    "baseType": "Wide Belt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Has (1-3) Charm Slot",
+      "(20-30)% increased Flask Charges gained"
+    ],
+    "explicits": [
+      "+(100-150) to Armour",
+      "(10-15)% reduced Flask Charges used",
+      "(20-30)% increased Flask Charges gained",
+      "Life Flasks used while on Low Life apply Recovery Instantly",
+      "Mana Flasks used while on Low Mana apply Recovery Instantly"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Byrnabas",
+    "baseType": "Wide Belt",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Has (1-3) Charm Slot",
+      "(20-30)% increased Flask Charges gained"
+    ],
+    "explicits": [
+      "+(40-60) to maximum Mana",
+      "+(30-40)% to Lightning Resistance",
+      "(7-12) Life Regeneration per second",
+      "Cannot be Shocked"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Coward's Legacy",
+    "baseType": "Mail Belt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(10-15)% reduced Flask Charges used",
+      "Has (1-3) Charm Slot"
+    ],
+    "explicits": [
+      "-(20-10) to Strength",
+      "+(20-30) to Dexterity",
+      "(30-40)% increased Life and Mana Recovery from Flasks",
+      "You are considered on Low Life while at 75% of maximum Life or below instead"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Darkness Enthroned",
+    "baseType": "Fine Belt",
+    "league": "Rise of the Abyssal",
+    "variants": [
+      "Helmet",
+      "Body Armour",
+      "Gloves",
+      "Boots",
+      "Shield"
+    ],
+    "currentVariant": 5,
+    "implicits": [
+      "Has (1-3) Charm Slot",
+      "Flasks gain 0.17 charges per Second"
+    ],
+    "explicits": [
+      "This item gains bonuses from Socketed Items as though it was a Shield",
+      "(50-100)% increased effect of Socketed Items"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "The Gnashing Sash",
+    "baseType": "Wide Belt",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Has (1-3) Charm Slot",
+      "(20-30)% increased Flask Charges gained"
+    ],
+    "explicits": [
+      "(15-35)% increased Flask Life Recovery rate",
+      "+(17-23)% to Chaos Resistance",
+      "Lose 5% of maximum Life per second",
+      "Life Recovery from Flasks can Overflow Maximum Life"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Goregirdle",
+    "baseType": "Plate Belt",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "+(100-140) to Armour",
+      "Has (1-3) Charm Slot"
+    ],
+    "explicits": [
+      "+(20-30) to Strength",
+      "(10-20) Life Regeneration per second",
+      "Defend with 200% of Armour",
+      "Maximum Physical Damage Reduction is 50%"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Headhunter",
+    "baseType": "Heavy Belt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(20-30)% increased Stun Threshold",
+      "Has (1-3) Charm Slot"
+    ],
+    "explicits": [
+      "+(40-60) to maximum Life",
+      "+(20-40) to Strength",
+      "+(20-40) to Dexterity",
+      "When you kill a Rare monster, you gain its Modifiers for 60 seconds"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Infernoclasp",
+    "baseType": "Plate Belt",
+    "source": "No longer obtainable",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "+(100-140) to Armour",
+      "Has (1-3) Charm Slot"
+    ],
+    "explicits": [
+      "+(100-150) to Armour",
+      "+(10-20) to Strength",
+      "+(3-5)% to Maximum Fire Resistance",
+      "+(30-50)% to Fire Resistance"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Ingenuity",
+    "baseType": "Utility Belt",
+    "source": "Drops from unique{The King in the Mists} in normal{Crux of Nothingness}",
+    "variants": [
+      "Pre 0.2.0",
+      "Pre 0.2.0F",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [
+      "Has (1-3) Charm Slot",
+      "20% of Flask Recovery applied Instantly"
+    ],
+    "explicits": [
+      "(-20-20)% reduced Charm Charges gained",
+      "(-10-10)% reduced Charm Charges used",
+      "(20-30)% increased bonuses gained from left Equipped Ring",
+      "(20-30)% increased bonuses gained from right Equipped Ring"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Keelhaul",
+    "baseType": "Linen Belt",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "(20-30)% increased Mana Recovery from Flasks",
+      "Has (1-3) Charm Slot"
+    ],
+    "explicits": [
+      "(-25-25)% reduced Flask Life Recovery rate",
+      "(-25-25)% reduced Flask Mana Recovery rate",
+      "Life Flasks gain 0.25 charges per Second",
+      "Mana Flasks gain 0.25 charges per Second"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Meginord's Girdle",
+    "baseType": "Rawhide Belt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(20-30)% increased Life Recovery from Flasks",
+      "Has (1-3) Charm Slot"
+    ],
+    "explicits": [
+      "+(40-50) to Strength",
+      "+(10-15)% to Cold Resistance",
+      "50% increased Flask Charges used",
+      "100% increased Flask Charges gained"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Midnight Braid",
+    "baseType": "Rawhide Belt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(20-30)% increased Life Recovery from Flasks",
+      "Has (1-3) Charm Slot"
+    ],
+    "explicits": [
+      "+(30-50) to maximum Mana",
+      "+(5-10)% to all Elemental Resistances",
+      "50% of Damage taken Recouped as Mana"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Ryslatha's Coil",
+    "baseType": "Ornate Belt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Has (1-3) Charm Slot",
+      "(10-15)% reduced Charm Charges used"
+    ],
+    "explicits": [
+      "+(80-100) to maximum Life",
+      "(30-50)% increased Flask Life Recovery rate",
+      "(30-40)% more maximum Physical Attack Damage",
+      "(30-40)% less minimum Physical Attack Damage"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Shavronne's Satchel",
+    "baseType": "Fine Belt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Has (1-3) Charm Slot",
+      "Flasks gain 0.17 charges per Second"
+    ],
+    "explicits": [
+      "(20-30)% reduced Flask Life Recovery rate",
+      "+(20-30) to Intelligence",
+      "(20-30)% increased Flask Charges gained",
+      "Life Recovery from Flasks also applies to Energy Shield"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Soul Tether",
+    "baseType": "Long Belt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(15-20)% increased Charm Effect Duration",
+      "Has (1-3) Charm Slot"
+    ],
+    "explicits": [
+      "+(40-60) to maximum Energy Shield",
+      "+(20-30) to Intelligence",
+      "You lose 5% of maximum Energy Shield per second",
+      "Excess Life Recovery from Leech is applied to Energy Shield"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Umbilicus Immortalis",
+    "baseType": "Linen Belt",
+    "league": "Rise of the Abyssal",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(20-30)% increased Mana Recovery from Flasks",
+      "Has (1-3) Charm Slot"
+    ],
+    "explicits": [
+      "(30-40)% reduced Flask Effect Duration",
+      "+(20-30) to Intelligence",
+      "Minions have (20-30)% increased maximum Life",
+      "Your Life Flask also applies to your Minions",
+      "Minions cannot Die while affected by a Life Flask",
+      "(20-30)% increased Flask Charges gained"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Waistgate Heavy Belt",
+    "baseType": "Heavy Belt",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(20-30)% increased Stun Threshold",
+      "Has (1-3) Charm Slot"
+    ],
+    "explicits": [
+      "+(50-80) to maximum Life",
+      "+(50-80) to maximum Mana",
+      "(20-30)% increased Flask Life Recovery rate",
+      "(20-30)% increased Flask Mana Recovery rate",
+      "Life and Mana Flasks can be equipped in either slot"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Zerphi's Genesis",
+    "baseType": "Heavy Belt",
+    "source": "Drops from unique{Trialmaster} in normal{The Trial of Chaos}",
+    "variants": [
+      "Pre 0.2.0f",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "(20-30)% increased Stun Threshold",
+      "Has (1-3) Charm Slot"
+    ],
+    "explicits": [
+      "+(10-30) to Strength",
+      "Corrupted Blood cannot be inflicted on you",
+      "50% of charges used by Charms granted to your Life Flasks",
+      "(10-30)% increased Charm Charges used"
+    ],
+    "category": "belt"
+  },
+  {
+    "name": "Atziri's Splendour",
+    "baseType": "Sacrificial Regalia",
+    "league": "Fate of the Vaal",
+    "source": "Drops from unique{Atziri's Vault} in normal{Vaal Temple}",
+    "variants": [
+      "Helmet",
+      "Gloves",
+      "Boots",
+      "Shield"
+    ],
+    "currentVariant": 4,
+    "implicits": [],
+    "explicits": [
+      "Sockets: S S S S S S",
+      "Implicits: 1",
+      "+1 to Level of all Corrupted Skill Gems",
+      "Only Soul Cores can be Socketed in this item",
+      "This item gains bonuses from Socketed Soul Cores as though it was also a Shield",
+      "Has no Attribute Requirements",
+      "(80-120)% increased Armour, Evasion and Energy Shield",
+      "+(10-20)% to all Elemental Resistances",
+      "Skills from Corrupted Gems have 50% of Mana Costs Converted to Life Costs"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Blackbraid",
+    "baseType": "Fur Plate",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "+(40-60) to Armour",
+      "+(5-15) to Strength",
+      "+(5-15) to Intelligence",
+      "+10% to all Elemental Resistances",
+      "+(100-150)% of Armour also applies to Elemental Damage",
+      "+(40-60) to Stun Threshold"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Bramblejack",
+    "baseType": "Rusted Cuirass",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(60-100) to maximum Life",
+      "+(60-100) to Stun Threshold",
+      "Cannot Evade Enemy Attacks",
+      "250% of Melee Physical Damage taken reflected to Attacker",
+      "Regenerate 5% of maximum Life per second while Surrounded"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "The Brass Dome",
+    "baseType": "Champion Cuirass",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "(700-800)% increased Armour",
+      "-(5-1)% to all Maximum Elemental Resistances",
+      "+(200-300) to Stun Threshold",
+      "Take no Extra Damage from Critical Hits"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Edyrn's Tusks",
+    "baseType": "Iron Cuirass",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(120-160)% increased Armour",
+      "50% chance to inflict Bleeding on Hit",
+      "50% reduced Slowing Potency of Debuffs on You",
+      "(15-20) to (25-30) Physical Thorns damage"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Greed's Embrace",
+    "baseType": "Vaal Cuirass",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "50% increased Strength Requirement",
+      "20% reduced Movement Speed",
+      "(100-150)% increased Armour",
+      "(30-50)% increased Rarity of Items found",
+      "+(20-30)% to Fire Resistance"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "The Road Warrior",
+    "baseType": "Raider Plate",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(10-15) to all Attributes",
+      "+(15-30)% to Fire Resistance",
+      "+(15-30)% to Lightning Resistance",
+      "(10-15) Life Regeneration per second",
+      "Moving while Bleeding doesn't cause you to take extra damage"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Kaom's Heart",
+    "baseType": "Conqueror Plate",
+    "variants": [
+      "Pre 0.2.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "(30-40)% increased Stun Threshold"
+    ],
+    "explicits": [
+      "+1500 to maximum Life",
+      "You have no Spirit"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Kingsguard",
+    "baseType": "Full Plate",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(60-80) to maximum Life",
+      "+(40-60) to maximum Mana",
+      "+(5-10)% to all Elemental Resistances",
+      "25% reduced Endurance Charge Duration",
+      "Recover 5% of maximum Life for each Endurance Charge consumed"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Titanrot Cataphract",
+    "baseType": "Maraketh Cuirass",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(400-500)% increased Armour",
+      "(15-30)% increased Strength",
+      "10% reduced Dexterity",
+      "10% reduced Intelligence",
+      "You have no Life Regeneration"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Wandering Reliquary",
+    "baseType": "Steel Plate",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(50-100)% increased Armour",
+      "+(40-60) to maximum Mana",
+      "+(10-20) to Strength",
+      "+(60-80) to Stun Threshold",
+      "50% of Physical Damage prevented Recouped as Life"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Ashrend",
+    "baseType": "Pathfinder Coat",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(40-60) to maximum Life",
+      "+(10-20) to Strength",
+      "+(30-40)% to Fire Resistance",
+      "Cannot be Ignited",
+      "-10 Physical Damage taken from Attack Hits"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Briskwrap",
+    "baseType": "Rhoahide Coat",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "(60-100)% increased Evasion Rating",
+      "(40-60)% increased Flask Life Recovery rate",
+      "(40-60)% increased Flask Mana Recovery rate",
+      "+(20-30) to Dexterity",
+      "+(20-30)% to Cold Resistance",
+      "Gain Deflection Rating equal to (20-30)% of Evasion Rating"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Bristleboar",
+    "baseType": "Leather Vest",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "50% reduced Evasion Rating",
+      "+(40-60) to maximum Life",
+      "(3-5) Life Regeneration per second",
+      "Gain 5 Rage when Hit by an Enemy",
+      "Gain 10 Rage when Critically Hit by an Enemy"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Dustbloom",
+    "baseType": "Studded Vest",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Evasion Rating",
+      "+(20-30)% to Cold Resistance",
+      "Maximum 10 Fragile Regrowth",
+      "0.5% of maximum Life Regenerated per second per Fragile Regrowth",
+      "10% increased Mana Regeneration Rate per Fragile Regrowth",
+      "Lose all Fragile Regrowth when Hit",
+      "Gain 1 Fragile Regrowth each second"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Foxshade",
+    "baseType": "Quilted Vest",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(50-70) to Evasion Rating",
+      "+(20-30) to Dexterity",
+      "10% increased Movement Speed when on Full Life",
+      "100% increased Evasion Rating when on Full Life"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Hyrri's Ire",
+    "baseType": "Armoured Vest",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "(30-40)% increased Elemental Ailment Threshold"
+    ],
+    "explicits": [
+      "(200-250)% increased Evasion Rating",
+      "Gain (15-25)% of Damage as Extra Cold Damage",
+      "+(30-40) to Dexterity",
+      "25% increased Freeze Duration on Enemies",
+      "Evasion Rating is doubled if you have not been Hit Recently"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Quatl's Molt",
+    "baseType": "Serpentscale Coat",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "(60-80)% increased Evasion Rating",
+      "+(60-80) to maximum Life",
+      "+(17-23)% to Chaos Resistance",
+      "Gain Deflection Rating equal to (40-60)% of Evasion Rating",
+      "(10-20) Life Regeneration per second",
+      "Cannot be Poisoned"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Queen of the Forest",
+    "baseType": "Smuggler Coat",
+    "variants": [
+      "Pre 0.2.0",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Evasion Rating",
+      "-(15-10)% to Fire Resistance",
+      "+(25-30)% to Cold Resistance",
+      "+(10-15)% to Lightning Resistance",
+      "Increases Movement Speed by 25%, plus 1% per 600 Evasion Rating, up to a maximum of 75%",
+      "Other Modifiers to Movement Speed except for Sprinting do not apply"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "The Rat Cage",
+    "baseType": "Scout's Vest",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Evasion Rating",
+      "+300 to maximum Life",
+      "25% reduced Attribute Requirements",
+      "100% of Fire Damage from Hits taken as Physical Damage"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Sands of Silk",
+    "baseType": "Shrouded Vest",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Blink"
+    ],
+    "explicits": [
+      "(50-100)% increased Evasion Rating",
+      "+(50-80) to maximum Mana",
+      "+(10-20) to Dexterity",
+      "+(10-20) to Intelligence",
+      "+(10-15)% to Fire Resistance",
+      "(15-30)% increased Cooldown Recovery Rate"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Yriel's Fostering",
+    "baseType": "Strider Vest",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Evasion Rating",
+      "+(80-120) to maximum Life",
+      "+(10-30) to Spirit",
+      "(40-60)% reduced Poison Duration on you",
+      "You can have two Companions of different types",
+      "(40-60)% reduced Duration of Bleeding on You"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Bitterbloom",
+    "baseType": "Feathered Robe",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(50-100)% increased Energy Shield",
+      "+(50-100) to maximum Mana",
+      "50% increased Energy Shield Recharge Rate",
+      "Energy Shield Recharge starts when you use a Mana Flask"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "The Black Doubt",
+    "baseType": "Hexer's Robe",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(60-100)% increased Energy Shield",
+      "+(10-30) to Intelligence",
+      "+(10-20)% to Cold Resistance",
+      "Damage over Time bypasses your Energy Shield",
+      "While not on Full Life, Sacrifice 10% of maximum Mana per Second to Recover that much Life"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Cloak of Defiance",
+    "baseType": "Havoc Raiment",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(50-100)% increased Energy Shield",
+      "+(100-150) to maximum Mana",
+      "(50-100)% increased Mana Regeneration Rate",
+      "50% of Damage is taken from Mana before Life"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Cloak of Flame",
+    "baseType": "Silk Robe",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(30-50) to maximum Energy Shield",
+      "+(30-50)% to Fire Resistance",
+      "(30-50)% reduced Ignite Duration on you",
+      "50% of Physical Damage taken as Fire Damage",
+      "25 to 35 Fire Thorns damage"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "The Covenant",
+    "baseType": "Altar Robe",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Grants Skill: Level 14 Life Remnants",
+      "(100-150)% increased Energy Shield",
+      "+(100-150) to maximum Life",
+      "10% of Spell Damage Leeched as Life",
+      "Skills gain a Base Life Cost equal to 100% of Base Mana Cost"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Ghostwrithe",
+    "baseType": "Tattered Robe",
+    "variants": [
+      "Pre 0.2.0",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "+100 to maximum Energy Shield",
+      "+(29-37)% to Chaos Resistance",
+      "35% of Maximum Life Converted to Energy Shield"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Gloamgown",
+    "baseType": "Elementalist Robe",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(100-140)% increased Energy Shield",
+      "+(30-40) to Spirit",
+      "+(25-35)% to Cold Resistance",
+      "1000% increased Energy Shield Recharge Rate",
+      "Your base Energy Shield Recharge Delay is 10 seconds"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Necromantle",
+    "baseType": "Bone Raiment",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(40-60) to maximum Life",
+      "+(30-50) to maximum Mana",
+      "Minions have +(17-23)% to Chaos Resistance",
+      "Minions gain (20-30)% of their maximum Life as Extra maximum Energy Shield",
+      "Minions Revive 50% faster"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Prayers for Rain",
+    "baseType": "Keth Raiment",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(60-100)% increased Energy Shield",
+      "+(10-15) to Intelligence",
+      "+(10-20)% to Lightning Resistance",
+      "30% slower start of Energy Shield Recharge",
+      "Energy Shield Recharge is not interrupted by Damage if Recharge began Recently"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Silks of Veneration",
+    "baseType": "Enlightened Robe",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "(40-50)% increased Mana Regeneration Rate"
+    ],
+    "explicits": [
+      "(150-200)% increased Energy Shield",
+      "+(30-50) to Spirit",
+      "+(20-30) to Intelligence",
+      "(30-50)% increased Energy Shield Recharge Rate",
+      "Current Energy Shield also grants Elemental Damage reduction"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Temporalis",
+    "baseType": "Silk Robe",
+    "source": "Drops from unique{Zarokh, the Temporal}",
+    "variants": [
+      "Pre 0.2.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(100-150) to maximum Energy Shield",
+      "+(10-20)% to all Elemental Resistances",
+      "(5-30)% of Damage taken Recouped as Life",
+      "(5-30)% of Damage taken Recouped as Mana",
+      "Skills have -(2-1) seconds to Cooldown"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Tetzlapokal's Desire",
+    "baseType": "Votive Raiment",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Energy Shield",
+      "+(20-30) to Strength",
+      "+(20-30) to Intelligence",
+      "+(17-23)% to Chaos Resistance",
+      "Life Recharges"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Vis Mortis",
+    "baseType": "Plated Raiment",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(70-100)% increased Energy Shield",
+      "+(70-100) to maximum Mana",
+      "Minions have 50% reduced maximum Life",
+      "Minions have Unholy Might"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "The Barrow Dweller",
+    "baseType": "Rogue Armour",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(60-100)% increased Armour and Evasion",
+      "-(20-10)% to Fire Resistance",
+      "+50% to Cold Resistance",
+      "Damage of Enemies Hitting you is Unlucky while you are on Low Life",
+      "50% chance to Avoid Death from Hits"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Belly of the Beast",
+    "baseType": "Explorer Armour",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Armour and Evasion",
+      "+(100-150) to maximum Life",
+      "+(100-150) to Stun Threshold",
+      "Life Recovery from Flasks is instant",
+      "(25-30) to (35-40) Physical Thorns damage"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Coat of Red",
+    "baseType": "Chain Mail",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(80-100)% increased Armour and Evasion",
+      "+(80-100) to maximum Life",
+      "+(75-150) to Stun Threshold",
+      "25% chance to be inflicted with Bleeding when Hit"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "The Coming Calamity",
+    "baseType": "Heroic Armour",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Level (1-20) Herald of Ash",
+      "Grants Skill: Level (1-20) Herald of Ice",
+      "Grants Skill: Level (1-20) Herald of Thunder",
+      "+(60-80) to maximum Life"
+    ],
+    "explicits": [
+      "+(30-40)% to all Elemental Resistances",
+      "Herald Skills deal (50-100)% increased Damage",
+      "Enemies in your Presence have no Elemental Resistances"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Doryani's Prototype",
+    "baseType": "Scale Mail",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(50-100)% increased Armour and Evasion",
+      "+(60-80) to maximum Life",
+      "+100% of Armour also applies to Lightning Damage",
+      "Enemies in your Presence have Lightning Resistance equal to yours",
+      "Lightning Resistance does not affect Lightning damage taken"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "The Fallen Formation",
+    "baseType": "Lamellar Mail",
+    "league": "Dawn of the Hunt",
+    "source": "No longer obtainable",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(100-200)% increased Armour and Evasion",
+      "+(20-30) to Strength",
+      "+(20-30) to Dexterity",
+      "(8-12) Life Regeneration per second",
+      "-20 to maximum Valour",
+      "Banners always have maximum Valour"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Irongrasp",
+    "baseType": "Vagabond Armour",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Armour and Evasion",
+      "+(20-30) to Strength",
+      "+(100-150) to Stun Threshold",
+      "Iron Grip",
+      "Iron Will"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Lightning Coil",
+    "baseType": "Ancestral Mail",
+    "league": "Rise of the Abyssal",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Level (1-20) Valako's Charge"
+    ],
+    "explicits": [
+      "(80-120)% increased Armour and Evasion",
+      "+(80-100) to maximum Life",
+      "+(20-30) to Dexterity",
+      "-(40-30)% to Lightning Resistance",
+      "(30-50)% of Physical damage from Hits taken as Lightning damage"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Pariah's Embrace",
+    "baseType": "Cloaked Mail",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "(50-80)% increased Armour and Evasion",
+      "+50 to Spirit",
+      "+(10-15) to all Attributes",
+      "(10-15) Life Regeneration per second",
+      "(20-40)% increased Mana Cost Efficiency"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Perfidy",
+    "baseType": "Knight Armour",
+    "source": "Drops from unique{Kosis, The Revelation}",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(300-450)% increased Armour and Evasion",
+      "(10-30)% chance to Avoid Physical Damage from Hits",
+      "(10-30)% chance to Avoid Fire Damage from Hits",
+      "(10-30)% chance to Avoid Cold Damage from Hits",
+      "(10-30)% chance to Avoid Lightning Damage from Hits",
+      "(10-30)% chance to Avoid Chaos Damage from Hits",
+      "Enemies in your Presence are Intimidated"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Pragmatism",
+    "baseType": "Explorer Armour",
+    "source": "Drops from unique{The King in the Mists} in normal{Crux of Nothingness}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(200-300)% increased Armour and Evasion",
+      "+(10-20)% to all Elemental Resistances",
+      "-17% to Chaos Resistance",
+      "Charms use no Charges"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Widow's Reign",
+    "baseType": "Knight Armour",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Armour and Evasion",
+      "+(100-150) to maximum Life",
+      "+(17-23)% to Chaos Resistance",
+      "+(200-300) to Ailment Threshold",
+      "Life that would be lost by taking Damage is instead Reserved",
+      "until you take no Damage to Life for 3 seconds"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Couture of Crimson",
+    "baseType": "Gilded Vestments",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(50-100)% increased Armour and Energy Shield",
+      "(10-15)% increased maximum Life",
+      "Life Leech can Overflow Maximum Life",
+      "(40-60)% reduced Duration of Bleeding on You"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Enfolding Dawn",
+    "baseType": "Pilgrim Vestments",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(50-100)% increased Armour and Energy Shield",
+      "+100 to Spirit",
+      "+(5-15)% to all Elemental Resistances",
+      "Gain no inherent bonus from Intelligence"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Husk of Dreams",
+    "baseType": "Shaman Mantle",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Armour and Energy Shield",
+      "-10% to Fire Resistance",
+      "+(13-17)% to Chaos Resistance",
+      "(20-30)% increased Flask Charges gained",
+      "50% less Flask Charges used"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Icetomb",
+    "baseType": "Mail Vestments",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(20-30) to Strength",
+      "+(20-30) to Intelligence",
+      "+(30-40)% to Cold Resistance",
+      "Gain Cold Thorns Damage equal to (10-18)% of your maximum Mana"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "The Mutable Star",
+    "baseType": "Cleric Vestments",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Armour and Energy Shield",
+      "(50-100)% increased Energy Shield Recharge Rate",
+      "(25-35) Life Regeneration per second",
+      "(30-50)% reduced Ignite Duration on you",
+      "Defend against Hits as though you had 1% more Armour per 1% current Energy Shield",
+      "(30-50)% reduced Duration of Bleeding on You"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Sacrosanctum",
+    "baseType": "Corvus Mantle",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "+(20-30) to Spirit"
+    ],
+    "explicits": [
+      "(80-120)% increased Armour and Energy Shield",
+      "+(20-30) to Strength",
+      "+(20-30) to Intelligence",
+      "+(17-23)% to Chaos Resistance",
+      "(10-20)% of Damage taken Recouped as Life",
+      "Damage taken Recouped as Life is also Recouped as Energy Shield"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Soul Mantle",
+    "baseType": "Sacrificial Mantle",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(80-120)% increased Armour and Energy Shield",
+      "+10 to Strength",
+      "+15 to Intelligence",
+      "(20-30)% reduced Totem Life",
+      "+1 to maximum number of Summoned Totems",
+      "Inflicts a random Curse on you when your Totems die, ignoring Curse limit"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Voll's Protector",
+    "baseType": "{variant:1}Ironclad Vestments",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Variant: Pre 0.1.1",
+      "Variant: Pre 0.4.0",
+      "Variant: Current",
+      "25% reduced maximum Mana",
+      "25% chance to gain a Power Charge on Critical Hit"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Waveshaper",
+    "baseType": "Tideseer Mantle",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(100-200) to maximum Energy Shield",
+      "+(20-40) to Spirit",
+      "+(25-35)% to Fire Resistance",
+      "+(25-35)% to Cold Resistance",
+      "Increases and Reductions to Mana Regeneration Rate also",
+      "apply to Energy Shield Recharge Rate",
+      "Gain (30-50)% of Maximum Mana as Armour"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Apron of Emiran",
+    "baseType": "Hermit Garb",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(30-50)% increased Evasion and Energy Shield",
+      "+(10-20) to Dexterity",
+      "Bleeding you inflict is Aggravated",
+      "(40-60)% reduced Duration of Bleeding on You"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Cospri's Will",
+    "baseType": "Assassin Garb",
+    "league": "Rise of the Abyssal",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Withering Presence",
+      "5% increased Movement Speed"
+    ],
+    "explicits": [
+      "(150-200)% increased Evasion and Energy Shield",
+      "+(23-29)% to Chaos Resistance",
+      "Curses you inflict have infinite Duration",
+      "Curses you inflict can affect Hexproof Enemies",
+      "Withered you inflict has infinite Duration"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "The Dancing Mirage",
+    "baseType": "Wayfarer Jacket",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(150-200)% increased Evasion and Energy Shield",
+      "+(10-20)% to Lightning Resistance",
+      "20% less Damage taken if you have not been Hit Recently",
+      "100% increased Evasion Rating if you have been Hit Recently"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Gloomform",
+    "baseType": "Waxed Jacket",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Evasion Rating",
+      "+(10-20) to Dexterity",
+      "+(10-20)% to Fire Resistance",
+      "20% reduced Light Radius",
+      "You have a Smoke Cloud around you while stationary"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Redflare Conduit",
+    "baseType": "Anchorite Garb",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(50-70) to maximum Mana",
+      "-15% to Cold Resistance",
+      "+(30-40)% to Lightning Resistance",
+      "20% chance to gain a Power Charge on Hit",
+      "Lose all Power Charges on reaching maximum Power Charges",
+      "Shocks you when you reach maximum Power Charges"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Sierran Inheritance",
+    "baseType": "Marabout Garb",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(50-80)% increased Evasion and Energy Shield",
+      "+(15-25)% to Lightning Resistance",
+      "(30-50)% faster start of Energy Shield Recharge",
+      "All Damage taken from Hits Contributes to Magnitude of Chill inflicted on you",
+      "The Effect of Chill on you is reversed"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Zerphi's Serape",
+    "baseType": "Scalper's Jacket",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(60-80)% increased Evasion and Energy Shield",
+      "+(40-60) to maximum Mana",
+      "50% increased Attribute Requirements",
+      "(-30-30)% reduced Life Regeneration rate",
+      "(-30-30)% reduced Mana Regeneration Rate",
+      "Soul Eater"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Morior Invictus",
+    "baseType": "Grand Regalia",
+    "source": "Drops from unique{Arbiter of Ash} in normal{The Burning Monolith}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Selected Alt Variant: 3",
+      "Selected Alt Variant Two: 6",
+      "Selected Alt Variant Three: 9",
+      "Variant: Spirit (Pre 0.2.0)",
+      "Variant: Spirit (Pre 0.4.0)",
+      "Variant: Spirit",
+      "Variant: Life (Pre 0.2.0)",
+      "Variant: Life (Pre 0.4.0)",
+      "Variant: Life",
+      "Variant: Mana (Pre 0.2.0)",
+      "Variant: Mana (Pre 0.4.0)",
+      "Variant: Mana",
+      "Variant: Global Defences (Pre 0.2.0)",
+      "Variant: Global Defences (Pre 0.4.0)",
+      "Variant: Global Defences",
+      "Variant: Item Rarity (Pre 0.2.0)",
+      "Variant: All Resistances (Pre 0.2.0)",
+      "Variant: All Resistances (Pre 0.4.0)",
+      "Variant: All Resistances",
+      "Variant: Attributes (Pre 0.2.0)",
+      "Variant: Attributes (Pre 0.4.0)",
+      "Variant: Attributes",
+      "Variant: Chaos Resistance (Pre 0.4.0)",
+      "Variant: Chaos Resistance",
+      "Variant: Stun Threshold (Pre 0.4.0)",
+      "Variant: Stun Threshold",
+      "Variant: Life Regeneration (Pre 0.4.0)",
+      "Variant: Life Regeneration",
+      "Variant: Reduced Crit Damage (Pre 0.4.0)",
+      "Variant: Reduced Crit Damage",
+      "Variant: Pre 0.4.0",
+      "Variant: Current",
+      "Sockets: S S S S"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Skin of the Loyal",
+    "baseType": "Garment",
+    "source": "Drops from unique{Xesht, We That Are One} in normal{Twisted Domain}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(5-40)% to all Elemental Resistances",
+      "Elemental Ailment Threshold is increased by Uncapped Chaos Resistance",
+      "Armour is increased by Uncapped Fire Resistance",
+      "Energy Shield is increased by Uncapped Cold Resistance",
+      "Evasion Rating is increased by Uncapped Lightning Resistance"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Tabula Rasa",
+    "baseType": "Garment",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Sockets: J J J J J J"
+    ],
+    "category": "body"
+  },
+  {
+    "name": "Atziri's Step",
+    "baseType": "Cinched Boots",
+    "league": "Fate of the Vaal",
+    "source": "Drops from unique{Atziri's Vault} in normal{Vaal Temple}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "30% increased Movement Speed",
+      "(80-120)% increased Evasion Rating",
+      "+(70-100) to maximum Life",
+      "Gain Deflection Rating equal to (40-60)% of Evasion Rating",
+      "-(12-6)% to amount of Damage Prevented by Deflection",
+      "Cannot be Light Stunned by Deflected Hits"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Birth of Fury",
+    "baseType": "Stone Greaves",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "20% increased Movement Speed",
+      "+(40-60) to maximum Life",
+      "+(20-30)% to Fire Resistance",
+      "Drop Ignited Ground while moving, which lasts 8 seconds and Ignites as though dealing Fire Damage equal to 10% of your maximum Life"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Corpsewade",
+    "baseType": "Iron Greaves",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Decompose"
+    ],
+    "explicits": [
+      "10% increased Movement Speed",
+      "(30-50)% increased Armour",
+      "+(5-10) to Strength",
+      "Trigger Decompose every 1.2 metres travelled"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "The Infinite Pursuit",
+    "baseType": "Bronze Greaves",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "10% increased Movement Speed",
+      "(100-150)% increased Armour",
+      "+(80-100) to maximum Life",
+      "(80-100)% increased Chance to be afflicted by Ailments when Hit",
+      "25% increased Movement Speed while affected by an Ailment"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Legionstride",
+    "baseType": "Rough Greaves",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(50-70) to Armour",
+      "+(50-70) to Stun Threshold",
+      "-10 Physical damage taken from Projectile Attacks",
+      "+10% to Block chance"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Trampletoe",
+    "baseType": "Trimmed Greaves",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "15% increased Movement Speed",
+      "(50-100)% increased Armour",
+      "50% increased Attribute Requirements",
+      "Deal 30% of Overkill damage to enemies within 2 metres of the enemy killed"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Briarpatch",
+    "baseType": "Laced Boots",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(10-20)% increased Movement Speed",
+      "+(40-60) to maximum Life",
+      "+(60-80) to Stun Threshold",
+      "+25% to Thorns Critical Hit Chance",
+      "(10-15) to (20-25) Physical Thorns damage"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Bushwhack",
+    "baseType": "Lizardscale Boots",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(15-25)% increased Movement Speed",
+      "(50-80)% increased Evasion Rating",
+      "+(10-20) to Dexterity",
+      "Physical Damage is Pinning"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Gamblesprint",
+    "baseType": "Embossed Boots",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(100-140)% increased Evasion Rating",
+      "(10-15)% increased Rarity of Items found",
+      "+(10-15) to Dexterity",
+      "+(15-25)% to Lightning Resistance",
+      "Gain 0% to 40% increased Movement Speed at random when Hit, until Hit again"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Thunderstep",
+    "baseType": "Steeltoe Boots",
+    "source": "No longer obtainable",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(10-20)% increased Movement Speed",
+      "(40-60)% increased Evasion Rating",
+      "+(3-5)% to Maximum Lightning Resistance",
+      "+(30-50)% to Lightning Resistance"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Bones of Ullr",
+    "baseType": "Lattice Sandals",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "(5-15)% increased Movement Speed",
+      "(40-60)% increased Energy Shield",
+      "+(20-40) to maximum Life",
+      "(20-30)% increased Reservation Efficiency of Skills which create Undead Minions"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Luminous Pace",
+    "baseType": "Straw Sandals",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "10% increased Movement Speed",
+      "+(20-30) to maximum Energy Shield",
+      "+(5-10) to Intelligence",
+      "(20-30)% reduced Energy Shield Recharge Rate",
+      "100% faster start of Energy Shield Recharge"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Wanderlust",
+    "baseType": "Wrapped Sandals",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "20% increased Movement Speed",
+      "+(10-20) to maximum Energy Shield",
+      "+5 to Dexterity",
+      "Your speed is unaffected by Slows"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Windscream",
+    "baseType": "Feathered Sandals",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(10-20)% increased Movement Speed",
+      "(50-100)% increased Energy Shield",
+      "+(10-20) to Intelligence",
+      "Curse Skills have (10-20)% increased Cast Speed",
+      "Curses have no Activation Delay"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Wondertrap",
+    "baseType": "Silk Slippers",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(10-20)% increased Movement Speed",
+      "+(30-50) to maximum Energy Shield",
+      "+(10-20) to Strength",
+      "+(10-20) to Dexterity",
+      "+(10-20) to Intelligence",
+      "50% increased Rarity of Items found when on Low Life"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Darkray Vectors",
+    "baseType": "Braced Sabatons",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(50-100)% increased Armour and Evasion",
+      "+(20-30)% to Lightning Resistance",
+      "25% reduced Light Radius",
+      "5% increased Movement Speed per Frenzy Charge",
+      "+1 to Maximum Frenzy Charges"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "The Knight-errant",
+    "baseType": "Mail Sabatons",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "10% increased Movement Speed",
+      "(30-50)% increased Armour and Evasion",
+      "+(30-50) to Stun Threshold",
+      "+(30-50) to Ailment Threshold",
+      "Iron Reflexes"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Obern's Bastion",
+    "baseType": "Stacked Sabatons",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(150-200)% increased Armour and Evasion",
+      "(20-25) Life Regeneration per second",
+      "200% increased Stun Recovery",
+      "(30-50)% reduced Chill Duration on you",
+      "(30-50)% reduced Freeze Duration on you",
+      "(30-50)% reduced Shock duration on you"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Shankgonne",
+    "baseType": "Covered Sabatons",
+    "league": "Rise of the Abyssal",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Black Powder Blitz"
+    ],
+    "explicits": [
+      "(80-100)% increased Armour and Evasion",
+      "(10-20)% increased Rarity of Items found",
+      "+(15-25)% to Fire Resistance",
+      "Gain Deflection Rating equal to 20% of Armour",
+      "+(200-300) to Stun Threshold",
+      "You cannot Sprint"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Wake of Destruction",
+    "baseType": "Secured Leggings",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "10% increased Movement Speed",
+      "(30-60)% increased Armour and Energy Shield",
+      "Adds 1 to (30-50) Lightning damage to Attacks",
+      "Drop Shocked Ground while moving, lasting 8 seconds"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Beetlebite",
+    "baseType": "Velour Shoes",
+    "source": "Drops from unique{The King in the Mists} in normal{Crux of Nothingness}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(20-30)% increased Movement Speed",
+      "(60-120)% increased Evasion and Energy Shield",
+      "Aggravate Bleeding on Enemies when they Enter your Presence",
+      "100% increased Thorns damage"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Ghostmarch",
+    "baseType": "Threaded Shoes",
+    "variants": [
+      "Pre 0.4.0.",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "15% increased Movement Speed",
+      "(100-150)% increased Evasion and Energy Shield",
+      "+(30-50) to maximum Mana",
+      "+(17-23)% to Chaos Resistance",
+      "Dodge Roll passes through Enemies"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Powertread",
+    "baseType": "Hunting Shoes",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "(15-20)% increased Movement Speed",
+      "(60-80)% increased Evasion and Energy Shield",
+      "+(10-20) to Intelligence",
+      "+1 to Maximum Power Charges",
+      "12% increased Critical Damage Bonus per Power Charge"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Ab Aeterno",
+    "baseType": "Grand Cuisses",
+    "source": "Drops from unique{Arbiter of Ash} in normal{The Burning Monolith}",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(15-30)% increased Movement Speed",
+      "(100-150)% increased Armour, Evasion and Energy Shield",
+      "Dodge Roll avoids all Hits",
+      "10% less Movement and Skill Speed per Dodge Roll in the past 20 seconds"
+    ],
+    "category": "boots"
+  },
+  {
+    "name": "Death's Harp",
+    "baseType": "Dualstring Bow",
+    "variants": [
+      "0.2.0",
+      "0.3.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [
+      "+50% Surpassing chance to fire an additional Arrow"
+    ],
+    "explicits": [
+      "+(20-25)% to Critical Damage Bonus",
+      "Bow Attacks fire 3 additional Arrows",
+      "Gain (20-30) Life per enemy killed",
+      "Gain (12-18) Mana per enemy killed"
+    ],
+    "category": "bow"
+  },
+  {
+    "name": "Doomfletch",
+    "baseType": "Composite Bow",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Adds (5-7) to (10-12) Physical Damage",
+      "+10 to Dexterity",
+      "(30-50)% increased Mana Regeneration Rate",
+      "Attacks with this Weapon gain 100% of Physical damage as Extra damage of each Element"
+    ],
+    "category": "bow"
+  },
+  {
+    "name": "Fairgraves' Curse",
+    "baseType": "Artillery Bow",
+    "league": "Rise of the Abyssal",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Phantasmal Arrow",
+      "50% reduced Projectile Range"
+    ],
+    "explicits": [
+      "Adds (76-98) to (126-193) Fire Damage",
+      "(30-50)% increased Flammability Magnitude",
+      "(10-20)% increased Ignite Magnitude",
+      "30% reduced Life Recovery rate",
+      "-30 Physical Damage taken from Hits",
+      "Attack Hits inflict Spectral Fire for 8 seconds"
+    ],
+    "category": "bow"
+  },
+  {
+    "name": "Lioneye's Glare",
+    "baseType": "Heavy Bow",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(150-240)% increased Physical Damage",
+      "+(300-500) to Accuracy Rating",
+      "10% increased Attack Speed",
+      "+(20-30) to Dexterity",
+      "+2 metres to Dodge Roll distance if you haven't Dodge Rolled Recently",
+      "-1 metre to Dodge Roll distance if you've Dodge Rolled Recently",
+      "Barrageable Attacks with this Bow Repeat +2 times if no enemies are in your Presence"
+    ],
+    "category": "bow"
+  },
+  {
+    "name": "Quill Rain",
+    "baseType": "Shortbow",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "100% increased Attack Speed",
+      "+(10-20) to Dexterity",
+      "(50-100)% increased Arrow Speed",
+      "40% less Attack Damage"
+    ],
+    "category": "bow"
+  },
+  {
+    "name": "Slivertongue",
+    "baseType": "Zealot Bow",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Adds (40-48) to (65-72) Physical Damage",
+      "+(4-6)% to Critical Hit Chance",
+      "Leeches (5-8)% of Physical Damage as Life",
+      "Leeches (4-7)% of Physical Damage as Mana",
+      "Arrows Fork",
+      "Arrows Pierce all targets after Forking"
+    ],
+    "category": "bow"
+  },
+  {
+    "name": "Splinterheart",
+    "baseType": "Recurve Bow",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(120-160)% increased Physical Damage",
+      "+(50-70) to Accuracy Rating",
+      "(20-30)% increased Projectile Speed",
+      "Projectiles Split towards +2 targets"
+    ],
+    "category": "bow"
+  },
+  {
+    "name": "Voltaxic Rift",
+    "baseType": "Fanatic Bow",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Adds 1 to (300-500) Lightning Damage",
+      "(10-15)% increased Attack Speed",
+      "100% of Lightning Damage Converted to Chaos Damage",
+      "Chaos Damage from Hits also Contributes to Shock Chance"
+    ],
+    "category": "bow"
+  },
+  {
+    "name": "Widowhail",
+    "baseType": "Crude Bow",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(150-250)% increased bonuses gained from Equipped Quiver"
+    ],
+    "category": "bow"
+  },
+  {
+    "name": "Double Vision",
+    "baseType": "Dyad Crossbow",
+    "league": "Rise of the Abyssal",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Gemini Surge",
+      "Loads an additional bolt"
+    ],
+    "explicits": [
+      "Adds (14-21) to (25-37) Physical Damage",
+      "+5% to Critical Hit Chance",
+      "(15-25)% increased Reload Speed",
+      "When you reload, triggers Gemini Surge to alternately",
+      "gain (2-6) Cold Surges or (2-6) Fire Surges"
+    ],
+    "category": "crossbow"
+  },
+  {
+    "name": "The Last Lament",
+    "baseType": "Desolate Crossbow",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Compose Requiem"
+    ],
+    "explicits": [
+      "(250-300)% increased Physical Damage",
+      "(10-20)% increased Attack Speed",
+      "(40-60)% reduced Reload Speed",
+      "Leeches (5-10)% of Physical Damage as Life",
+      "(10-20)% chance to load a bolt into all Crossbow skills on Kill",
+      "Sacrifice 300 Life to not consume the last bolt when firing"
+    ],
+    "category": "crossbow"
+  },
+  {
+    "name": "Mist Whisper",
+    "baseType": "Makeshift Crossbow",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Adds (8-10) to (13-15) Cold Damage",
+      "Gain 5 Mana per enemy killed",
+      "(30-50)% increased Freeze Buildup",
+      "30% increased Chill Duration on Enemies",
+      "Attacks Chain 2 additional times"
+    ],
+    "category": "crossbow"
+  },
+  {
+    "name": "Rampart Raptor",
+    "baseType": "Tense Crossbow",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(20-30)% increased Bolt Speed"
+    ],
+    "explicits": [
+      "(40-60)% increased Physical Damage",
+      "(30-40)% increased Attack Speed",
+      "30% reduced Reload Speed",
+      "Bolts fired by Crossbow Attacks have 100% chance to not",
+      "expend Ammunition if you've Reloaded Recently"
+    ],
+    "category": "crossbow"
+  },
+  {
+    "name": "Blood of the Warrior",
+    "baseType": "Gargantuan Life Flask",
+    "league": "Rise of the Abyssal",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "90% less Life Recovered",
+      "Effect is not removed when Unreserved Life is Filled",
+      "(15-30)% of Damage taken during effect Recouped as Life",
+      "Gain (3-5) Rage when Hit by an Enemy during effect",
+      "No Inherent loss of Rage during effect",
+      "(25-50)% increased Duration"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Olroth's Resolve",
+    "baseType": "Ultimate Life Flask",
+    "source": "Drops from unique{Olroth, Origin of the Fall}",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Instant Recovery",
+      "(100-150)% increased Charges per use",
+      "Excess Life Recovery added as Guard for 20 seconds"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Lavianga's Spirits",
+    "baseType": "Gargantuan Mana Flask",
+    "league": "Fate of the Vaal",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "This Flask cannot be Used but applies its Effect constantly",
+      "(70-80)% reduced Amount Recovered"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Melting Maelstrom",
+    "baseType": "Ultimate Mana Flask",
+    "source": "Drops from unique{Kosis, The Revelation}",
+    "variants": [
+      "Pre 0.2.0",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "Effect is not removed when Unreserved Mana is Filled",
+      "(200-250)% increased Duration",
+      "Every 3 seconds during Effect, deal 100% of Mana spent in those seconds as Chaos Damage to Enemies within 3 metres",
+      "Deals 25% of current Mana as Chaos Damage to you when Effect ends"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Arakaali's Gift",
+    "baseType": "Antidote Charm",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Used when you become Poisoned"
+    ],
+    "explicits": [
+      "Recover Life equal to (15-20)% of Mana Flask's Recovery Amount when used",
+      "Recover Mana equal to (15-20)% of Life Flask's Recovery Amount when used"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Beira's Anguish",
+    "baseType": "Dousing Charm",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Used when you become Ignited"
+    ],
+    "explicits": [
+      "(20-25)% Chance to gain a Charge when you kill an enemy",
+      "Creates Ignited Ground for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to 500% of your maximum Life"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "The Black Cat",
+    "baseType": "Grounding Charm",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Used when you become Shocked"
+    ],
+    "explicits": [
+      "(10-20)% increased Duration",
+      "Lightning Damage of Enemies Hitting you is Unlucky during effect"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Breath of the Mountains",
+    "baseType": "Sapphire Charm",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Used when you take Cold damage from a Hit"
+    ],
+    "explicits": [
+      "(10-15)% reduced Charges per use",
+      "Grants a Power Charge on use"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "The Fall of the Axe",
+    "baseType": "Silver Charm",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Used when you are affected by a Slow"
+    ],
+    "explicits": [
+      "Grants Onslaught during effect"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "For Utopia",
+    "baseType": "Stone Charm",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Used when you become Stunned"
+    ],
+    "explicits": [
+      "Defend with 200% of Armour during effect"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Forsaken Bangle",
+    "baseType": "Amethyst Charm",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Used when you take Chaos damage from a Hit"
+    ],
+    "explicits": [
+      "(15-25)% increased Duration",
+      "50% of Chaos damage you prevent when Hit Recouped as Life and Mana during effect"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Nascent Hope",
+    "baseType": "Thawing Charm",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Used when you become Frozen"
+    ],
+    "explicits": [
+      "(20-25)% Chance to gain a Charge when you kill an enemy",
+      "Energy Shield Recharge starts on use"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Ngamahu's Chosen",
+    "baseType": "Ruby Charm",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Used when you take Fire damage from a Hit"
+    ],
+    "explicits": [
+      "(30-40)% increased Charges",
+      "Grants up to your maximum Rage on use"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Rite of Passage",
+    "baseType": "Golden Charm",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Owl",
+      "Serpent",
+      "Primate",
+      "Bear",
+      "Boar",
+      "Ox",
+      "Wolf",
+      "Stag",
+      "Cat"
+    ],
+    "currentVariant": 9,
+    "implicits": [
+      "15% increased Rarity of Items found"
+    ],
+    "explicits": [
+      "Used when you kill a Rare or Unique enemy",
+      "Possessed by Spirit Of The Cat for (10-20) seconds on use"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Sanguis Heroum",
+    "baseType": "Staunching Charm",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Used when you start Bleeding"
+    ],
+    "explicits": [
+      "Gains (0.15-0.2) Charges per Second",
+      "Creates Consecrated Ground on use"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Valako's Roar",
+    "baseType": "Topaz Charm",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Used when you take Lightning damage from a Hit"
+    ],
+    "explicits": [
+      "(30-40)% increased Charges gained",
+      "Grants a Frenzy Charge on use"
+    ],
+    "category": "flask"
+  },
+  {
+    "name": "Apep's Supremacy",
+    "baseType": "Voodoo Focus",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(100-200)% increased Energy Shield",
+      "(30-50)% increased Energy Shield Recharge Rate",
+      "(30-50)% faster start of Energy Shield Recharge",
+      "20% of Elemental damage from Hits taken as Chaos damage",
+      "+25% chance to be Poisoned"
+    ],
+    "category": "focus"
+  },
+  {
+    "name": "Carrion Call",
+    "baseType": "Engraved Focus",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(30-40) to maximum Energy Shield",
+      "Minions have (20-30)% increased maximum Life",
+      "(20-30)% increased Mana Regeneration Rate",
+      "Minions deal (20-30)% increased Damage",
+      "Minions' Resistances are equal to yours"
+    ],
+    "category": "focus"
+  },
+  {
+    "name": "Deathrattle",
+    "baseType": "Twig Focus",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(10-20) to maximum Energy Shield",
+      "(20-40)% increased Spell Damage",
+      "+(5-10) to Intelligence",
+      "20% chance for Energy Shield Recharge to start when you Kill an Enemy"
+    ],
+    "category": "focus"
+  },
+  {
+    "name": "Effigy of Cruelty",
+    "baseType": "Antler Focus",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.3.0",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "+(20-30) to maximum Energy Shield",
+      "(40-50)% increased Spell Damage",
+      "+10 to Intelligence",
+      "+(7-13)% to Chaos Resistance",
+      "Critical Hits with Spells apply (1-3) Stack of Critical Weakness"
+    ],
+    "category": "focus"
+  },
+  {
+    "name": "The Eternal Spark",
+    "baseType": "Crystal Focus",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(50-70)% increased Energy Shield",
+      "+5% to Maximum Lightning Resistance",
+      "+(20-30)% to Lightning Resistance",
+      "40% increased Mana Regeneration Rate",
+      "40% increased Mana Regeneration Rate while stationary"
+    ],
+    "category": "focus"
+  },
+  {
+    "name": "Rathpith Globe",
+    "baseType": "Sacred Focus",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(60-100)% increased Energy Shield",
+      "+(60-100) to maximum Life",
+      "Non-Channelling Spells cost an additional 6% of your maximum Life",
+      "Non-Channelling Spells have 3% increased Critical Hit Chance per 100 maximum Life",
+      "Non-Channelling Spells deal 6% increased Damage per 100 maximum Life"
+    ],
+    "category": "focus"
+  },
+  {
+    "name": "Serpent's Lesson",
+    "baseType": "Tonal Focus",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(60-100) to maximum Life",
+      "+(60-100) to maximum Mana",
+      "You count as on Low Life while at 35% of maximum Mana or below",
+      "You count as on Low Mana while at 35% of maximum Life or below"
+    ],
+    "category": "focus"
+  },
+  {
+    "name": "Threaded Light",
+    "baseType": "Woven Focus",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(50-70)% increased Energy Shield",
+      "(30-40)% increased Mana Regeneration Rate",
+      "20% increased Light Radius",
+      "(8-12)% increased Spell Damage per 10 Spirit"
+    ],
+    "category": "focus"
+  },
+  {
+    "name": "Atziri's Acuity",
+    "baseType": "Moulded Mitts",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(80-100)% increased Armour",
+      "(30-50)% increased Critical Hit Chance",
+      "+(20-30) to Intelligence",
+      "Leech from Critical Hits is instant"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Dreadfist",
+    "baseType": "Bolstered Mitts",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(50-100)% increased Armour",
+      "(20-30)% increased Critical Damage Bonus",
+      "Critical Hits inflict Impale",
+      "Critical Hits cannot Extract Impale",
+      "(20-31) to (31-49) Physical Thorns damage"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Hateforge",
+    "baseType": "Moulded Mitts",
+    "source": "Drops from unique{Trialmaster} in normal{The Trial of Chaos}",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(300-400)% increased Armour",
+      "Gain (3-6) Rage on Hit",
+      "Gain a random Charge on reaching Maximum Rage, no more than once every (3-6) seconds",
+      "Lose all Rage on reaching Maximum Rage"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Lochtonial Caress",
+    "baseType": "Tempered Mitts",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(10-15)% increased Skill Speed",
+      "+(15-25) to Armour",
+      "+(40-60) to maximum Life",
+      "(10-15)% reduced maximum Mana",
+      "Share Charges with Allies in your Presence"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Empire's Grasp",
+    "baseType": "Titan Mitts",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(150-200)% increased Armour",
+      "+(20-30) to Strength",
+      "Gain (30-50) Life per enemy killed",
+      "(10-20)% increased Global Physical Damage",
+      "Knockback direction is reversed"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Treefingers",
+    "baseType": "Riveted Mitts",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "(30-60)% increased Armour",
+      "Adds (6-10) to (12-16) Physical Damage to Attacks",
+      "5% reduced Attack Speed",
+      "+(15-20) to Strength",
+      "(20-30)% increased Stun Buildup",
+      "Giant's Blood"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Grip of Winter",
+    "baseType": "Firm Bracers",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(30-50)% increased Evasion Rating",
+      "Adds (3-5) to (6-8) Cold damage to Attacks",
+      "+(20-30)% to Cold Resistance",
+      "(40-50)% increased Freeze Buildup",
+      "(20-30)% increased Magnitude of Chill you inflict"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Idle Hands",
+    "baseType": "Sectioned Bracers",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(40-60)% increased Evasion Rating",
+      "+(60-100) to Accuracy Rating",
+      "+(5-10) to Intelligence",
+      "25% increased Attack Speed while on Full Mana",
+      "You count as on Full Mana while at 90% of maximum Mana or above"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Maligaro's Virtuosity",
+    "baseType": "Fine Bracers",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(60-80)% increased Evasion Rating",
+      "(20-30)% increased Critical Hit Chance",
+      "5% increased Attack Speed",
+      "+(10-20) to Dexterity",
+      "Your Critical Hit Chance cannot be Rerolled",
+      "Your Critical Damage Bonus is 250%"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Northpaw",
+    "baseType": "Suede Bracers",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.2.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "+(15-25) to Evasion Rating",
+      "Adds (3-5) to (8-10) Physical Damage to Attacks",
+      "(10-15)% increased Critical Damage Bonus",
+      "Base Critical Hit Chance for Attacks with Weapons is 7%"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Snakebite",
+    "baseType": "Spined Bracers",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(40-60)% increased Evasion Rating",
+      "+(7-17)% to Chaos Resistance",
+      "(6-10) Life Regeneration per second",
+      "(20-30)% chance to Poison on Hit",
+      "Targets can be affected by +1 of your Poisons at the same time"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Candlemaker",
+    "baseType": "Sombre Gloves",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(50-80)% increased Energy Shield",
+      "(20-40)% increased Fire Damage",
+      "(10-20)% reduced Cold Damage",
+      "+(20-40)% to Fire Resistance",
+      "-(20-10)% to Cold Resistance",
+      "Flammability Magnitude is doubled"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Demon Stitcher",
+    "baseType": "Intricate Gloves",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(40-60) to maximum Energy Shield",
+      "+(80-120) to maximum Life",
+      "(6-12)% increased Cast Speed",
+      "Sacrifice (5-15)% of Life to gain that much Energy Shield when you Cast a Spell"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Doedre's Tenure",
+    "baseType": "Stitched Gloves",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(20-30) to maximum Energy Shield",
+      "100% increased Spell Damage",
+      "(15-25)% reduced Cast Speed",
+      "+(10-15) to Intelligence"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Essentia Sanguis",
+    "baseType": "Furtive Wraps",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(50-70)% increased Evasion and Energy Shield",
+      "Adds 1 to (30-50) Lightning damage to Attacks",
+      "+(15-25) to Intelligence",
+      "+(25-35)% to Lightning Resistance",
+      "Life Leech is Converted to Energy Shield Leech"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Kitoko's Current",
+    "baseType": "Jewelled Gloves",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(30-50)% increased Energy Shield",
+      "+(10-20) to Dexterity",
+      "(10-15)% reduced Attack and Cast Speed",
+      "Lightning damage from Hits Contributes to Electrocution Buildup"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Leopold's Applause",
+    "baseType": "Embroidered Gloves",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(60-100)% increased Energy Shield",
+      "+(60-100) to maximum Mana",
+      "(10-15)% increased Rarity of Items found",
+      "Damage Penetrates 10% Elemental Resistances",
+      "Your Hits can Penetrate Elemental Resistances down to a minimum of -50%"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Nightscale",
+    "baseType": "Pauascale Gloves",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(60-100)% increased Energy Shield",
+      "(30-50)% increased Critical Hit Chance",
+      "+(10-20) to Intelligence",
+      "+(20-30)% to Cold Resistance",
+      "150% increased Mana Regeneration Rate if you've dealt a Critical Hit Recently",
+      "Cannot Regenerate Mana if you haven't dealt a Critical Hit Recently"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Painter's Servant",
+    "baseType": "Torn Gloves",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Gain (5-10)% of Elemental Damage as Extra Cold Damage",
+      "Gain (5-10)% of Elemental Damage as Extra Fire Damage",
+      "Gain (5-10)% of Elemental Damage as Extra Lightning Damage",
+      "33% of Elemental Damage Converted to Cold Damage",
+      "33% of Elemental Damage Converted to Fire Damage",
+      "33% of Elemental Damage Converted to Lightning Damage"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Aerisvane's Wings",
+    "baseType": "Burnished Gauntlets",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(50-70)% increased Armour and Evasion",
+      "(5-10)% increased Attack Speed",
+      "+(20-30) to Intelligence",
+      "Decimating Strike"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Aurseize",
+    "baseType": "Layered Gauntlets",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(40-60)% increased Armour and Evasion",
+      "(40-50)% increased Rarity of Items found",
+      "Lose 2% of maximum Life on Kill"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Death Articulated",
+    "baseType": "Ornate Gauntlets",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Armour and Evasion",
+      "(5-10)% increased Attack Speed",
+      "+(17-23)% to Chaos Resistance",
+      "Lose 5% of maximum Life per second",
+      "Regenerate 5 Rage per second",
+      "No Inherent loss of Rage"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Deathblow",
+    "baseType": "Doubled Gauntlets",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Armour and Evasion",
+      "(5-10)% increased Attack Speed",
+      "Gain (20-30) Life per enemy killed",
+      "Gain (20-30) Mana per enemy killed",
+      "Culling Strike"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Jarngreipr",
+    "baseType": "Ringmail Gauntlets",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "50% increased Armour and Evasion",
+      "Adds (2-3) to (5-6) Physical Damage to Attacks",
+      "+(30-50) to maximum Life",
+      "(4-8)% increased Attack Speed",
+      "Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Valako's Vice",
+    "baseType": "Plate Gauntlets",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(50-100)% increased Armour and Evasion",
+      "(5-10)% increased Attack Speed",
+      "+(20-30) to Strength",
+      "+(20-30) to Dexterity",
+      "+(30-50)% to Lightning Resistance",
+      "100% of Fire damage Converted to Lightning damage"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Blueflame Bracers",
+    "baseType": "Goldcast Cuffs",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+20 to maximum Energy Shield",
+      "+(10-20) to Intelligence",
+      "+(5-15)% to Fire Resistance",
+      "+(5-15)% to Cold Resistance",
+      "100% of Fire Damage Converted to Cold Damage"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Gravebind",
+    "baseType": "Rope Cuffs",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(40-60)% increased Armour and Energy Shield",
+      "+(10-15)% to Cold Resistance",
+      "Gain (7-10) Life per enemy killed",
+      "Gain (4-6) Mana per enemy killed",
+      "Enemies in your Presence killed by anyone count as being killed by you instead"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "The Prisoner's Manacles",
+    "baseType": "Verisium Cuffs",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(200-300)% increased Armour and Energy Shield",
+      "+100 to maximum Life",
+      "100% increased Attribute Requirements",
+      "+(20-40)% to Lightning Resistance",
+      "(15-30) Life Regeneration per second",
+      "Debuffs you inflict have (20-30)% increased Slow Magnitude",
+      "Cannot Immobilise enemies"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Shackles of the Wretched",
+    "baseType": "Aged Cuffs",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(30-50)% increased Armour and Energy Shield",
+      "You cannot be Chilled for 6 seconds after being Chilled",
+      "You cannot be Frozen for 6 seconds after being Frozen",
+      "You cannot be Ignited for 6 seconds after being Ignited",
+      "You cannot be Shocked for 6 seconds after being Shocked",
+      "Curses you inflict are reflected back to you"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Blessed Bonds",
+    "baseType": "Linen Wraps",
+    "source": "Drops from unique{Zarokh, the Temporal}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(60-100) to Evasion Rating",
+      "+(30-50) to maximum Energy Shield",
+      "Gain (25-35) Mana per enemy killed",
+      "Inflict Cold Exposure on Igniting an Enemy",
+      "Inflict Fire Exposure on Shocking an Enemy",
+      "Inflict Lightning Exposure on Critical Hit"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Hand of Wisdom and Action",
+    "baseType": "Variant: Pre 0.2.0",
+    "source": "Drops from unique{Xesht, We That Are One} in normal{Twisted Domain}",
+    "variants": [
+      "Current"
+    ],
+    "currentVariant": 1,
+    "implicits": [],
+    "explicits": [
+      "Furtive Wraps",
+      "+(15-25) to Dexterity",
+      "+(15-25) to Intelligence",
+      "3% increased Attack Speed per 20 Dexterity",
+      "Adds 1 to 10 Lightning Damage to Attacks per 20 Intelligence"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Killjoy",
+    "baseType": "Linen Wraps",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(30-60)% increased Evasion and Energy Shield",
+      "+(30-50) to maximum Life",
+      "(20-30)% increased Critical Damage Bonus",
+      "Life Flasks do not recover Life",
+      "On-Kill Effects happen twice"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Plaguefinger",
+    "baseType": "Gauze Wraps",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(30-50)% increased Evasion and Energy Shield",
+      "(4-6)% increased Attack Speed",
+      "(20-30)% chance to Poison on Hit",
+      "All Damage from Hits Contributes to Poison Magnitude"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Thunderfist",
+    "baseType": "Utility Wraps",
+    "league": "Rise of the Abyssal",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Crackling Palm"
+    ],
+    "explicits": [
+      "(1-111)% increased Evasion and Energy Shield",
+      "(1-11)% increased Attack Speed",
+      "+(1-33)% to Lightning Resistance",
+      "Adds 1 to (77-111) Lightning Damage to Unarmed Melee Hits",
+      "+(0.1-1.1)% to Unarmed Melee Attack Critical Hit Chance"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Sine Aequo",
+    "baseType": "Grand Manchettes",
+    "source": "Drops from unique{Arbiter of Ash} in normal{The Burning Monolith}",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(10-15)% increased Skill Speed",
+      "(100-150)% increased Armour, Evasion and Energy Shield",
+      "Immobilise enemies at 50% buildup instead of 100%",
+      "Enemies Immobilised by you take 20% more Damage"
+    ],
+    "category": "gloves"
+  },
+  {
+    "name": "Black Sun Crest",
+    "baseType": "Wrapped Greathelm",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(50-80)% increased Armour",
+      "20% reduced Light Radius",
+      "(5-15)% increased Strength",
+      "(5-15)% increased Dexterity",
+      "(5-15)% increased Intelligence"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Blood Price",
+    "baseType": "Fierce Greathelm",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(80-120)% increased Armour",
+      "(10-15) Life Regeneration per second",
+      "+(100-150) to Stun Threshold",
+      "(30-60)% increased Presence Area of Effect",
+      "Enemies in your Presence have at least 10% of Life Reserved"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Corona of the Red Sun",
+    "baseType": "Warrior Greathelm",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(100-150) to Accuracy Rating",
+      "+(60-80) to maximum Life",
+      "+(20-25)% to Fire Resistance",
+      "25% increased Light Radius",
+      "Leeching Life from your Hits causes Allies in your Presence to also Leech the same amount of Life"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Deidbell",
+    "baseType": "Elite Greathelm",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(60-100)% increased Armour",
+      "+(10-20) to Strength",
+      "(20-30)% increased Warcry Speed",
+      "Warcries Explode Corpses dealing 10% of their Life as Physical Damage",
+      "Warcry Skills have (20-30)% increased Area of Effect"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Ezomyte Peak",
+    "baseType": "Soldier Greathelm",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(50-100)% increased Armour",
+      "+(50-80) to maximum Life",
+      "(3-6) Life Regeneration per second",
+      "(10-20)% increased Area of Effect",
+      "Unwavering Stance"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Horns of Bynden",
+    "baseType": "Rusted Greathelm",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+20 to Armour",
+      "(5-15)% increased Rarity of Items found",
+      "+(20-30) to Strength",
+      "Gain 1 Rage on Melee Hit",
+      "Every Rage also grants 1% increased Armour"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Thrillsteel",
+    "baseType": "Spired Greathelm",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Onslaught"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Wings of Caelyn",
+    "baseType": "Rusted Greathelm",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+20 to Armour",
+      "(5-15)% increased Rarity of Items found",
+      "+(20-30) to Dexterity",
+      "Gain 1 Rage on Melee Hit",
+      "Every Rage also grants 1% increased Stun Threshold"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Alpha's Howl",
+    "baseType": "Armoured Cap",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(80-100)% increased Evasion Rating",
+      "+100 to Spirit",
+      "+(50-75)% to Cold Resistance",
+      "Presence Radius is doubled"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "The Black Insignia",
+    "baseType": "Corsair Cap",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(70-100)% increased Evasion Rating",
+      "(10-20)% increased Rarity of Items found",
+      "+(15-25)% to Lightning Resistance",
+      "Gain Tailwind on Critical Hit, no more than once per second",
+      "Lose all Tailwind when Hit"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Constricting Command",
+    "baseType": "Viper Cap",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(80-120) to maximum Life",
+      "+(10-15) to all Attributes",
+      "(8-12) Life Regeneration per second",
+      "Require (2-4) fewer enemies to be Surrounded"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Elevore",
+    "baseType": "Hunter Hood",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(50-80)% increased Evasion Rating",
+      "+(20-30) to Dexterity",
+      "Charms gain 0.5 charges per Second",
+      "+1 Charm Slot"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Goldrim",
+    "baseType": "Felt Cap",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(30-50) to Evasion Rating",
+      "10% increased Rarity of Items found",
+      "+(25-35)% to all Elemental Resistances"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Heatshiver",
+    "baseType": "Velvet Cap",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(50-70)% increased Evasion Rating",
+      "+(60-100) to maximum Mana",
+      "+(20-30)% to Fire Resistance",
+      "+(20-30)% to Cold Resistance",
+      "Gain 1% of Cold damage as Extra Fire damage per 1% Chill Magnitude on enemy"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Innsmouth",
+    "baseType": "Shabby Hood",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(20-30) to Evasion Rating",
+      "25% reduced maximum Mana",
+      "+(10-20)% to Cold Resistance",
+      "+(13-19)% to Chaos Resistance",
+      "100% increased Mana Regeneration Rate"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Myris Uxor",
+    "baseType": "Covert Hood",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(40-60)% increased Evasion Rating",
+      "+(100-150) to Accuracy Rating",
+      "+(40-60) to maximum Mana",
+      "100% increased Culling Strike Threshold"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Radiant Grief",
+    "baseType": "Lace Hood",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(80-100)% increased Evasion Rating",
+      "+(15-25)% to Fire Resistance",
+      "30% increased Light Radius",
+      "Enemies in your Presence are Ignited as though dealt 100 Base Fire Damage"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Starkonja's Head",
+    "baseType": "Leatherbound Hood",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(100-200)% increased Evasion Rating",
+      "(15-25)% increased Critical Hit Chance",
+      "+(30-40) to Dexterity",
+      "150% increased Global Evasion Rating when on Low Life",
+      "15% of Damage from Hits is taken from your Damageable Companion's Life before you"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Atziri's Disdain",
+    "baseType": "Gold Circlet",
+    "variants": [
+      "0.2.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(60-100) to maximum Mana",
+      "(10-15)% increased Rarity of Items found",
+      "10% of Damage taken bypasses Energy Shield",
+      "Gain (10-15)% of maximum Life as Extra maximum Energy Shield"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Crown of Eyes",
+    "baseType": "Vermeil Circlet",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(100-140)% increased Energy Shield",
+      "+(150-200) to Accuracy Rating",
+      "+(10-15) to all Attributes",
+      "-10% to Fire Resistance",
+      "Increases and Reductions to Spell damage also apply to Attacks"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Crown of Thorns",
+    "baseType": "Twig Circlet",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(100-150) to maximum Energy Shield",
+      "Lose 5 Life when you use a Skill",
+      "(3-5) to (6-10) Physical Thorns damage",
+      "Pain Attunement"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "The Devouring Diadem",
+    "baseType": "Wicker Tiara",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(60-100)% increased Energy Shield",
+      "+(40-60) to maximum Life",
+      "+(10-20) to Intelligence",
+      "+(13-19)% to Chaos Resistance",
+      "Every 3 seconds, Consume a nearby Corpse to Recover 20% of maximum Life"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Forbidden Gaze",
+    "baseType": "Chain Tiara",
+    "source": "No longer obtainable",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(60-100)% increased Energy Shield",
+      "+(3-5)% to Maximum Cold Resistance",
+      "+(30-50)% to Cold Resistance",
+      "25% reduced Light Radius"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Indigon",
+    "baseType": "Magus Tiara",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(100-140)% increased Energy Shield",
+      "+(80-120) to maximum Mana",
+      "(5-10)% increased Cost of Skills for each 200 total Mana Spent Recently",
+      "(10-15)% increased Spell damage for each 200 total Mana you have Spent Recently",
+      "Mana Recovery other than Regeneration cannot Recover Mana"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Mask of the Stitched Demon",
+    "baseType": "Feathered Tiara",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(120-160)% increased Energy Shield",
+      "+(17-23)% to Chaos Resistance",
+      "Cannot have Energy Shield",
+      "Regenerate 0.05 Life per second per Maximum Energy Shield"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Sandstorm Visage",
+    "baseType": "Chain Tiara",
+    "source": "Drops from unique{Zarokh, the Temporal}",
+    "variants": [
+      "Pre 0.2.0",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "+(80-120) to maximum Energy Shield",
+      "+(20-30) to Dexterity",
+      "Enemies in your Presence are Blinded",
+      "Every second, inflicts Critical Weakness on enemies in your Presence for (15-20) seconds"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Scold's Bridle",
+    "baseType": "Jade Tiara",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(75-150) to maximum Energy Shield",
+      "(60-100)% increased Spell Damage",
+      "+(80-100) to maximum Mana",
+      "15% reduced Cast Speed",
+      "Take (25-100)% of Mana Costs you pay for Skills as Physical Damage"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Visage of Ayah",
+    "baseType": "Beaded Circlet",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(50-80)% increased Energy Shield",
+      "(10-15)% increased Rarity of Items found",
+      "(20-30)% increased Critical Hit Chance",
+      "+(10-20)% to Lightning Resistance",
+      "Eldritch Battery"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Assailum",
+    "baseType": "Closed Helm",
+    "source": "Drops from unique{Kosis, The Revelation}",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(200-300)% increased Armour and Evasion",
+      "+(200-400) to Accuracy Rating",
+      "(30-50)% increased Critical Hit Chance",
+      "Skills have a (100-150)% longer Perfect Timing window"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "The Bringer of Rain",
+    "baseType": "Decorated Helm",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.2.1",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "(600-800)% increased Armour and Evasion",
+      "+(200-300) to Accuracy Rating",
+      "100% increased Critical Hit Chance",
+      "(30-60) Life Regeneration per second",
+      "Can't use Body Armour",
+      "You can wield Two-Handed Axes, Maces and Swords in one hand",
+      "This item gains bonuses from Socketed Items as though it was a Body Armour",
+      "Has 4 Augment Sockets"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Erian's Cobble",
+    "baseType": "Guarded Helm",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(0-40) to Armour",
+      "+(0-30) to Evasion Rating",
+      "+(0-20) to maximum Energy Shield",
+      "+(0-60) to Accuracy Rating",
+      "+(0-30) to maximum Life",
+      "+(0-20) to maximum Mana",
+      "(0-20)% increased Rarity of Items found",
+      "(0-30)% increased Critical Hit Chance",
+      "+(0-10) to Strength",
+      "+(0-10) to Dexterity",
+      "+(0-10) to Intelligence",
+      "+(0-10)% to Fire Resistance",
+      "+(0-10)% to Cold Resistance",
+      "+(0-10)% to Lightning Resistance",
+      "(0-6) Life Regeneration per second"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Greymake",
+    "baseType": "Brimmed Helm",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(30-50) to Strength",
+      "+(30-50) to Dexterity",
+      "+(30-50) to Intelligence",
+      "-1 to all Attributes per Level",
+      "Has 4 Augment Sockets"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Ironride",
+    "baseType": "Visored Helm",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(60-80)% increased Armour and Evasion",
+      "+(30-50) to maximum Life",
+      "+(30-50) to maximum Mana",
+      "+(10-15)% to Lightning Resistance",
+      "You have no Accuracy Penalty at Distance"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "The Smiling Knight",
+    "baseType": "Cowled Helm",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(150-200)% increased Armour and Evasion",
+      "+(50-100) to Accuracy Rating",
+      "(15-25)% increased Critical Hit Chance",
+      "Aggravate Bleeding on targets you Critically Hit with Attacks"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "The Vile Knight",
+    "baseType": "Shielded Helm",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(60-100)% increased Armour and Evasion",
+      "+(75-125) to Accuracy Rating",
+      "(10-15) Life Regeneration per second",
+      "Deal 4% increased Damage with Hits to Rare or Unique Enemies for each second they've ever been in your Presence, up to a maximum of 200%"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Bronzebeard",
+    "baseType": "Horned Crown",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "10% reduced Movement Speed",
+      "(50-100)% increased Armour and Energy Shield",
+      "+100 to maximum Life",
+      "(35-50)% reduced Effect of Chill on you",
+      "(35-50)% reduced Magnitude of Ignite on you",
+      "(35-50)% reduced effect of Shock on you"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Cornathaum",
+    "baseType": "Heavy Crown",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(10-20)% increased Rarity of Items found",
+      "+(40-50) to Intelligence",
+      "30% increased Light Radius",
+      "5% increased Experience gain"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Crown of the Pale King",
+    "baseType": "Cultist Crown",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(50-100)% increased Armour and Energy Shield",
+      "+(40-80) to maximum Life",
+      "10% increased Rarity of Items found",
+      "(10-15) to (20-25) Physical Thorns damage",
+      "Thorns can Retaliate against all Hits"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Crown of the Victor",
+    "baseType": "Iron Crown",
+    "variants": [
+      "Pre 0.2.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(10-15)% increased Rarity of Items found",
+      "Gain 10 Life per enemy killed",
+      "Gain 10 Mana per enemy killed",
+      "+1 to Level of all Skills"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "The Deepest Tower",
+    "baseType": "Spiritbone Crown",
+    "league": "Dawn of the Hunt",
+    "source": "No longer obtainable",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(70-130)% increased Armour and Energy Shield",
+      "+(70-100) to maximum Life",
+      "+(17-23)% to Chaos Resistance",
+      "50% reduced Presence Area of Effect",
+      "10% reduced Light Radius",
+      "Enemies in your Presence count as being on Low Life"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Keeper of the Arc",
+    "baseType": "Spiritbone Crown",
+    "source": "Drops from unique{Olroth, Origin of the Fall}",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(150-250)% increased Armour and Energy Shield",
+      "(15-25) Life Regeneration per second",
+      "(15-25)% increased Mana Regeneration Rate",
+      "Alternating every 5 seconds:",
+      "Take 40% less Damage from Hits",
+      "Take 40% less Damage over time"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Veil of the Night",
+    "baseType": "Martyr Crown",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "50% increased maximum Life",
+      "+(10-20) to all Attributes",
+      "40% reduced Light Radius",
+      "You have no Elemental Resistances"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Atsak's Sight",
+    "baseType": "Veiled Mask",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Evasion and Energy Shield",
+      "(30-40)% increased Critical Hit Chance",
+      "+(10-20) to Dexterity",
+      "+(10-20) to Intelligence",
+      "Critical Hits Poison the enemy"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Glimpse of Chaos",
+    "baseType": "Tribal Mask",
+    "source": "Drops from unique{Trialmaster} in normal{The Trial of Chaos}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Can be modified while Corrupted",
+      "+(50-150) to maximum Life",
+      "+(50-150) to maximum Mana",
+      "+(-30-30)% to Fire Resistance",
+      "+(-30-30)% to Cold Resistance",
+      "+(-30-30)% to Lightning Resistance",
+      "Chaos Resistance is zero"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "The Hollow Mask",
+    "baseType": "Hewn Mask",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(60-80) to maximum Life",
+      "15% additional Physical Damage Reduction",
+      "-10% to all Elemental Resistances",
+      "+13% to Chaos Resistance"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Leer Cast",
+    "baseType": "Hooded Mask",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+(30-50) to maximum Life",
+      "+(30-50) to maximum Mana",
+      "Allies in your Presence deal 50% increased Damage",
+      "+(10-20) to Dexterity",
+      "25% reduced Damage"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Mask of the Sanguimancer",
+    "baseType": "Face Mask",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+(20-25) to Evasion Rating",
+      "+(10-15) to maximum Energy Shield",
+      "(20-40)% increased Critical Hit Chance for Spells",
+      "+(10-20) to Strength",
+      "+(10-20) to Intelligence",
+      "Blood Magic"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Mind of the Council",
+    "baseType": "Death Mask",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(150-200)% increased Evasion and Energy Shield",
+      "+(60-90) to maximum Mana",
+      "+(20-30)% to Lightning Resistance",
+      "Attacks cost an additional 6% of your maximum Mana",
+      "Attacks have Added maximum Lightning Damage equal to (6-9)% of maximum Mana"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "The Three Dragons",
+    "baseType": "Solid Mask",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(40-60)% increased Evasion and Energy Shield",
+      "+(10-20)% to all Elemental Resistances",
+      "Fire Damage from Hits Contributes to Shock Chance instead of Flammability and Ignite Magnitudes",
+      "Cold Damage from Hits Contributes to Flammability and Ignite Magnitudes instead of Chill Magnitude or Freeze Buildup",
+      "Lightning Damage from Hits Contributes to Freeze Buildup instead of Shock Chance"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "The Vertex",
+    "baseType": "Tribal Mask",
+    "variants": [
+      "Pre 0.4.0",
+      "Equipment",
+      "Skill Gems"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "(100-150)% increased Evasion and Energy Shield",
+      "(20-30)% increased Critical Hit Chance",
+      "+(13-17)% to Chaos Resistance",
+      "Skill Gems have no Attribute Requirements"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "Solus Ipse",
+    "baseType": "Grand Visage",
+    "source": "Drops from unique{Arbiter of Ash} in normal{The Burning Monolith}",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "(150-200)% increased Armour, Evasion and Energy Shield",
+      "+(60-100) to maximum Mana",
+      "25% increased Light Radius",
+      "Equipment and Skill Gems have 25% increased Attribute Requirements",
+      "You can Socket 2 additional copies of each Lineage Support Gem, in different Skills"
+    ],
+    "category": "helmet"
+  },
+  {
+    "name": "The Adorned",
+    "baseType": "Diamond",
+    "source": "Drops from unique{Trialmaster} in normal{The Trial of Chaos}",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Limited to: 1",
+      "(0-150)% increased Effect of Jewel Socket Passive Skills",
+      "containing Corrupted Magic Jewels"
+    ],
+    "category": "jewel"
+  },
+  {
+    "name": "Controlled Metamorphosis",
+    "baseType": "Diamond",
+    "source": "Drops from unique{Xesht, We That Are One} in normal{Twisted Domain}",
+    "variants": [
+      "Very Small Ring",
+      "Small Ring",
+      "Medium-Small Ring",
+      "Medium Ring",
+      "Medium-Large Ring",
+      "Large Ring",
+      "Very Large Ring",
+      "Massive Ring"
+    ],
+    "currentVariant": 8,
+    "implicits": [],
+    "explicits": [
+      "Limited to: 1",
+      "Radius: Variable",
+      "Only affects Passives in Massive Ring",
+      "Passives in Radius can be Allocated without being connected to your tree",
+      "-(20-5)% to all Elemental Resistances",
+      "-(23-3)% to Chaos Resistance"
+    ],
+    "category": "jewel"
+  },
+  {
+    "name": "Grand Spectrum",
+    "baseType": "Ruby",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Limited to: 3",
+      "2% increased Maximum Life per socketed Grand Spectrum"
+    ],
+    "category": "jewel"
+  },
+  {
+    "name": "Grand Spectrum",
+    "baseType": "Emerald",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Limited to: 3",
+      "2% increased Spirit per socketed Grand Spectrum"
+    ],
+    "category": "jewel"
+  },
+  {
+    "name": "Grand Spectrum",
+    "baseType": "Sapphire",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Limited to: 3",
+      "+6% to all Elemental Resistances per socketed Grand Spectrum"
+    ],
+    "category": "jewel"
+  },
+  {
+    "name": "Heroic Tragedy",
+    "baseType": "Timeless Jewel",
+    "source": "Drops from unique{Olroth, Origin of the Fall}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Limited to: 1 Historic",
+      "Variant: Vorana",
+      "Variant: Medved",
+      "Variant: Olroth",
+      "Radius: Very Large",
+      "Passives in radius are Conquered by the Kalguur",
+      "Historic"
+    ],
+    "category": "jewel"
+  },
+  {
+    "name": "Undying Hate",
+    "baseType": "Timeless Jewel",
+    "source": "Drops from unique{Vessel of Kulemak}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Limited to: 1 Historic",
+      "Variant: Amanamu",
+      "Variant: Kulemak",
+      "Variant: Kurgal",
+      "Variant: Tecrod",
+      "Variant: Ulaman",
+      "Radius: Very Large",
+      "Passives in radius are Conquered by the Abyssals",
+      "Historic"
+    ],
+    "category": "jewel"
+  },
+  {
+    "name": "Brynhand's Mark",
+    "baseType": "Wooden Club",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Adds (10-14) to (16-20) Physical Damage",
+      "+(30-50) to Accuracy Rating",
+      "20% reduced Attack Speed",
+      "+(10-20) to Strength",
+      "Causes Double Stun Buildup"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Frostbreath",
+    "baseType": "Slim Mace",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Adds (8-12) to (16-20) Physical Damage",
+      "Adds (8-12) to (16-20) Cold Damage",
+      "+5% to Critical Hit Chance",
+      "All Damage from Hits with this Weapon Contributes to Freeze Buildup",
+      "Culling Strike against Frozen Enemies"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Marohi Erqi",
+    "baseType": "Totemic Greatclub",
+    "league": "Rise of the Abyssal",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Crushes Enemies on Hit"
+    ],
+    "explicits": [
+      "+150 Strength Requirement",
+      "(600-700)% increased Physical Damage",
+      "-(300-200) to Accuracy Rating",
+      "35% reduced Attack Speed",
+      "Causes (40-60)% increased Stun Buildup",
+      "Heavy Stuns Enemies that are on Full Life"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Mjölner",
+    "baseType": "Torment Club",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.2.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Level (1-20) Thundergod's Wrath"
+    ],
+    "explicits": [
+      "+200 Intelligence Requirement",
+      "+100 Strength Requirement",
+      "(250-350)% increased Physical Damage",
+      "(10-20)% increased Attack Speed",
+      "+(2-4) to Level of all Lightning Skills"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Nebuloch",
+    "baseType": "Brigand Mace",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Adds (39-48) to (69-79) Physical Damage",
+      "+(20-30)% to Critical Damage Bonus",
+      "Adds (25-36) to (44-55) Chaos damage",
+      "Attacks consume an Endurance Charge to Critically Hit",
+      "Take 100 Chaos damage per second per Endurance Charge"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Olrovasara",
+    "baseType": "Torment Club",
+    "source": "Drops from unique{Olroth, Origin of the Fall}",
+    "variants": [
+      "Pre 0.2.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Adds 1 to (80-120) Lightning Damage",
+      "+(300-400) to Accuracy Rating",
+      "(5-30)% increased Attack Speed",
+      "On Hitting an enemy, gains maximum added Lightning damage equal to",
+      "the enemy's Power for 20 seconds, up to a total of 500"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Sculpted Suffering",
+    "baseType": "Warpick",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "+(5-10)% to Critical Damage Bonus",
+      "Adds (21-26) to (25-31) Physical Damage"
+    ],
+    "explicits": [
+      "(10-15)% increased Attack Speed",
+      "Breaks Armour equal to 40% of damage from Hits with this weapon",
+      "Fully Armour Broken enemies you kill with Hits Shatter"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Seeing Stars",
+    "baseType": "{variant:1,2}Plated Mace",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Variant: Pre 0.1.1",
+      "Variant: Pre 0.4.0",
+      "Variant: Current",
+      "(10-20)% increased Attack Speed",
+      "Energy Generation is doubled"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Trenchtimbre",
+    "baseType": "Spiked Club",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.2.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "Adds (13-15) to (22-25) Physical Damage",
+      "(20-30)% increased Attack Speed",
+      "+(1-2) to Level of all Minion Skills",
+      "Increases and Reductions to Minion Attack Speed also affect you"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Wylund's Stake",
+    "baseType": "Smithing Hammer",
+    "source": "No longer obtainable",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Adds (4-6) to (8-10) Physical Damage",
+      "Adds (4-6) to (8-10) Fire Damage",
+      "+(10-20) to Strength",
+      "+(20-30)% to Fire Resistance",
+      "Hits Break (30-50) Armour",
+      "Inflicts Fire Exposure when this Weapon Fully Breaks Armour"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Brain Rattler",
+    "baseType": "Studded Greatclub",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Adds (18-22) to (24-28) Physical Damage",
+      "Adds 1 to (50-55) Lightning Damage",
+      "(10-15)% increased Attack Speed",
+      "All damage with this Weapon causes Electrocution buildup"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Chober Chaber",
+    "baseType": "Leaden Greathammer",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "+100 Intelligence Requirement",
+      "Adds (58-65) to (102-110) Physical Damage",
+      "+(80-100) to maximum Mana",
+      "+50 to Spirit",
+      "Increases and Reductions to Minion Damage also affect you"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "The Empty Roar",
+    "baseType": "Cultist Greathammer",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Strikes deal Splash Damage"
+    ],
+    "explicits": [
+      "Adds (25-35) to (40-50) Physical Damage",
+      "Leeches 10% of Physical Damage as Life",
+      "(10-20)% chance to cause Bleeding on Hit",
+      "All Attacks count as Empowered Attacks",
+      "Cannot use Warcries"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "The Hammer of Faith",
+    "baseType": "Giant Maul",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.2.1",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "(300-350)% increased Physical Damage",
+      "10% reduced Attack Speed",
+      "+10% to all Elemental Resistances",
+      "50% increased Mana Regeneration Rate",
+      "Every 10 seconds, gain a random non-damaging Shrine buff for 20 seconds"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Hoghunt",
+    "baseType": "Felled Greatclub",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Adds (16-20) to (23-27) Physical Damage",
+      "+15% to Critical Hit Chance",
+      "10% reduced Attack Speed",
+      "+10 to Strength",
+      "Maim on Critical Hit"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Hrimnor's Hymn",
+    "baseType": "Oak Greathammer",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Causes (20-40)% increased Stun Buildup"
+    ],
+    "explicits": [
+      "(80-120)% increased Physical Damage",
+      "+(10-15) to Strength",
+      "Gain (10-20) Life per enemy killed",
+      "Slam Skills you use yourself cause an additional Aftershock"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Quecholli",
+    "baseType": "Crumbling Maul",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage"
+    ],
+    "explicits": [
+      "(80-120)% increased Physical Damage",
+      "+(10-15) to all Attributes",
+      "Gain 30 Life per enemy killed",
+      "This Weapon's Critical Hit Chance is 100%",
+      "Critical Hits do not deal extra Damage"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Tidebreaker",
+    "baseType": "Pointed Maul",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "(120-150)% increased Physical Damage",
+      "+(2-3) to Level of all Melee Skills",
+      "+(20-30) to Intelligence",
+      "Causes (150-200)% increased Stun Buildup",
+      "All Damage from Hits with this Weapon Contributes to Chill Magnitude"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Trephina",
+    "baseType": "Forge Maul",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Adds (12-15) to (22-25) Physical Damage",
+      "(10-15)% increased Attack Speed",
+      "Causes (30-50)% increased Stun Buildup",
+      "Always deals Critical Hits against Heavy Stunned Enemies"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Shyaba",
+    "baseType": "Temple Maul",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "+50 Dexterity Requirement",
+      "-15 Strength Requirement",
+      "(80-120)% increased Physical Damage",
+      "50% increased Attack Speed",
+      "(15-25)% increased Light Radius",
+      "Always Hits"
+    ],
+    "category": "mace"
+  },
+  {
+    "name": "Asphyxia's Wrath",
+    "baseType": "Broadhead Quiver",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Adds 1 to 3 Physical Damage to Attacks"
+    ],
+    "explicits": [
+      "Adds (3-4) to (5-8) Cold damage to Attacks",
+      "(5-10)% increased Attack Speed",
+      "+(5-10)% to Cold Resistance",
+      "Enemies Chilled by your Hits increase damage taken by Chill Magnitude",
+      "Attacks Gain (5-10)% of Damage as Extra Cold Damage"
+    ],
+    "category": "quiver"
+  },
+  {
+    "name": "Beyond Reach",
+    "baseType": "Visceral Quiver",
+    "source": "Drops from unique{Xesht, We That Are One} in normal{Twisted Domain}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(20-30)% increased Critical Hit Chance for Attacks"
+    ],
+    "explicits": [
+      "(10-15)% reduced Attack Speed",
+      "Chaos Damage from Hits also Contributes to Freeze Buildup",
+      "Chaos Damage from Hits also Contributes to Electrocute Buildup",
+      "Attacks Gain (10-20)% of Physical Damage as extra Chaos Damage"
+    ],
+    "category": "quiver"
+  },
+  {
+    "name": "Blackgleam",
+    "baseType": "Fire Quiver",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Adds 3 to 5 Fire damage to Attacks"
+    ],
+    "explicits": [
+      "Adds (3-5) to (6-9) Fire damage to Attacks",
+      "+(30-50) to maximum Mana",
+      "50% increased Flammability Magnitude",
+      "Projectiles Pierce all Ignited enemies",
+      "Attacks Gain (5-10)% of Damage as Extra Fire Damage"
+    ],
+    "category": "quiver"
+  },
+  {
+    "name": "Cadiro's Gambit",
+    "baseType": "Primed Quiver",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(7-10)% increased Attack Speed"
+    ],
+    "explicits": [
+      "Each Arrow fired is a Crescendo, Splinter, Reversing, Diamond, Covetous, or Blunt Arrow"
+    ],
+    "category": "quiver"
+  },
+  {
+    "name": "Drillneck",
+    "baseType": "Penetrating Quiver",
+    "league": "Fate of the Vaal",
+    "source": "Drops from unique{Atziri's Vault} in normal{Vaal Temple}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "100% chance to Pierce an Enemy"
+    ],
+    "explicits": [
+      "+(60-90) to maximum Life",
+      "(8-12)% increased Attack Speed",
+      "Gain Deflection Rating equal to (24-32)% of Evasion Rating",
+      "Attack Projectiles Return if they Pierced at least (2-4) times",
+      "Projectiles deal (42-64)% increased Damage with Hits for each time they have Pierced",
+      "Projectiles have (42-64)% increased Critical Hit chance for each time they have Pierced"
+    ],
+    "category": "quiver"
+  },
+  {
+    "name": "The Lethal Draw",
+    "baseType": "Sacral Quiver",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Gain (2-3) Life per Enemy Hit with Attacks"
+    ],
+    "explicits": [
+      "(5-10)% increased Attack Speed",
+      "Gain 5 Life per Enemy Hit with Attacks",
+      "(15-25)% chance to Pierce an Enemy",
+      "Bow Attacks consume 10% of your maximum Life Flask Charges if possible to deal added Physical damage equal to (5-10)% of Flask's Life Recovery amount"
+    ],
+    "category": "quiver"
+  },
+  {
+    "name": "Murkshaft",
+    "baseType": "Toxic Quiver",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Bursting Fen Toad",
+      "(20-30)% chance to Poison on Hit with Attacks"
+    ],
+    "explicits": [
+      "Adds (6-10) to (13-17) Physical Damage to Attacks",
+      "Gain (10-15) Mana per enemy killed",
+      "(10-20)% increased Poison Duration",
+      "(20-30)% chance to Poison on Hit with Attacks",
+      "Blind Targets when you Poison them"
+    ],
+    "category": "quiver"
+  },
+  {
+    "name": "Rearguard",
+    "baseType": "Blunt Quiver",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "(25-40)% increased Stun Buildup",
+      "Adds (7-11) to (14-20) Physical Damage to Attacks"
+    ],
+    "explicits": [
+      "+(150-200) to Armour",
+      "(20-30)% increased Projectile Speed",
+      "+(15-25)% to Block chance"
+    ],
+    "category": "quiver"
+  },
+  {
+    "name": "Andvarius",
+    "baseType": "Gold Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(6-15)% increased Rarity of Items found"
+    ],
+    "explicits": [
+      "(50-70)% increased Rarity of Items found",
+      "{tags:attribute}+10 to Dexterity",
+      "{tags:fire,cold,lightning}-20% to all Elemental Resistances"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Blackflame",
+    "baseType": "Amethyst Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:chaos}+(7-13)% to Chaos Resistance"
+    ],
+    "explicits": [
+      "{tags:mana}(15-30)% increased Mana Regeneration Rate",
+      "50% increased Ignite Magnitude",
+      "{tags:fire}50% reduced Ignite Duration on Enemies",
+      "{tags:fire}Enemies Ignited by you take Chaos Damage instead of Fire Damage from Ignite"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Blackheart",
+    "baseType": "Iron Ring",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "{tags:physical,attack}Adds 1 to 4 Physical Damage to Attacks"
+    ],
+    "explicits": [
+      "{tags:life}(3-6) Life Regeneration per second",
+      "{tags:chaos,attack}Adds (4-6) to (8-10) Chaos Damage to Attacks",
+      "25% chance to Intimidate Enemies for 4 seconds on Hit"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Blistering Bond",
+    "baseType": "Ruby Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:fire}+(20-30)% to Fire Resistance"
+    ],
+    "explicits": [
+      "{tags:life}+(40-60) to maximum Life",
+      "{tags:fire}+(20-30)% to Fire Resistance",
+      "{tags:cold}-(15-10)% to Cold Resistance",
+      "You take Fire Damage instead of Physical Damage from Bleeding"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "The Burrower",
+    "baseType": "Topaz Ring",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "{tags:lightning}+(20-30)% to Lightning Resistance"
+    ],
+    "explicits": [
+      "{tags:cold}-10% to Cold Resistance",
+      "{tags:lightning}+(20-30)% to Lightning Resistance",
+      "{tags:mana}(30-50)% increased Mana Regeneration Rate",
+      "{tags:lightning}Lightning Damage of Enemies Hitting you is Unlucky"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Bursting Decay",
+    "baseType": "Unset Ring",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants 1 additional Skill Slot"
+    ],
+    "explicits": [
+      "(15-25)% increased Rarity of Items found",
+      "{tags:chaos}+(17-23)% to Chaos Resistance",
+      "Lose 5% of maximum Life per second",
+      "{tags:physical}Attacks have added Physical damage equal to 3% of maximum Life"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Call of the Brotherhood",
+    "baseType": "Topaz Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:lightning}+(20-30)% to Lightning Resistance"
+    ],
+    "explicits": [
+      "{tags:attribute}+(10-20) to Intelligence",
+      "{tags:mana}(25-35)% increased Mana Regeneration Rate",
+      "(20-30)% increased Freeze Buildup",
+      "100% of Lightning Damage Converted to Cold Damage"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Cracklecreep",
+    "baseType": "Ruby Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:fire}+(20-30)% to Fire Resistance"
+    ],
+    "explicits": [
+      "{tags:fire}(20-30)% increased Fire Damage",
+      "{tags:life}(3.1-6) Life Regeneration per second",
+      "{tags:mana}(20-30)% increased Mana Regeneration Rate",
+      "Ignites you inflict spread to other Enemies that stay within 1.5 metres for 1 second"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Death Rush",
+    "baseType": "Emerald Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:attack}+(120-160) to Accuracy Rating"
+    ],
+    "explicits": [
+      "{tags:attack}+(75-125) to Accuracy Rating",
+      "{tags:defences}+(75-125) to Evasion Rating",
+      "{tags:life,physical,attack}Leech 5% of Physical Attack Damage as Life",
+      "You gain Onslaught for 4 seconds on Kill"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Doedre's Damning",
+    "baseType": "Lazuli Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:mana}+(20-30) to maximum Mana"
+    ],
+    "explicits": [
+      "{tags:fire,cold,lightning}+(5-15)% to all Elemental Resistances",
+      "{tags:mana}Gain (1-10) Mana per enemy killed",
+      "{tags:caster}You can apply an additional Curse"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Dream Fragments",
+    "baseType": "Sapphire Ring",
+    "variants": [
+      "Pre 0.2.0",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [
+      "{tags:cold}+(20-30)% to Cold Resistance"
+    ],
+    "explicits": [
+      "{tags:mana}(10-15)% increased maximum Mana",
+      "{tags:mana}(30-50)% increased Mana Regeneration Rate",
+      "You cannot be Chilled or Frozen"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Evergrasping Ring",
+    "baseType": "Pearl Ring",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:caster,speed}(7-10)% increased Cast Speed"
+    ],
+    "explicits": [
+      "{tags:mana}+(60-100) to maximum Mana",
+      "{tags:chaos}Allies in your Presence Gain (15-25)% of Damage as Extra Chaos Damage",
+      "{tags:chaos}Enemies in your Presence Gain (6-12)% of Damage as Extra Chaos Damage"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Gifts from Above",
+    "baseType": "Prismatic Ring",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:fire,cold,lightning}+(7-10)% to all Elemental Resistances"
+    ],
+    "explicits": [
+      "(20-30)% increased Critical Hit Chance",
+      "(20-30)% increased Light Radius",
+      "(20-30)% increased Rarity of Items Dropped by Enemies killed with a Critical Hit",
+      "You have Consecrated Ground around you while stationary"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Glowswarm",
+    "baseType": "Lazuli Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:mana}+(20-30) to maximum Mana"
+    ],
+    "explicits": [
+      "{tags:mana}+(40-60) to maximum Mana",
+      "{tags:mana}(20-30)% increased Flask Mana Recovery rate",
+      "Mana Flasks gain (0.17-0.25) charges per Second"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Heartbound Loop",
+    "baseType": "Pearl Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:caster,speed}(7-10)% increased Cast Speed"
+    ],
+    "explicits": [
+      "{tags:life}Minions have (10-15)% increased maximum Life",
+      "{tags:life}(10-15) Life Regeneration per second",
+      "{tags:mana}(20-40)% increased Mana Regeneration Rate",
+      "{tags:physical}300 Physical Damage taken on Minion Death",
+      "Minions Revive (10-15)% faster"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Icefang Orbit",
+    "baseType": "Iron Ring",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:physical,attack}Adds 1 to 4 Physical Damage to Attacks"
+    ],
+    "explicits": [
+      "{tags:physical,attack}Adds (5-7) to (9-13) Physical Damage to Attacks",
+      "{tags:attribute}+(20-30) to Dexterity",
+      "(10-20)% chance to Poison on Hit",
+      "{tags:cold}All Damage taken from Hits while Poisoned Contributes to Magnitude of Chill on you",
+      "{tags:cold}All Damage from Hits against Poisoned targets Contributes to Chill Magnitude",
+      "(15-25)% increased Magnitude of Poison you inflict"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Kalandra's Touch",
+    "baseType": "Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Reflects opposite Ring",
+      "Mirrored"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Levinstone",
+    "baseType": "Topaz Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:lightning}+(20-30)% to Lightning Resistance"
+    ],
+    "explicits": [
+      "{tags:mana}+(40-60) to maximum Mana",
+      "(10-20)% increased chance to Shock",
+      "{tags:lightning}+1 to Level of all Lightning Skills"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Ming's Heart",
+    "baseType": "Amethyst Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:chaos}+(7-13)% to Chaos Resistance"
+    ],
+    "explicits": [
+      "{tags:life}20% reduced maximum Life",
+      "{tags:chaos}Gain (30-40)% of Damage as Extra Chaos Damage",
+      "{tags:defences}30% reduced Global Defences"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Original Sin",
+    "baseType": "Amethyst Ring",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "{tags:chaos}+(7-13)% to Chaos Resistance"
+    ],
+    "explicits": [
+      "{tags:chaos}+(17-23)% to Chaos Resistance",
+      "100% of Elemental Damage Converted to Chaos Damage"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Perandus Seal",
+    "baseType": "Gold Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "(6-15)% increased Rarity of Items found"
+    ],
+    "explicits": [
+      "{tags:mana}+(30-50) to maximum Mana",
+      "{tags:attribute}+(5-10) to all Attributes",
+      "(10-15)% increased Quantity of Gold Dropped by Slain Enemies"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Polcirkeln",
+    "baseType": "Sapphire Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:cold}+(20-30)% to Cold Resistance"
+    ],
+    "explicits": [
+      "{tags:cold}(20-30)% increased Cold Damage",
+      "{tags:mana}+(40-60) to maximum Mana",
+      "{tags:attribute}+(10-15) to Strength",
+      "Enemies Chilled by your Hits can be Shattered as though Frozen"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Prized Pain",
+    "baseType": "Iron Ring",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:physical,attack}Adds 1 to 4 Physical Damage to Attacks"
+    ],
+    "explicits": [
+      "{tags:attribute}+(20-30) to Strength",
+      "Skills gain a Base Life Cost equal to 10% of Base Mana Cost",
+      "Deal your Thorns Damage to Enemies you Stun with Melee Attacks",
+      "{tags:physical}(24-35) to (35-53) Physical Thorns damage"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Seed of Cataclysm",
+    "baseType": "Lazuli Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:mana}+(20-30) to maximum Mana"
+    ],
+    "explicits": [
+      "{tags:caster}(30-50)% increased Critical Hit Chance for Spells",
+      "{tags:caster}(30-50)% increased Critical Spell Damage Bonus",
+      "{tags:chaos}+(13-17)% to Chaos Resistance",
+      "{tags:mana}10% increased Mana Cost of Skills"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Sekhema's Resolve",
+    "baseType": "Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Sockets: J",
+      "Source: Drops from unique{Zarokh, the Temporal}",
+      "Variant: Ruby",
+      "Variant: Emerald",
+      "Variant: Sapphire",
+      "Requires Level 40",
+      "(10-20)% increased Rarity of Items found",
+      "{tags:attribute}+(10-20) to all Attributes"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Snakepit",
+    "baseType": "Pearl Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:caster,speed}(7-10)% increased Cast Speed"
+    ],
+    "explicits": [
+      "{tags:caster}(20-30)% increased Spell Damage",
+      "{tags:caster,speed}(10-15)% increased Cast Speed",
+      "Left ring slot: Projectiles from Spells cannot Chain",
+      "Left ring slot: Projectiles from Spells Fork",
+      "Right ring slot: Projectiles from Spells Chain +1 times",
+      "Right ring slot: Projectiles from Spells cannot Fork",
+      "Projectiles from Spells cannot Pierce"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Thief's Torment",
+    "baseType": "Emerald Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:attack}+(120-160) to Accuracy Rating"
+    ],
+    "explicits": [
+      "(30-40)% increased Rarity of Items found",
+      "{tags:fire,cold,lightning}+(10-15)% to all Elemental Resistances",
+      "{tags:life,attack}Gain 25 Life per Enemy Hit with Attacks",
+      "Can't use other Rings",
+      "{tags:mana,attack}Gain 15 Mana per Enemy Hit with Attacks",
+      "{tags:caster}50% reduced Duration of Curses on you"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Venopuncture",
+    "baseType": "Iron Ring",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:physical,attack}Adds 1 to 4 Physical Damage to Attacks"
+    ],
+    "explicits": [
+      "{tags:physical,attack}Adds (5-7) to (9-13) Physical Damage to Attacks",
+      "{tags:attribute}+(20-30) to Strength",
+      "{tags:cold}All Damage taken from Hits while Bleeding Contributes to Magnitude of Chill on you",
+      "{tags:cold}All Damage from Hits against Bleeding targets Contributes to Chill Magnitude",
+      "(10-20)% chance to inflict Bleeding on Hit",
+      "{tags:physical,attack}(15-25)% increased Magnitude of Bleeding you inflict"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Ventor's Gamble",
+    "baseType": "Gold Ring",
+    "variants": [
+      "Pre 0.2.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "(6-15)% increased Rarity of Items found"
+    ],
+    "explicits": [
+      "{tags:life}+(0-80) to maximum Life",
+      "+(0-20) to Spirit",
+      "(-25-25)% reduced Rarity of Items found",
+      "{tags:fire}+(-40-40)% to Fire Resistance",
+      "{tags:cold}+(-40-40)% to Cold Resistance",
+      "{tags:lightning}+(-40-40)% to Lightning Resistance"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Vigilant View",
+    "baseType": "Emerald Ring",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:attack}+(120-160) to Accuracy Rating"
+    ],
+    "explicits": [
+      "{tags:attack}+(100-150) to Accuracy Rating",
+      "{tags:defences}+(100-150) to Evasion Rating",
+      "(10-20)% increased Rarity of Items found",
+      "{tags:attribute}+(20-30) to Dexterity",
+      "Enemies have an Accuracy Penalty against you based on Distance",
+      "Maximum Chance to Evade is 50%"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "Whisper of the Brotherhood",
+    "baseType": "Sapphire Ring",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "{tags:cold}+(20-30)% to Cold Resistance"
+    ],
+    "explicits": [
+      "{tags:speed}(5-10)% increased Skill Speed",
+      "{tags:attribute}+(10-20) to Dexterity",
+      "{tags:mana}(25-35)% increased Mana Regeneration Rate",
+      "100% of Cold Damage Converted to Lightning Damage"
+    ],
+    "category": "ring"
+  },
+  {
+    "name": "The Dark Defiler",
+    "baseType": "Rattling Sceptre",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Level (1-20) Skeletal Warrior Minion"
+    ],
+    "explicits": [
+      "+(20-30) to maximum Mana",
+      "+(5-10) to Intelligence",
+      "(10-30)% increased Mana Regeneration Rate",
+      "Gain 5% of Damage as Chaos Damage per Undead Minion"
+    ],
+    "category": "sceptre"
+  },
+  {
+    "name": "Font of Power",
+    "baseType": "Omen Sceptre",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Malice"
+    ],
+    "explicits": [
+      "(30-50)% increased Spirit",
+      "+(40-60) to maximum Mana",
+      "(20-30)% increased Mana Regeneration Rate",
+      "When a Party Member in your Presence Casts a Spell, you",
+      "Sacrifice 20% of Mana and they Leech that Mana"
+    ],
+    "category": "sceptre"
+  },
+  {
+    "name": "Guiding Palm",
+    "baseType": "Shrine Sceptre",
+    "variants": [
+      "Fire (Pre 0.2.1 )",
+      "Cold (Pre 0.2.1 )",
+      "Lightning (Pre 0.2.1 )",
+      "Fire",
+      "Cold",
+      "Lightning"
+    ],
+    "currentVariant": 6,
+    "implicits": [
+      "Grants Skill: Level (1-20) Purity of Lightning",
+      "Allies in your Presence deal 1 to (56-70) added Attack Lightning Damage",
+      "50% of your Base Life Regeneration is granted to Allies in your Presence"
+    ],
+    "explicits": [
+      "+(5-10) to all Attributes",
+      "25% increased Light Radius"
+    ],
+    "category": "sceptre"
+  },
+  {
+    "name": "Guiding Palm of the Eye",
+    "baseType": "Shrine Sceptre",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Purity of Ice"
+    ],
+    "explicits": [
+      "Gain 25% of Damage as Extra Cold Damage",
+      "Allies in your Presence deal (15-23) to (28-35) added Attack Cold Damage",
+      "50% of your Base Life Regeneration is granted to Allies in your Presence",
+      "+(20-30) to Intelligence",
+      "25% increased Light Radius",
+      "Grants effect of Guided Freezing Shrine"
+    ],
+    "category": "sceptre"
+  },
+  {
+    "name": "Guiding Palm of the Heart",
+    "baseType": "Shrine Sceptre",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Purity of Fire"
+    ],
+    "explicits": [
+      "Gain 25% of Damage as Extra Fire Damage",
+      "Allies in your Presence deal (15-23) to (28-35) added Attack Fire Damage",
+      "50% of your Base Life Regeneration is granted to Allies in your Presence",
+      "+(20-30) to Strength",
+      "25% increased Light Radius",
+      "Grants effect of Guided Meteoric Shrine"
+    ],
+    "category": "sceptre"
+  },
+  {
+    "name": "Guiding Palm of the Mind",
+    "baseType": "Shrine Sceptre",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Purity of Lightning"
+    ],
+    "explicits": [
+      "Gain 25% of Damage as Extra Lightning Damage",
+      "Allies in your Presence deal 1 to (56-70) added Attack Lightning Damage",
+      "50% of your Base Life Regeneration is granted to Allies in your Presence",
+      "+(20-30) to Dexterity",
+      "25% increased Light Radius",
+      "Grants effect of Guided Tempest Shrine"
+    ],
+    "category": "sceptre"
+  },
+  {
+    "name": "Palm of the Dreamer",
+    "baseType": "Shrine Sceptre",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Impurity"
+    ],
+    "explicits": [
+      "Allies in your Presence deal (13-17) to (25-37) added Attack Chaos Damage",
+      "+(7-13) to all Attributes",
+      "23% reduced Light Radius",
+      "(-13-13)% reduced Skill Effect Duration",
+      "Gain 27% of Damage as Extra Chaos Damage",
+      "Grants effect of Dreaming Gloom Shrine"
+    ],
+    "category": "sceptre"
+  },
+  {
+    "name": "Sacred Flame",
+    "baseType": "Shrine Sceptre",
+    "source": "Drops from unique{Arbiter of Ash} in normal{The Burning Monolith}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Purity of Fire"
+    ],
+    "explicits": [
+      "Gain (40-60)% of Damage as Extra Fire Damage",
+      "Allies in your Presence Regenerate (2-3)% of their Maximum Life per second",
+      "Allies in your Presence Gain (20-30)% of Damage as Extra Fire Damage",
+      "Enemies in your Presence Resist Elemental Damage based on their Lowest Resistance"
+    ],
+    "category": "sceptre"
+  },
+  {
+    "name": "Chernobog's Pillar",
+    "baseType": "Blacksteel Tower Shield",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "(100-150)% increased Armour",
+      "+(30-40)% to Fire Resistance",
+      "+(23-29)% to Chaos Resistance",
+      "+(150-200) to Stun Threshold",
+      "Gain 1% of damage as Fire damage per 1% Chance to Block"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Dionadair",
+    "baseType": "Splintered Tower Shield",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "(60-80)% increased Armour",
+      "+(10-15) to Strength",
+      "(3-5) Life Regeneration per second",
+      "20% reduced Stun Threshold",
+      "Double Stun Threshold while Shield is Raised"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Doomgate",
+    "baseType": "Braced Tower Shield",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "(80-100)% increased Block chance",
+      "(100-150)% increased Armour",
+      "+(13-17)% to Chaos Resistance",
+      "You take (25-40)% of damage from Blocked Hits",
+      "Enemies are Culled on Block"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Lycosidae",
+    "baseType": "Rampart Tower Shield",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "(10-15)% increased Block chance",
+      "(60-100)% increased Armour",
+      "Accuracy Rating is Doubled",
+      "Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Redblade Banner",
+    "baseType": "Heraldric Tower Shield",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "(10-15)% increased Block chance",
+      "(60-100)% increased Armour",
+      "+(20-30) to Strength",
+      "+(100-150) to Stun Threshold",
+      "Enemies in your Presence count as having double Power"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "The Surrender",
+    "baseType": "{variant:1}Stone Tower Shield",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Variant: Pre 0.4.0",
+      "Variant: Current",
+      "Implicits: 1",
+      "Grants Skill: Raise Shield",
+      "(40-60)% increased Block chance",
+      "(150-200)% increased Armour",
+      "+(150-200) to Stun Threshold",
+      "Recover 4% of maximum Life when you Block"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Svalinn",
+    "baseType": "Crucible Tower Shield",
+    "source": "Drops from unique{Olroth, Origin of the Fall}",
+    "variants": [
+      "Pre 0.3.0",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [
+      "Grants Skill: Raise Shield",
+      "Grants Skill: Cast on Block"
+    ],
+    "explicits": [
+      "(200-300)% increased Armour",
+      "Chance to Block Damage is Lucky",
+      "You take (0-20)% of damage from Blocked Hits"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "The Wailing Wall",
+    "baseType": "Effigial Tower Shield",
+    "source": "No longer obtainable",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "10% reduced Movement Speed",
+      "(100-150)% increased Armour",
+      "+(100-150) to Stun Threshold",
+      "Cannot use Shield Skills"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Window to Paradise",
+    "baseType": "Barricade Tower Shield",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "(60-120)% increased Armour",
+      "+(60-100) to maximum Mana",
+      "+(10-15)% to all Elemental Resistances",
+      "Inflict Elemental Exposure to Enemies 3 metres in front of you",
+      "for 4 seconds, every 0.25 seconds while raised"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Wulfsbane",
+    "baseType": "Painted Tower Shield",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "+(40-60) to maximum Life",
+      "+(10-15) to Strength",
+      "+(60-80) to Stun Threshold",
+      "Permanently Intimidate enemies on Block"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Bloodbarrier",
+    "baseType": "Iron Buckler",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Parry"
+    ],
+    "explicits": [
+      "(10-15)% increased Block chance",
+      "+(13-17)% to Chaos Resistance",
+      "(5-10) Life Regeneration per second",
+      "Inflict Corrupted Blood for 5 seconds on Block, dealing 50% of",
+      "your maximum Life as Physical damage per second"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Calgyra's Arc",
+    "baseType": "Ornate Buckler",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Parry"
+    ],
+    "explicits": [
+      "(60-100)% increased Evasion Rating",
+      "+(60-100) to maximum Mana",
+      "+(10-20) to Intelligence",
+      "Infinite Parry Range",
+      "50% increased Parried Debuff Duration"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Dunkelhalt",
+    "baseType": "Leather Buckler",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Parry"
+    ],
+    "explicits": [
+      "(20-30)% increased Block chance",
+      "+(20-30) to Evasion Rating",
+      "You take 50% of damage from Blocked Hits",
+      "50% increased Parried Debuff Magnitude"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Kaltenhalt",
+    "baseType": "Ridged Buckler",
+    "league": "Rise of the Abyssal",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Parry"
+    ],
+    "explicits": [
+      "(80-120)% increased Evasion Rating",
+      "+5% to Maximum Cold Resistance",
+      "+40% to Cold Resistance",
+      "Modifiers to Stun Buildup apply to Freeze Buildup instead for Parry",
+      "100% of Parry Physical Damage Converted to Cold Damage",
+      "25 to 35 Cold Thorns damage"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Nocturne",
+    "baseType": "Wooden Buckler",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Parry"
+    ],
+    "explicits": [
+      "+(60-80) to maximum Mana",
+      "+(10-15)% to all Elemental Resistances",
+      "20% increased Accuracy Rating",
+      "Parried enemies take more Spell Damage instead of more Attack Damage",
+      "100% increased Parried Debuff Duration"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Rondel de Ezo",
+    "baseType": "Plated Buckler",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Parry"
+    ],
+    "explicits": [
+      "(50-150)% increased Evasion Rating",
+      "+(10-20) to Dexterity",
+      "5 Life Regeneration per second",
+      "100% increased Block chance against Projectiles",
+      "Curse Enemies with Enfeeble on Block"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Silverthorne",
+    "baseType": "Spiked Buckler",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Parry"
+    ],
+    "explicits": [
+      "(50-80)% increased Evasion Rating",
+      "+(10-15)% to all Elemental Resistances",
+      "Parrying applies 10 Stacks of Critical Weakness",
+      "100% increased Parry Damage"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Sunsplinter",
+    "baseType": "Array Buckler",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Selected Alt Variant: 7",
+      "Variant: Max Res: 1 Fire, 2 Cold, 3 Lightning",
+      "Variant: Max Res: 1 Fire, 3 Cold, 2 Lightning",
+      "Variant: Max Res: 2 Fire, 1 Cold, 3 Lightning",
+      "Variant: Max Res: 2 Fire, 3 Cold, 1 Lightning",
+      "Variant: Max Res: 3 Fire, 1 Cold, 2 Lightning",
+      "Variant: Max Res: 3 Fire, 2 Cold, 1 Lightning",
+      "Variant: Level: 2 Cold, 1 Fire, 3 Lightning",
+      "Variant: Level: 3 Cold, 1 Fire, 2 Lightning",
+      "Variant: Level: 1 Cold, 2 Fire, 3 Lightning",
+      "Variant: Level: 3 Cold, 2 Fire, 1 Lightning",
+      "Variant: Level: 1 Cold, 3 Fire, 2 Lightning",
+      "Variant: Level: 2 Cold, 3 Fire, 1 Lightning",
+      "Implicits: 1",
+      "Grants Skill: Parry",
+      "(100-300)% increased Evasion Rating"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Arvil's Wheel",
+    "baseType": "Hardwood Targe",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "(60-100)% increased Armour and Evasion",
+      "+(40-60) to maximum Life",
+      "+(40-60) to maximum Mana",
+      "Lose 1% of maximum Life on Kill",
+      "Lose 1% of maximum Mana on Kill",
+      "(30-50)% increased Skill Effect Duration"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Feathered Fortress",
+    "baseType": "Crescent Targe",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "+(20-30) to Strength",
+      "+(20-30) to Dexterity",
+      "+(20-30)% to Fire Resistance",
+      "+(20-30)% to Cold Resistance",
+      "No Movement Speed Penalty while Shield is Raised"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Merit of Service",
+    "baseType": "Pelage Targe",
+    "variants": [
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "(20-25)% increased Block chance",
+      "(60-80)% increased Armour and Evasion",
+      "+(60-80) to Stun Threshold",
+      "Allies in your Presence have Block Chance equal to yours"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Alkem Eira",
+    "baseType": "Blazon Crest Shield",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "(10-15)% increased Block chance",
+      "(30-50)% increased Armour and Energy Shield",
+      "+(50-70) to maximum Mana",
+      "Damage Blocked is Recouped as Mana"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Crest of Ardura",
+    "baseType": "Jingling Crest Shield",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "(60-100)% increased Armour and Energy Shield",
+      "+(10-20) to Intelligence",
+      "(30-50)% increased Mana Regeneration Rate",
+      "(30-50)% increased Cooldown Recovery Rate"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Mahuxotl's Machination",
+    "baseType": "Omen Crest Shield",
+    "source": "Drops from unique{Trialmaster} in normal{The Trial of Chaos}",
+    "variants": [
+      "Pre 0.2.0",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "(333-666)% increased Armour and Energy Shield",
+      "(66-333)% increased effect of Socketed Soul Cores",
+      "Everlasting Sacrifice"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Oaksworn",
+    "baseType": "Variant: Pre 0.2.0",
+    "variants": [
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Sigil Crest Shield",
+      "Implicits: 1",
+      "Grants Skill: Raise Shield",
+      "(40-60)% increased Block chance",
+      "(80-120)% increased Armour and Energy Shield",
+      "+(17-23)% to Chaos Resistance",
+      "50% increased Life Regeneration rate"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Prism Guardian",
+    "baseType": "Sectarian Crest Shield",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.2.1",
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "(150-200)% increased Armour and Energy Shield",
+      "+50 to Spirit",
+      "+(20-30) to Dexterity",
+      "+(10-20)% to all Elemental Resistances",
+      "1% increased Spirit Reservation Efficiency of Buff Skills per 100 Maximum Life"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Rise of the Phoenix",
+    "baseType": "Omen Crest Shield",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "+5% to Maximum Fire Resistance",
+      "+(20-25)% to Fire Resistance",
+      "+25% to Fire Resistance while on Low Life",
+      "Regenerate 3% of maximum Life per second",
+      "Regenerate 3% of maximum Life per second while on Low Life"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Saffell's Frame",
+    "baseType": "Emblem Crest Shield",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Raise Shield"
+    ],
+    "explicits": [
+      "+(15-25)% to Fire Resistance",
+      "+(15-25)% to Cold Resistance",
+      "+(15-25)% to Lightning Resistance",
+      "Cannot Block",
+      "Modifiers to Maximum Block Chance instead apply to Maximum Resistances"
+    ],
+    "category": "shield"
+  },
+  {
+    "name": "Atziri's Contempt",
+    "baseType": "Pronged Spear",
+    "league": "Fate of the Vaal",
+    "source": "Drops from unique{Atziri's Vault} in normal{Vaal Temple}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Spear Throw",
+      "Grants Skill: Level (1-20) Shattering Spite"
+    ],
+    "explicits": [
+      "(100-120)% increased Physical Damage",
+      "Adds (83-97) to (123-153) Fire Damage",
+      "Adds 1 to (133-247) Lightning Damage",
+      "(10-16)% increased Attack Speed",
+      "(60-80)% increased Presence Area of Effect",
+      "Spear Skills inflict a Bloodstone Lance on Hit, up to a maximum of 30 on each target"
+    ],
+    "category": "spear"
+  },
+  {
+    "name": "Chainsting",
+    "baseType": "Hunting Spear",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Spear Throw",
+      "(15-25)% chance to Maim on Hit"
+    ],
+    "explicits": [
+      "Adds (13-17) to (22-28) Physical Damage",
+      "+(100-150) to Accuracy Rating",
+      "10% increased Attack Speed",
+      "All Damage from Hits with this Weapon Contributes to Pin Buildup",
+      "(20-30)% increased Projectile Speed with this Weapon"
+    ],
+    "category": "spear"
+  },
+  {
+    "name": "Daevata's Wind",
+    "baseType": "War Spear",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Spear Throw",
+      "(25-35)% increased Projectile Speed with this Weapon"
+    ],
+    "explicits": [
+      "Adds (10-15) to (21-26) Physical Damage",
+      "+100 to Evasion Rating",
+      "(10-20)% increased Attack Speed",
+      "(30-60)% increased Melee Damage if you've dealt a Projectile Attack Hit in the past eight seconds",
+      "(30-60)% increased Projectile Damage if you've dealt a Melee Hit in the past eight seconds"
+    ],
+    "category": "spear"
+  },
+  {
+    "name": "Saitha's Spear",
+    "baseType": "Barbed Spear",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Spear Throw"
+    ],
+    "explicits": [
+      "Adds (14-26) to (27-32) Physical Damage",
+      "Adds (33-41) to (47-53) Fire Damage",
+      "(15-25)% chance to cause Bleeding on Hit",
+      "Aggravating any Bleeding with this Weapon also Aggravates all Ignites on the target",
+      "(25-40)% chance to Aggravate Bleeding on Hit"
+    ],
+    "category": "spear"
+  },
+  {
+    "name": "Splinter of Lorrata",
+    "baseType": "Hardwood Spear",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Spear Throw"
+    ],
+    "explicits": [
+      "Adds (2-3) to (6-8) Physical Damage",
+      "Deal no Elemental Damage",
+      "20% increased Melee Strike Range with this weapon",
+      "Any number of Poisons from this Weapon can affect a target at the same time",
+      "Always Poison on Hit with this weapon"
+    ],
+    "category": "spear"
+  },
+  {
+    "name": "Skysliver",
+    "baseType": "Winged Spear",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Spear Throw"
+    ],
+    "explicits": [
+      "No Physical Damage",
+      "Adds 1 to (80-120) Lightning Damage",
+      "(15-30)% increased Attack Speed",
+      "(50-100)% increased chance to Shock",
+      "Rolls only the minimum or maximum Damage value for each Damage Type"
+    ],
+    "category": "spear"
+  },
+  {
+    "name": "Spire of Ire",
+    "baseType": "Helix Spear",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.2.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Spear Throw",
+      "Grants Skill: Level (1-20) Chaotic Infusion"
+    ],
+    "explicits": [
+      "(15-20)% increased Attack Speed",
+      "Leeches (10-20)% of Physical Damage as Life",
+      "Adds (167-201) to (267-333) Chaos damage",
+      "When you Consume a Charge Trigger Chaotic Surge to gain 2 Chaos Surges",
+      "Life Leech recovers based on your Chaos damage instead of Physical damage"
+    ],
+    "category": "spear"
+  },
+  {
+    "name": "Tangletongue",
+    "baseType": "Forked Spear",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Spear Throw"
+    ],
+    "explicits": [
+      "Adds (14-18) to (30-36) Physical Damage",
+      "+(5-8)% to Critical Hit Chance",
+      "+(15-25) to Intelligence",
+      "Bifurcates Critical Hits",
+      "10% of Skill Mana Costs Converted to Life Costs"
+    ],
+    "category": "spear"
+  },
+  {
+    "name": "Tyranny's Grip",
+    "baseType": "Ironhead Spear",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Spear Throw"
+    ],
+    "explicits": [
+      "(150-200)% increased Physical Damage",
+      "(10-15)% reduced Attack Speed",
+      "+(15-30) to Strength",
+      "Strikes deal Splash Damage",
+      "Knocks Back Enemies on Hit",
+      "Cannot use Projectile Attacks"
+    ],
+    "category": "spear"
+  },
+  {
+    "name": "Atziri's Rule",
+    "baseType": "Reflecting Staff",
+    "league": "Fate of the Vaal",
+    "source": "Drops from unique{Atziri's Vault} in normal{Vaal Temple}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Mirror of Refraction"
+    ],
+    "explicits": [
+      "(10-20)% increased maximum Life",
+      "+(3-5) to Level of all Corrupted Spell Skill Gems",
+      "(10-20)% increased Cast Speed",
+      "+(20-30) to Intelligence",
+      "Spells which cost Life Gain (80-120)% of Damage as Extra Physical Damage"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "The Burden of Shadows",
+    "baseType": "Chiming Staff",
+    "source": "Drops from unique{The King in the Mists} in normal{Crux of Nothingness}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Sigil of Power"
+    ],
+    "explicits": [
+      "(20-30)% increased Cast Speed",
+      "Skill Mana Costs Converted to Life Costs",
+      "Skills gain 1% of Damage as Chaos Damage per 3 Life Cost"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "Dusk Vigil",
+    "baseType": "Ashen Staff",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Level (1-20) Firebolt",
+      "Grants Skill: Level (1-20) Ember Fusillade"
+    ],
+    "explicits": [
+      "Gain (30-50)% of Damage as Extra Fire Damage",
+      "(80-120)% increased Spell Damage",
+      "Gain (5-10) Life per enemy killed",
+      "25% increased Mana Regeneration Rate",
+      "Trigger Ember Fusillade Skill on casting a Spell"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "Earthbound",
+    "baseType": "Voltaic Staff",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Level (1-20) Lightning Bolt",
+      "Grants Skill: Level (1-20) Spark"
+    ],
+    "explicits": [
+      "(80-120)% increased Spell Damage",
+      "(10-20)% increased Cast Speed",
+      "(20-30)% increased Mana Regeneration Rate",
+      "(20-40)% increased chance to Shock",
+      "Trigger Spark Skill on killing a Shocked Enemy"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "The Searing Touch",
+    "baseType": "Pyrophyte Staff",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Level (1-20) Living Bomb"
+    ],
+    "explicits": [
+      "(80-120)% increased Fire Damage",
+      "(10-20)% increased Cast Speed",
+      "100% increased Flammability Magnitude",
+      "100% increased Ignite Magnitude",
+      "Ignites you inflict spread to other Enemies that stay within 1.5 metres for 1 second"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "Sire of Shards",
+    "baseType": "Chiming Staff",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Sigil of Power"
+    ],
+    "explicits": [
+      "(80-120)% increased Spell Damage",
+      "(10-20)% increased Cast Speed",
+      "+(5-10)% to all Elemental Resistances",
+      "20% increased Light Radius",
+      "Spells fire 4 additional Projectiles",
+      "Spells fire Projectiles in a circle"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "Taryn's Shiver",
+    "baseType": "Gelid Staff",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Level (1-20) Freezing Shards"
+    ],
+    "explicits": [
+      "(80-120)% increased Spell Damage",
+      "(10-20)% increased Cast Speed",
+      "30% increased Freeze Buildup",
+      "Enemies Frozen by you take 100% increased Damage"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "The Whispering Ice",
+    "baseType": "Permafrost Staff",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Pre 0.4.0",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [
+      "Grants Skill: Level (1-20) Heart of Ice",
+      "Grants Skill: Level (1-20) Icestorm"
+    ],
+    "explicits": [
+      "+(5-7) to Level of all Cold Spell Skills",
+      "(10-20)% reduced Cast Speed",
+      "(5-10)% increased Intelligence",
+      "2% increased Spell Damage per 10 Intelligence",
+      "Inflict Elemental Exposure on Hit, lowering Total Elemental Resistances by (50-60)%"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "The Blood Thorn",
+    "baseType": "Wrapped Quarterstaff",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Adds (8-12) to (16-18) Physical Damage",
+      "+(10-15) to Strength",
+      "Causes Bleeding on Hit",
+      "(4-5) to (8-10) Physical Thorns damage"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "Collapsing Horizon",
+    "baseType": "Wyrm Quarterstaff",
+    "source": "Drops from unique{Kosis, The Revelation}",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "100% increased Elemental Damage with Attacks",
+      "+(5-10)% to Critical Hit Chance",
+      "+(2-4) to Level of all Elemental Skills",
+      "Trigger skills refund half of Energy spent"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "Matsya",
+    "baseType": "Crescent Quarterstaff",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "Adds (6-9) to (10-15) Cold Damage",
+      "Adds 1 to (19-29) Lightning Damage",
+      "+(3-5)% to Critical Hit Chance",
+      "(15-20)% increased Attack Speed",
+      "(25-40)% increased Mana Regeneration Rate",
+      "Skills reserve 50% less Spirit"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "Nazir's Judgement",
+    "baseType": "Steelpoint Quarterstaff",
+    "variants": [
+      "Pre 0.1.1",
+      "Pre 0.3.0",
+      "Current"
+    ],
+    "currentVariant": 3,
+    "implicits": [],
+    "explicits": [
+      "Adds (30-36) to (75-81) Physical Damage",
+      "+(50-100) to Accuracy Rating",
+      "(10-20)% increased Stun Duration",
+      "Dazes on Hit",
+      "(35-50)% increased Melee Damage against Heavy Stunned enemies"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "Pillar of the Caged God",
+    "baseType": "Variant: Pre 0.2.0",
+    "variants": [
+      "Current"
+    ],
+    "currentVariant": 1,
+    "implicits": [],
+    "explicits": [
+      "Long Quarterstaff",
+      "Implicits: 1",
+      "16% increased Melee Strike Range with this weapon",
+      "2% increased Area of Effect for Attacks per 10 Intelligence",
+      "2% increased Attack Speed per 10 Dexterity",
+      "10% increased Weapon Damage per 10 Strength"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "The Sentry",
+    "baseType": "Gothic Quarterstaff",
+    "variants": [
+      "Pre 0.1.1",
+      "Current"
+    ],
+    "currentVariant": 2,
+    "implicits": [],
+    "explicits": [
+      "No Physical Damage",
+      "Adds (25-32) to (40-50) Fire Damage",
+      "+(30-50) to Accuracy Rating",
+      "+20% to Fire Resistance",
+      "100% increased Flammability Magnitude",
+      "30% increased Light Radius"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "The Unborn Lich",
+    "baseType": "Ravenous Staff",
+    "league": "Rise of the Abyssal",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [],
+    "explicits": [
+      "Selected Alt Variant: 8",
+      "Selected Alt Variant Two: 9",
+      "Selected Alt Variant Three: 10",
+      "Variant: His Dark Horizon",
+      "Variant: His Foul Emergence",
+      "Variant: His Grave Command",
+      "Variant: His Scattering Calamity",
+      "Variant: His Vile Intrusion",
+      "Variant: His Winnowing Flame",
+      "Variant: Elemental Damage and Ailment Duration",
+      "Variant: Spirit and Spirit Reservation Efficiency",
+      "Variant: Chaos Damage and Curse",
+      "Variant: Spell Physical Damage and Bleed Chance",
+      "Variant: Chaos Damage and Explode",
+      "Variant: Unholy Might",
+      "Implicits: 1",
+      "Grants Skill: Level (1-20) Feast of Flesh",
+      "(60-80)% increased Desecrated Modifier magnitudes"
+    ],
+    "category": "staff"
+  },
+  {
+    "name": "Adonia's Ego",
+    "baseType": "Siphoning Wand",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Power Siphon",
+      "Grants Skill: Level 20 Pinnacle of Power"
+    ],
+    "explicits": [
+      "+(100-150) to maximum Mana",
+      "+3 to Level of all Spell Skills",
+      "(15-30)% increased Cast Speed",
+      "-10% to all Elemental Resistances per Power Charge",
+      "+(-1-1) to Maximum Power Charges"
+    ],
+    "category": "wand"
+  },
+  {
+    "name": "Cursecarver",
+    "baseType": "Acrid Wand",
+    "league": "Dawn of the Hunt",
+    "variants": [
+      "Elemental Weakness",
+      "Vulnerability",
+      "Despair",
+      "Enfeeble",
+      "Temporal Chains"
+    ],
+    "currentVariant": 5,
+    "implicits": [
+      "Grants Skill: Level (1-20) Decompose"
+    ],
+    "explicits": [
+      "(80-100)% increased Spell Damage",
+      "(10-20)% increased Cast Speed",
+      "Lose 10 Life per enemy killed",
+      "(30-50)% increased Mana Regeneration Rate",
+      "+4 to Level of Temporal Chains Skills"
+    ],
+    "category": "wand"
+  },
+  {
+    "name": "Enezun's Charge",
+    "baseType": "Volatile Wand",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Volatile Dead"
+    ],
+    "explicits": [
+      "(80-100)% increased Spell Damage",
+      "(30-50)% increased Critical Hit Chance for Spells",
+      "Gain (10-15) Mana per enemy killed",
+      "25% chance to not destroy Corpses when Consuming Corpses"
+    ],
+    "category": "wand"
+  },
+  {
+    "name": "Lifesprig",
+    "baseType": "Attuned Wand",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Mana Drain"
+    ],
+    "explicits": [
+      "+(10-20) to maximum Mana",
+      "+(1-3) to Level of all Spell Skills",
+      "(5-10)% increased Cast Speed",
+      "Leeches 1% of maximum Life when you Cast a Spell"
+    ],
+    "category": "wand"
+  },
+  {
+    "name": "Sanguine Diviner",
+    "baseType": "Bone Wand",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Bone Blast"
+    ],
+    "explicits": [
+      "(80-100)% increased Spell Damage",
+      "Gain (10-15) Life per enemy killed",
+      "25% chance to inflict Bleeding on Hit",
+      "25% of Spell Mana Cost Converted to Life Cost"
+    ],
+    "category": "wand"
+  },
+  {
+    "name": "The Wicked Quill",
+    "baseType": "Withered Wand",
+    "league": "Dawn of the Hunt",
+    "variants": [],
+    "currentVariant": null,
+    "implicits": [
+      "Grants Skill: Level (1-20) Chaos Bolt"
+    ],
+    "explicits": [
+      "(60-100)% increased Spell Damage",
+      "+(60-100) to maximum Mana",
+      "+(7-13)% to Chaos Resistance",
+      "Spells have a 25% chance to inflict Withered for 4 seconds on Hit"
+    ],
+    "category": "wand"
+  }
+]

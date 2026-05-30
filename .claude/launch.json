@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "poe2-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["start"],
+      "env": { "PORT": "3017", "BROWSER": "none" },
+      "port": 3017
+    }
+  ]
+}

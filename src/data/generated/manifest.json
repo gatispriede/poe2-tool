@@ -1,0 +1,16 @@
+{
+  "sourceCommit": "9c2bf0316fd53bc21137017fde399c9410b734d2",
+  "generatedAt": "2026-05-30T11:49:07.411Z",
+  "counts": {
+    "bases": 301,
+    "armourBases": 647,
+    "mods": 1720,
+    "skills": 1226,
+    "treeNodes": 4844,
+    "basesDropped": 0,
+    "armourBasesDropped": 0,
+    "modsDropped": 0,
+    "skillsDropped": 0,
+    "treeErrors": 0
+  }
+}

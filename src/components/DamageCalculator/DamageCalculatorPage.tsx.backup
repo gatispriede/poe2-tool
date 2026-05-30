@@ -1,0 +1,348 @@
+import React, { useState, useMemo, useEffect } from 'react';
+import './DamageCalculator.css';
+
+// Interfaces
+interface BaseDamageData {
+  baseMultiplier?: number;
+  baseMultiplierLvl20?: number;
+  critChance?: number;
+  attackSpeedMultiplier?: number;
+}
+
+interface Skill {
+  id: string;
+  name: string;
+  description: string;
+  fullDescription?: string;
+  gemType: string;
+  type: string;
+  element: string | null;
+  tags: string[];
+  tagString: string;
+  weaponRequirements: string | null;
+  requirements: { str: number; dex: number; int: number };
+  tier: number;
+  moreDamageMultipliersPct: number[];
+  moreAttackSpeedMultipliersPct: number[];
+  baseDamageData?: BaseDamageData;
+  estimatedBaseDamageLvl1?: number;
+  estimatedBaseDamageLvl20?: number;
+  minDamageLvl1?: number;
+  maxDamageLvl1?: number;
+  minDamageLvl20?: number;
+  maxDamageLvl20?: number;
+  damageTypes?: string[];
+  baseEffectiveness?: number;
+  incrementalEffectiveness?: number;
+  castTime?: number;
+  isTrigger?: boolean;
+  supportFamily?: string | null;
+}
+
+interface WeaponDamage {
+  physical: { min: number; max: number };
+  fire: { min: number; max: number };
+  cold: { min: number; max: number };
+  lightning: { min: number; max: number };
+  chaos: { min: number; max: number };
+}
+
+interface Weapon {
+  id: string;
+  name: string;
+  category: string;
+  type: string;
+  implicit: string | null;
+  damage: WeaponDamage;
+  critChance: number;
+  attackRate: number;
+  range: number;
+  requirements: { level: number; str: number; dex: number; int: number };
+  dps: { physical: number; elemental: number; chaos: number; total: number };
+}
+
+interface WeaponMod {
+  id: string;
+  type: 'Prefix' | 'Suffix';
+  affix: string;
+  level: number;
+  group: string | null;
+  stats: string[];
+  category: string;
+  applicableWeapons: string[];
+}
+
+interface WeaponModsData {
+  prefixes: WeaponMod[];
+  suffixes: WeaponMod[];
+}
+
+// Simple preset examples
+const ATTACK_PRESETS: Record<string, any> = {
+  "Basic Sword + Default Skill": {
+    weapon: { name: 'Bronze Sword', baseMin: 5, baseMax: 12, baseAPS: 1.4 },
+    skill: { name: 'Cleave', moreDamageMultipliersPct: [20], moreAttackSpeedMultipliersPct: [] },
+    passives: { baseCritChancePct: 5, baseCritMultiplierPct: 150 },
+  },
+  "Fast Dagger Crit": {
+    weapon: { name: 'Iron Dagger', baseMin: 3, baseMax: 10, baseAPS: 1.9, localIncreasedDamagePct: 30 },
+    skill: { name: 'Viper Strike', moreDamageMultipliersPct: [40], moreAttackSpeedMultipliersPct: [10] },
+    passives: { baseCritChancePct: 6, increasedCritChancePct: 150, baseCritMultiplierPct: 150, increasedCritMultiplierPct: 50, increasedPhysicalDamagePct: 120, increasedAttackSpeedPct: 25 },
+  },
+};
+
+const numberField = (label: string, value: number | undefined, onChange: (v: number) => void, min = 0) => (
+  <label style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+    <span>{label}</span>
+    <input
+      type="number"
+      value={value ?? ''}
+      min={min}
+      onChange={e => onChange(Number(e.target.value))}
+      style={{ padding: '4px' }}
+    />
+  </label>
+);
+
+export const DamageCalculatorPage: React.FC = () => {
+  const [input, setInput] = useState<CalculationInput>(PRESETS["Basic Sword + Default Skill"]);
+  const [presetName, setPresetName] = useState<string>('Basic Sword + Default Skill');
+  const [sampleAgg, setSampleAgg] = useState<{ stats: any; moreDamage: number[] }>({ stats: {}, moreDamage: [] });
+  const [selectedSampleIds, setSelectedSampleIds] = useState<string[]>([]);
+  const [selectedSkill, setSelectedSkill] = useState<SkillGem | null>(null);
+  const [selectedWeapon, setSelectedWeapon] = useState<Weapon | null>(null);
+  const [selectedWeaponMods, setSelectedWeaponMods] = useState<{ prefixes: SelectedMod[], suffixes: SelectedMod[] }>({ prefixes: [], suffixes: [] });
+
+  // Merge manual passives + aggregated passives (additive)
+  const mergedPassives = useMemo(() => {
+    const manual = input.passives;
+    const merged: any = { ...sampleAgg.stats }; // only JSON-derived passives + manual inputs
+    for (const k of Object.keys(manual) as (keyof typeof manual)[]) {
+      const val = manual[k];
+      if (val == null) continue;
+      merged[k] = (merged[k] ?? 0) + val;
+    }
+    return merged;
+  }, [input.passives, sampleAgg]);
+
+  // Aggregate weapon mod effects
+  const weaponModEffects = useMemo((): WeaponModEffects => {
+    const effects: WeaponModEffects = {};
+
+    [...selectedWeaponMods.prefixes, ...selectedWeaponMods.suffixes].forEach(selectedMod => {
+      Object.entries(selectedMod.rolledValues).forEach(([effect, value]) => {
+        if (effects[effect as keyof WeaponModEffects] !== undefined) {
+          (effects as any)[effect] = ((effects as any)[effect] || 0) + value;
+        } else {
+          (effects as any)[effect] = value;
+        }
+      });
+    });
+
+    return effects;
+  }, [selectedWeaponMods]);
+
+  const breakdown = useMemo(() => calculateDamage({
+    ...input,
+    passives: mergedPassives,
+    weaponMods: weaponModEffects,
+    overrides: { globalMoreDamagePct: sampleAgg.moreDamage }
+  }), [input, mergedPassives, weaponModEffects, sampleAgg]);
+
+  const damageSequence = useMemo(() => {
+    // build incremental DPS sequence baseline + added passives
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const records: { id: string; stats: any; moreDamage: number[] }[] = [];
+    // Need access to raw JSON; dynamic import cached via SamplePassiveSelector isn't exposed here; approximate via sampleAgg + ids sequentially applying stats is not precise without individual stats.
+    // Fallback: treat all selected as a lump (baseline, final). Future: extend selector to provide per-record stats.
+    const points: { x:number; y:number }[] = [];
+    // baseline
+    const baselineBreakdown = calculateDamage({ ...input, passives: input.passives });
+    points.push({ x:0, y: baselineBreakdown.dps });
+    // final
+    points.push({ x: selectedSampleIds.length, y: breakdown.dps });
+    return points;
+  }, [input, breakdown.dps, selectedSampleIds]);
+
+  // Update the skill in input when selectedSkill changes
+  useEffect(() => {
+    if (selectedSkill) {
+      setInput(prevInput => ({
+        ...prevInput,
+        skill: {
+          name: selectedSkill.name,
+          moreDamageMultipliersPct: selectedSkill.moreDamageMultipliersPct,
+          moreAttackSpeedMultipliersPct: selectedSkill.moreAttackSpeedMultipliersPct
+        }
+      }));
+    }
+  }, [selectedSkill]);
+
+  // Update the weapon in input when selectedWeapon changes
+  useEffect(() => {
+    if (selectedWeapon) {
+      setInput(prevInput => ({
+        ...prevInput,
+        weapon: {
+          name: selectedWeapon.name,
+          baseMin: selectedWeapon.baseMin,
+          baseMax: selectedWeapon.baseMax,
+          baseAPS: selectedWeapon.baseAPS,
+          localIncreasedDamagePct: selectedWeapon.localIncreasedDamagePct || 0
+        }
+      }));
+    }
+  }, [selectedWeapon]);
+
+  const updateWeapon = (patch: Partial<CalculationInput['weapon']>) => setInput(i => ({ ...i, weapon: { ...i.weapon, ...patch } }));
+  const updateSkill = (patch: Partial<CalculationInput['skill']>) => setInput(i => ({ ...i, skill: { ...i.skill, ...patch } }));
+  const updatePassives = (patch: Partial<CalculationInput['passives']>) => setInput(i => ({ ...i, passives: { ...i.passives, ...patch } }));
+
+  const reset = () => {
+    setInput(PRESETS[presetName]);
+  };
+
+  const applyPreset = (name: string) => {
+    setPresetName(name);
+    setInput(PRESETS[name]);
+  };
+
+  return (
+    <div className="damage-calculator">
+      <h1>PoE2 Damage Calculator</h1>
+      <div style={{ maxWidth: 800, marginBottom: '1rem' }}>
+        <p style={{ margin: '0.5rem 0', color: '#4CAF50', fontWeight: 'bold' }}>
+          ✅ Path of Building 2 Compatible Calculations
+        </p>
+        <p style={{ margin: '0.5rem 0', fontSize: '0.9rem', color: '#ccc' }}>
+          This calculator uses <strong>Path of Building 2's calculation methodology</strong>:
+          multiplicative crit scaling, independent damage types, correct local/global modifier order, and PoB2's weighted crit formula.
+        </p>
+      </div>
+
+      <div className="panel preset-panel">
+        <label>
+          Preset
+          <select value={presetName} onChange={e => applyPreset(e.target.value)} style={{ marginLeft: 8 }}>
+            {Object.keys(PRESETS).map(p => <option key={p}>{p}</option>)}
+          </select>
+        </label>
+        <button onClick={reset}>Reset</button>
+      </div>
+
+      <div className="panels">
+        <div className="panel">
+          <WeaponSelector onWeaponChange={setSelectedWeapon} selectedWeaponId={selectedWeapon?.id} />
+          <div style={{ marginTop: '1rem' }}>
+            <h2>Manual Weapon Overrides</h2>
+            {numberField('Base Min', input.weapon.baseMin, v => updateWeapon({ baseMin: v }))}
+            {numberField('Base Max', input.weapon.baseMax, v => updateWeapon({ baseMax: v }))}
+            {numberField('Base APS', input.weapon.baseAPS, v => updateWeapon({ baseAPS: v }))}
+            {numberField('Local Inc Damage %', input.weapon.localIncreasedDamagePct ?? 0, v => updateWeapon({ localIncreasedDamagePct: v }))}
+          </div>
+        </div>
+        <div className="panel">
+          <WeaponModSelector
+            onModsChange={(prefixes, suffixes) => setSelectedWeaponMods({ prefixes, suffixes })}
+            weaponItemLevel={selectedWeapon?.itemLevel || 100}
+          />
+        </div>
+        <div className="panel">
+          <SkillSelector onSkillChange={setSelectedSkill} selectedSkillId={selectedSkill?.id} />
+          <div style={{ marginTop: '1rem' }}>
+            <h2>Manual Skill Overrides</h2>
+            <label style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+              <span>More Damage % (comma separated)</span>
+              <input
+                type="text"
+                value={(input.skill.moreDamageMultipliersPct ?? []).join(',')}
+                onChange={e => updateSkill({ moreDamageMultipliersPct: e.target.value.split(',').filter(Boolean).map(Number) })}
+              />
+            </label>
+            <label style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+              <span>More Attack Speed % (comma separated)</span>
+              <input
+                type="text"
+                value={(input.skill.moreAttackSpeedMultipliersPct ?? []).join(',')}
+                onChange={e => updateSkill({ moreAttackSpeedMultipliersPct: e.target.value.split(',').filter(Boolean).map(Number) })}
+              />
+            </label>
+          </div>
+        </div>
+        <div className="panel">
+          <h2>Manual Passives</h2>
+          {numberField('Base Crit Chance %', input.passives.baseCritChancePct ?? 5, v => updatePassives({ baseCritChancePct: v }))}
+          {numberField('Inc Crit Chance %', input.passives.increasedCritChancePct ?? 0, v => updatePassives({ increasedCritChancePct: v }))}
+          {numberField('Base Crit Multi %', input.passives.baseCritMultiplierPct ?? 150, v => updatePassives({ baseCritMultiplierPct: v }))}
+          {numberField('Inc Crit Multi %', input.passives.increasedCritMultiplierPct ?? 0, v => updatePassives({ increasedCritMultiplierPct: v }))}
+          {numberField('Inc Phys Damage %', input.passives.increasedPhysicalDamagePct ?? 0, v => updatePassives({ increasedPhysicalDamagePct: v }))}
+          {numberField('Inc Attack Speed %', input.passives.increasedAttackSpeedPct ?? 0, v => updatePassives({ increasedAttackSpeedPct: v }))}
+        </div>
+        <div className="panel" style={{ minWidth: 320 }}>
+          <SamplePassiveSelector onChange={(agg, ids) => { setSampleAgg(agg); setSelectedSampleIds(ids); }} />
+        </div>
+        <div className="panel results">
+          <h2>Results</h2>
+          <table>
+            <tbody>
+              <tr><td>Average Base Weapon Damage</td><td>{formatNumber(breakdown.averageBaseWeaponDamage)}</td></tr>
+              <tr><td>After Increased (Pre More)</td><td>{formatNumber(breakdown.averagePreCritNonMore)}</td></tr>
+              <tr><td>After More (Non-Crit Hit)</td><td>{formatNumber(breakdown.averageHitNonCrit)}</td></tr>
+              <tr><td>Effective Crit Chance</td><td>{formatNumber(breakdown.effectiveCritChance * 100)}%</td></tr>
+              <tr><td>Effective Crit Multiplier</td><td>{formatNumber(breakdown.effectiveCritMultiplier, 3)}x</td></tr>
+              <tr><td>Average Hit (Weighted Crit)</td><td>{formatNumber(breakdown.averageHitWithCrit)}</td></tr>
+              <tr><td>Effective APS</td><td>{formatNumber(breakdown.effectiveAPS, 3)}</td></tr>
+              <tr><td>DPS</td><td>{formatNumber(breakdown.dps)}</td></tr>
+            </tbody>
+          </table>
+          <h3 style={{ marginTop: '1rem' }}>Global More Damage (JSON Passives)</h3>
+          <div style={{ display:'flex', gap:6, flexWrap:'wrap' }}>
+            {sampleAgg.moreDamage.map((m,i) => <span key={i} style={{ background:'#2a2a2a', padding:'3px 6px', borderRadius:4, fontSize:'0.6rem' }}>{m}% more</span>)}
+            {sampleAgg.moreDamage.length === 0 && <span style={{ fontSize:'0.6rem', opacity:0.6 }}>None</span>}
+          </div>
+        </div>
+      </div>
+      <details style={{ marginTop: 24 }}>
+        <summary>Path of Building 2 Formula Details</summary>
+        <div style={{ padding: '1rem', background: '#1a1a1a', borderRadius: 4, marginTop: '0.5rem' }}>
+          <h4 style={{ margin: '0 0 0.5rem 0', color: '#4CAF50' }}>Calculation Order (PoB2 Standard)</h4>
+          <ol style={{ margin: 0, paddingLeft: '1.5rem', fontSize: '0.9rem' }}>
+            <li><strong>Base Damage:</strong> Weapon min/max × (1 + local increased %)</li>
+            <li><strong>Local Mods:</strong> Local increased physical % (from mods) - stacks with weapon local</li>
+            <li><strong>Added Elemental:</strong> Flat fire/cold/lightning - NOT affected by local physical</li>
+            <li><strong>Global Increased:</strong> From passives - additive pool, per damage type</li>
+            <li><strong>More Multipliers:</strong> Multiplicative chain - (1.3) × (1.4) = 1.82 total</li>
+            <li><strong>Critical Strikes:</strong> <span style={{ color: '#FFD700' }}>MULTIPLICATIVE SCALING</span></li>
+            <li><strong>Attack Speed:</strong> Base × (1 + total increased %) × more multipliers</li>
+            <li><strong>DPS:</strong> Average Hit × Attacks Per Second</li>
+          </ol>
+
+          <h4 style={{ margin: '1rem 0 0.5rem 0', color: '#FF9800' }}>⚠️ Key PoB2 Difference: Multiplicative Crit</h4>
+          <div style={{ background: '#2a2a2a', padding: '0.75rem', borderRadius: 4, fontSize: '0.85rem' }}>
+            <p style={{ margin: '0 0 0.5rem 0' }}>
+              <strong>OLD (Wrong):</strong> 5% base + 30% + 150% = 185% → capped at 100%
+            </p>
+            <p style={{ margin: 0, color: '#4CAF50' }}>
+              <strong>PoB2 (Correct):</strong> 5% × (1 + 30%) × (1 + 150%) = 5% × 1.3 × 2.5 = <strong>16.25%</strong>
+            </p>
+          </div>
+
+          <h4 style={{ margin: '1rem 0 0.5rem 0', color: '#2196F3' }}>Weighted Crit Average</h4>
+          <p style={{ margin: 0, fontSize: '0.85rem', fontFamily: 'monospace', background: '#2a2a2a', padding: '0.5rem', borderRadius: 4 }}>
+            AvgHit = NonCritDmg × (1 - CritChance + CritChance × CritMulti)
+          </p>
+        </div>
+      </details>
+      <h3 style={{ marginTop: '1rem' }}>Aggregated Passives (Manual + JSON)</h3>
+      <ul style={{ listStyle:'none', padding:0, margin:0, display:'flex', flexWrap:'wrap', gap:8 }}>
+        {Object.entries(mergedPassives).map(([k,v]) => (
+          <li key={k} style={{ background:'#2a2a2a', padding:'4px 8px', borderRadius:4, fontSize:'0.7rem' }}>{`${k}: ${v}`}</li>
+        ))}
+      </ul>
+      <h3 style={{ marginTop: '1rem' }}>DPS Progression</h3>
+      <DamageGraph points={damageSequence} />
+    </div>
+  );
+};
+
+export default DamageCalculatorPage;

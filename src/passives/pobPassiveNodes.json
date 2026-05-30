@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Attack and Spell Damage",
+    "stats": [
+      "8% increased Spell Damage",
+      "8% increased Attack Damage"
+    ],
+    "isNotable": false,
+    "isKeystone": false,
+    "categories": []
+  }
+]

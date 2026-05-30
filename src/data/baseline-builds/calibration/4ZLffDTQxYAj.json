@@ -1,0 +1,1314 @@
+{
+  "build": {
+    "level": 89,
+    "className": "Ranger",
+    "ascendClassName": "Deadeye",
+    "mainSocketGroup": 11,
+    "targetVersion": "0_1",
+    "useSecondWeaponSet": false
+  },
+  "trees": [
+    {
+      "classId": 0,
+      "classInternalId": "2",
+      "ascendClassId": 1,
+      "ascendancyInternalId": "Ranger1",
+      "treeVersion": "0_3",
+      "nodes": [
+        61106,
+        14539,
+        2582,
+        15625,
+        9745,
+        57821,
+        52180,
+        35901,
+        65161,
+        7847,
+        24178,
+        3987,
+        46386,
+        47976,
+        34324,
+        26034,
+        13828,
+        14446,
+        39723,
+        61461,
+        30808,
+        61312,
+        51707,
+        21280,
+        23253,
+        60362,
+        38728,
+        34621,
+        53272,
+        12498,
+        32763,
+        1020,
+        30341,
+        62464,
+        21984,
+        22811,
+        24786,
+        20044,
+        29959,
+        12890,
+        49165,
+        35696,
+        61601,
+        24226,
+        3458,
+        54631,
+        722,
+        20677,
+        24287,
+        3170,
+        35987,
+        29285,
+        43082,
+        15775,
+        32655,
+        38537,
+        3431,
+        2936,
+        30,
+        49691,
+        21112,
+        50459,
+        11825,
+        59538,
+        46990,
+        2560,
+        56776,
+        23040,
+        48116,
+        16705,
+        26432,
+        14267,
+        60764,
+        535,
+        30657,
+        5305,
+        27705,
+        17854,
+        60735,
+        56265,
+        40333,
+        39369,
+        28050,
+        51741,
+        31433,
+        2408,
+        42794,
+        42118,
+        30132,
+        16150,
+        63888,
+        42998,
+        43102,
+        38463,
+        39986,
+        39569,
+        38493,
+        34015,
+        59653,
+        42805,
+        39495,
+        44776,
+        61403,
+        42416,
+        57933,
+        46882,
+        48401,
+        48773,
+        328,
+        61356,
+        45609,
+        48734,
+        59913,
+        41875,
+        38541,
+        38342,
+        47514,
+        30736,
+        61834,
+        54984,
+        56838,
+        31765,
+        13407
+      ],
+      "masteryEffects": ""
+    }
+  ],
+  "skillGroups": [
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "MeleeBowPlayer",
+          "nameSpec": "Bow Shot",
+          "variantId": "PlayerDefaultBow",
+          "gemId": "Metadata/Items/Gem/SkillGemPlayerDefaultBow",
+          "level": 19,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": null,
+          "nameSpec": "Ricochet III",
+          "variantId": null,
+          "gemId": null,
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportDeliberationPlayer",
+          "nameSpec": "Deliberation",
+          "variantId": "DeliberationSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemDeliberation",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportIceBitePlayer",
+          "nameSpec": "Ice Bite I",
+          "variantId": "IceBiteSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemIceBite",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "MetaDeadeyeMarksPlayer",
+          "nameSpec": "Called Shots",
+          "variantId": "MetaDeadeyeMarks",
+          "gemId": "Metadata/Items/Gem/SkillGemAscendanyMetaDeadeyeMarks",
+          "level": 19,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SnipersMarkPlayer",
+          "nameSpec": "Sniper's Mark",
+          "variantId": "SnipersMark",
+          "gemId": "Metadata/Items/Gems/SkillGemSnipersMark",
+          "level": 9,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "VoltaicMarkPlayer",
+          "nameSpec": "Voltaic Mark",
+          "variantId": "VoltaicMark",
+          "gemId": "Metadata/Items/Gem/SkillGemVoltaicMark",
+          "level": 10,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportOverreachPlayer",
+          "nameSpec": "Overreach",
+          "variantId": "OverreachSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemReach",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportMarkForDeathPlayer",
+          "nameSpec": "Mark for Death",
+          "variantId": "MarkForDeathSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemSingleOut",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "TornadoShotPlayer",
+          "nameSpec": "Tornado Shot",
+          "variantId": "TornadoShot",
+          "gemId": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "level": 19,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportMultishotPlayerTwo",
+          "nameSpec": "Multishot II",
+          "variantId": "MultishotSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemScattershotTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportIncreaseLimitPlayerTwo",
+          "nameSpec": "Overabundance II",
+          "variantId": "IncreaseLimitSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportConcentratedAreaPlayer",
+          "nameSpec": "Concentrated Area",
+          "variantId": "ConcentratedAreaSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportBloodMagicPlayer",
+          "nameSpec": "Lifetap",
+          "variantId": "BloodMagicSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemLifetap",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "HeraldOfIcePlayer",
+          "nameSpec": "Herald of Ice",
+          "variantId": "HeraldOfIce",
+          "gemId": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "level": 19,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportEmbitterPlayer",
+          "nameSpec": "Embitter",
+          "variantId": "EmbitterSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemEmbitter",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportTulsStillnessPlayer",
+          "nameSpec": "Tul's Stillness",
+          "variantId": "TulsStillnessSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemTulsStillness",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportChillingIcePlayer",
+          "nameSpec": "Frost Nexus",
+          "variantId": "ChillingIceSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemFrostNexus",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportElementalArmamentPlayerTwo",
+          "nameSpec": "Elemental Armament II",
+          "variantId": "ElementalArmamentSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportAddedColdDamagePlayer",
+          "nameSpec": "Cold Attunement",
+          "variantId": "AddedColdDamageSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemColdInfusion",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "GhostDancePlayer",
+          "nameSpec": "Ghost Dance",
+          "variantId": "GhostDance",
+          "gemId": "Metadata/Items/Gems/SkillGemGhostDance",
+          "level": 19,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "CompressedDurationSupportPlayerTwo",
+          "nameSpec": "Compressed Duration II",
+          "variantId": "CompressedDurationSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemFastForwardTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "BarragePlayer",
+          "nameSpec": "Barrage",
+          "variantId": "Barrage",
+          "gemId": "Metadata/Items/Gems/SkillGemBarrage",
+          "level": 19,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportHeightenedChargesPlayer",
+          "nameSpec": "Heightened Charges",
+          "variantId": "HeightenedChargesSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemTwofold",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportSecondWindPlayerThree",
+          "nameSpec": "Second Wind III",
+          "variantId": "SecondWindSupportThree",
+          "gemId": "Metadata/Items/Gems/SupportGemSecondWindThree",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportCooldownRecoveryPlayerTwo",
+          "nameSpec": "Cooldown Recovery II",
+          "variantId": "CooldownRecoverySupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportBloodMagicPlayer",
+          "nameSpec": "Lifetap",
+          "variantId": "BloodMagicSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemLifetap",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "LightningRodPlayer",
+          "nameSpec": "Lightning Rod",
+          "variantId": "LightningRod",
+          "gemId": "Metadata/Items/Gem/SkillGemLightningRod",
+          "level": 18,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportDefyPlayerTwo",
+          "nameSpec": "Defy II",
+          "variantId": "DefySupportTwo",
+          "gemId": "Metadata/Items/Gem/SupportGemDefyTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportLivingLightningPlayerTwo",
+          "nameSpec": "Living Lightning II",
+          "variantId": "LivingLightningSupportTwo",
+          "gemId": "Metadata/Items/Gem/SupportGemLivingLightningTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportMagnifiedAreaPlayer",
+          "nameSpec": "Magnified Area I",
+          "variantId": "MagnifiedAreaSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemMagnifiedEffect",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportMultishotPlayer",
+          "nameSpec": "Multishot I",
+          "variantId": "MultishotSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemScattershot",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "FreezingSalvoPlayer",
+          "nameSpec": "Freezing Salvo",
+          "variantId": "FreezingSalvo",
+          "gemId": "Metadata/Items/Gem/SkillGemFreezingSalvo",
+          "level": 19,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportIceBitePlayer",
+          "nameSpec": "Ice Bite I",
+          "variantId": "IceBiteSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemIceBite",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportFreezePlayer",
+          "nameSpec": "Freeze",
+          "variantId": "FreezeSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemGlaciation",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportAddedColdDamagePlayer",
+          "nameSpec": "Cold Attunement",
+          "variantId": "AddedColdDamageSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemColdInfusion",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportOverextendPlayer",
+          "nameSpec": "Overextend",
+          "variantId": "OverextendSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemOverextend",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportBloodMagicPlayer",
+          "nameSpec": "Lifetap",
+          "variantId": "BloodMagicSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemLifetap",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "RhoaMountPlayer",
+          "nameSpec": "Rhoa Mount",
+          "variantId": "RhoaMount",
+          "gemId": "Metadata/Items/Gems/SkillGemRhoaMount",
+          "level": 19,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportMinionMasteryPlayer",
+          "nameSpec": "Minion Mastery",
+          "variantId": "MinionMasterySupport",
+          "gemId": "Metadata/Items/Gems/SupportGemMinionMastery",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportLoyaltyPlayer",
+          "nameSpec": "Loyalty",
+          "variantId": "LoyaltySupport",
+          "gemId": "Metadata/Items/Gem/SupportGemLoyalty",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportMaimPlayer",
+          "nameSpec": "Maim",
+          "variantId": "MaimSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemMaim",
+          "level": 3,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportBrutusBrainPlayer",
+          "nameSpec": "Brutus' Brain",
+          "variantId": "BrutusBrainSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemBrutusBrain",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "LightningArrowPlayer",
+          "nameSpec": "Lightning Arrow",
+          "variantId": "LightningArrow",
+          "gemId": "Metadata/Items/Gems/SkillGemLightningArrow",
+          "level": 19,
+          "quality": 20,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportRapidAttacksPlayerTwo",
+          "nameSpec": "Rapid Attacks II",
+          "variantId": "RapidAttacksSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportElementalArmamentPlayerTwo",
+          "nameSpec": "Elemental Armament II",
+          "variantId": "ElementalArmamentSupportTwo",
+          "gemId": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportInnervatePlayer",
+          "nameSpec": "Innervate",
+          "variantId": "InnervateSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemInnervate",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportDefyPlayerTwo",
+          "nameSpec": "Defy II",
+          "variantId": "DefySupportTwo",
+          "gemId": "Metadata/Items/Gem/SupportGemDefyTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "IceShotPlayer",
+          "nameSpec": "Ice Shot",
+          "variantId": "IceShot",
+          "gemId": "Metadata/Items/Gem/SkillGemIceShot",
+          "level": 20,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportDefyPlayerTwo",
+          "nameSpec": "Defy II",
+          "variantId": "DefySupportTwo",
+          "gemId": "Metadata/Items/Gem/SupportGemDefyTwo",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportRakiatasFlowPlayer",
+          "nameSpec": "Rakiata's Flow",
+          "variantId": "RakiatasFlowSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemRakiatasFlow",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportOverextendPlayer",
+          "nameSpec": "Overextend",
+          "variantId": "OverextendSupport",
+          "gemId": "Metadata/Items/Gem/SupportGemOverextend",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportNovaProjectilesPlayer",
+          "nameSpec": "Nova Projectiles I",
+          "variantId": "NovaProjectilesSupport",
+          "gemId": "Metadata/Items/Gems/SupportGemNovaProjectiles",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        },
+        {
+          "skillId": "SupportProjectileAccelerationPlayerThree",
+          "nameSpec": "Projectile Acceleration III",
+          "variantId": "ProjectileAccelerationSupportThree",
+          "gemId": "Metadata/Items/Gems/SupportGemAccelerationThree",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": null,
+      "mainActiveSkill": 1,
+      "enabled": true,
+      "gems": [
+        {
+          "skillId": "MetaDeadeyeMarksPlayer",
+          "nameSpec": "Called Shots",
+          "variantId": "MetaDeadeyeMarks",
+          "gemId": "Metadata/Items/Gem/SkillGemAscendanyMetaDeadeyeMarks",
+          "level": 1,
+          "quality": 0,
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "equipped": {
+    "Belt": {
+      "id": "13",
+      "rarity": "UNIQUE",
+      "name": "Darkness Enthroned",
+      "base": "Fine Belt",
+      "itemLevel": 84,
+      "quality": null,
+      "sockets": null,
+      "levelReq": 62,
+      "runes": [],
+      "implicits": [
+        "{enchant}{rune}32% increased Attack Speed",
+        "Has 2 Charm Slots",
+        "Flasks gain 0.17 charges per Second"
+      ],
+      "explicits": [
+        "This item gains bonuses from Socketed Items as though it was Gloves",
+        "100% increased effect of Socketed Items",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: UNIQUE",
+        "Darkness Enthroned",
+        "Fine Belt",
+        "Charm Slots: 2",
+        "Unique ID: d5865aa7d45343e707b0b71b149fe99be34f8b3f0af3ae59c6e66b353a5ec25e",
+        "Item Level: 84",
+        "LevelReq: 62",
+        "Implicits: 3",
+        "{enchant}{rune}32% increased Attack Speed",
+        "Has 2 Charm Slots",
+        "Flasks gain 0.17 charges per Second",
+        "This item gains bonuses from Socketed Items as though it was Gloves",
+        "100% increased effect of Socketed Items",
+        "Corrupted"
+      ]
+    },
+    "Weapon 1": {
+      "id": "18",
+      "rarity": "RARE",
+      "name": "Beast Rain",
+      "base": "Gemini Bow",
+      "itemLevel": 82,
+      "quality": 20,
+      "sockets": "S S",
+      "levelReq": 78,
+      "runes": [
+        "Saqawal's Rune of the Sky",
+        "Saqawal's Rune of the Sky"
+      ],
+      "implicits": [
+        "{enchant}{rune}Gain 10% of Damage as Extra Damage of all Elements",
+        "{enchant}Adds 8 to 18 Cold Damage",
+        "Bow Attacks fire an additional Arrow"
+      ],
+      "explicits": [
+        "{fractured}+4.86% to Critical Hit Chance",
+        "228% increased Physical Damage",
+        "Adds 36 to 56 Cold Damage",
+        "+196 to Accuracy Rating",
+        "+4 to Level of all Attack Skills",
+        "{desecrated}13% increased Attack Speed",
+        "{desecrated}10% increased Attack Speed while your Companion is in your Presence",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Beast Rain",
+        "Gemini Bow",
+        "Unique ID: 4983c3274710cc72f8bb5cdcd65a8e0477e5454f0c19b5706e0858c059f3d3f8",
+        "Item Level: 82",
+        "Quality: 20",
+        "Sockets: S S",
+        "Rune: Saqawal's Rune of the Sky",
+        "Rune: Saqawal's Rune of the Sky",
+        "LevelReq: 78",
+        "Implicits: 3",
+        "{enchant}{rune}Gain 10% of Damage as Extra Damage of all Elements",
+        "{enchant}Adds 8 to 18 Cold Damage",
+        "Bow Attacks fire an additional Arrow",
+        "{fractured}+4.86% to Critical Hit Chance",
+        "228% increased Physical Damage",
+        "Adds 36 to 56 Cold Damage",
+        "+196 to Accuracy Rating",
+        "+4 to Level of all Attack Skills",
+        "{desecrated}13% increased Attack Speed",
+        "{desecrated}10% increased Attack Speed while your Companion is in your Presence",
+        "Corrupted"
+      ]
+    },
+    "Amulet": {
+      "id": "19",
+      "rarity": "RARE",
+      "name": "Maelstrom Scarab",
+      "base": "Lapis Amulet",
+      "itemLevel": 81,
+      "quality": null,
+      "sockets": null,
+      "levelReq": 8,
+      "runes": [],
+      "implicits": [
+        "{enchant}Allocates Overwhelming Strike",
+        "+10 to Intelligence"
+      ],
+      "explicits": [
+        "{fractured}+3 to Level of all Projectile Skills",
+        "+49 to Spirit",
+        "31% increased Critical Hit Chance",
+        "26% increased Critical Damage Bonus",
+        "31% increased Global Defences",
+        "{desecrated}60% increased Evasion Rating from Equipped Body Armour"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Maelstrom Scarab",
+        "Lapis Amulet",
+        "Unique ID: 28879523ca3664fb1c54d6b1297265aaec27b1d382e148043ff620a79ce9c275",
+        "Item Level: 81",
+        "LevelReq: 8",
+        "Implicits: 2",
+        "{enchant}Allocates Overwhelming Strike",
+        "+10 to Intelligence",
+        "{fractured}+3 to Level of all Projectile Skills",
+        "+49 to Spirit",
+        "31% increased Critical Hit Chance",
+        "26% increased Critical Damage Bonus",
+        "31% increased Global Defences",
+        "{desecrated}60% increased Evasion Rating from Equipped Body Armour"
+      ]
+    },
+    "Helmet": {
+      "id": "8",
+      "rarity": "UNIQUE",
+      "name": "Constricting Command",
+      "base": "Viper Cap",
+      "itemLevel": 81,
+      "quality": 20,
+      "sockets": "S",
+      "levelReq": 38,
+      "runes": [
+        "Greater Storm Rune"
+      ],
+      "implicits": [
+        "{enchant}{rune}+14% to Lightning Resistance"
+      ],
+      "explicits": [
+        "+89 to maximum Life",
+        "+13 to all Attributes",
+        "11 Life Regeneration per second",
+        "Require 5 fewer enemies to be Surrounded",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: UNIQUE",
+        "Constricting Command",
+        "Viper Cap",
+        "Evasion: 163",
+        "Unique ID: 7e3f4161915628405e884414ad61b5b107cdc7ff108b0997afd2e77a9ff4ecd1",
+        "Item Level: 81",
+        "Quality: 20",
+        "Sockets: S",
+        "Rune: Greater Storm Rune",
+        "LevelReq: 38",
+        "Implicits: 1",
+        "{enchant}{rune}+14% to Lightning Resistance",
+        "+89 to maximum Life",
+        "+13 to all Attributes",
+        "11 Life Regeneration per second",
+        "Require 5 fewer enemies to be Surrounded",
+        "Corrupted"
+      ]
+    },
+    "Weapon 2": {
+      "id": "16",
+      "rarity": "RARE",
+      "name": "Viper Brand",
+      "base": "Visceral Quiver",
+      "itemLevel": 81,
+      "quality": null,
+      "sockets": null,
+      "levelReq": 64,
+      "runes": [],
+      "implicits": [
+        "29% increased Critical Hit Chance for Attacks"
+      ],
+      "explicits": [
+        "Adds 13 to 31 Physical Damage to Attacks",
+        "36% increased Projectile Speed",
+        "+2 to Level of all Projectile Skills",
+        "28% increased Critical Hit Chance for Attacks",
+        "Gain 5 Mana per Enemy Killed",
+        "{desecrated}Adds 2 to 67 Lightning damage to Attacks",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Viper Brand",
+        "Visceral Quiver",
+        "Unique ID: 121145dc58ee9a756a70ea7df4768b2121b0909f7c4a485da275ec73c28d68ae",
+        "Item Level: 81",
+        "LevelReq: 64",
+        "Implicits: 1",
+        "29% increased Critical Hit Chance for Attacks",
+        "Adds 13 to 31 Physical Damage to Attacks",
+        "36% increased Projectile Speed",
+        "+2 to Level of all Projectile Skills",
+        "28% increased Critical Hit Chance for Attacks",
+        "Gain 5 Mana per Enemy Killed",
+        "{desecrated}Adds 2 to 67 Lightning damage to Attacks",
+        "Corrupted"
+      ]
+    },
+    "Body Armour": {
+      "id": "21",
+      "rarity": "RARE",
+      "name": "Armageddon Veil",
+      "base": "Slipstrike Vest",
+      "itemLevel": 82,
+      "quality": 20,
+      "sockets": "S S",
+      "levelReq": 70,
+      "runes": [
+        "Greater Iron Rune",
+        "Greater Iron Rune"
+      ],
+      "implicits": [
+        "{enchant}{rune}36% increased Armour, Evasion and Energy Shield"
+      ],
+      "explicits": [
+        "{desecrated}+307 to Evasion Rating",
+        "{desecrated}149% increased Evasion Rating",
+        "{desecrated}+27 to Dexterity",
+        "{desecrated}+23% to Fire Resistance",
+        "{desecrated}+9% to Chaos Resistance",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Armageddon Veil",
+        "Slipstrike Vest",
+        "Evasion: 2715",
+        "Unique ID: 6202dbe45a8c62e5cf85622d59fb37a86e882e1a9ea5b821319b726149fbd3bc",
+        "Item Level: 82",
+        "Quality: 20",
+        "Sockets: S S",
+        "Rune: Greater Iron Rune",
+        "Rune: Greater Iron Rune",
+        "LevelReq: 70",
+        "Implicits: 1",
+        "{enchant}{rune}36% increased Armour, Evasion and Energy Shield",
+        "{desecrated}+307 to Evasion Rating",
+        "{desecrated}149% increased Evasion Rating",
+        "{desecrated}+27 to Dexterity",
+        "{desecrated}+23% to Fire Resistance",
+        "{desecrated}+9% to Chaos Resistance",
+        "Corrupted"
+      ]
+    },
+    "Gloves": {
+      "id": "6",
+      "rarity": "RARE",
+      "name": "Empyrean Clutches",
+      "base": "Zealot Gauntlets",
+      "itemLevel": 80,
+      "quality": 20,
+      "sockets": "S S",
+      "levelReq": 59,
+      "runes": [
+        "Talisman of Sirrius",
+        "Talisman of Sirrius"
+      ],
+      "implicits": [
+        "{enchant}{rune}32% increased Attack Speed",
+        "{enchant}19% reduced Attribute Requirements"
+      ],
+      "explicits": [
+        "Adds 15 to 25 Physical Damage to Attacks",
+        "Adds 23 to 32 Cold damage to Attacks",
+        "Adds 1 to 41 Lightning damage to Attacks",
+        "27% increased Critical Damage Bonus",
+        "+19 to Strength",
+        "100% increased effect of Socketed Items",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Empyrean Clutches",
+        "Zealot Gauntlets",
+        "Armour: 73",
+        "Evasion: 67",
+        "Unique ID: 3b06cdb8c6f6249ecd402e6d2a68b6c1ae11958d531b4346484de73a7c643817",
+        "Item Level: 80",
+        "Quality: 20",
+        "Sockets: S S",
+        "Rune: Talisman of Sirrius",
+        "Rune: Talisman of Sirrius",
+        "LevelReq: 59",
+        "Implicits: 2",
+        "{enchant}{rune}32% increased Attack Speed",
+        "{enchant}19% reduced Attribute Requirements",
+        "Adds 15 to 25 Physical Damage to Attacks",
+        "Adds 23 to 32 Cold damage to Attacks",
+        "Adds 1 to 41 Lightning damage to Attacks",
+        "27% increased Critical Damage Bonus",
+        "+19 to Strength",
+        "100% increased effect of Socketed Items",
+        "Corrupted"
+      ]
+    },
+    "Boots": {
+      "id": "14",
+      "rarity": "RARE",
+      "name": "Skull Sole",
+      "base": "Apostle Leggings",
+      "itemLevel": 84,
+      "quality": 20,
+      "sockets": "S S",
+      "levelReq": 70,
+      "runes": [
+        "Farrul's Rune of the Chase",
+        "Farrul's Rune of the Chase"
+      ],
+      "implicits": [
+        "{enchant}{rune}20% increased Movement Speed"
+      ],
+      "explicits": [
+        "35% increased Movement Speed",
+        "+134 to maximum Life",
+        "+37% to Cold Resistance",
+        "+44% to Lightning Resistance",
+        "100% increased effect of Socketed Items",
+        "{desecrated}44% increased Armour and Energy Shield",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Skull Sole",
+        "Apostle Leggings",
+        "Armour: 190",
+        "Energy Shield: 66",
+        "Unique ID: 17f664744dfb0c19c53af6a6ddfedba0cc551fd691881e6a115e14772032aa2a",
+        "Item Level: 84",
+        "Quality: 20",
+        "Sockets: S S",
+        "Rune: Farrul's Rune of the Chase",
+        "Rune: Farrul's Rune of the Chase",
+        "LevelReq: 70",
+        "Implicits: 1",
+        "{enchant}{rune}20% increased Movement Speed",
+        "35% increased Movement Speed",
+        "+134 to maximum Life",
+        "+37% to Cold Resistance",
+        "+44% to Lightning Resistance",
+        "100% increased effect of Socketed Items",
+        "{desecrated}44% increased Armour and Energy Shield",
+        "Corrupted"
+      ]
+    },
+    "Ring 1": {
+      "id": "20",
+      "rarity": "RARE",
+      "name": "Viper Knuckle",
+      "base": "Breach Ring",
+      "itemLevel": 82,
+      "quality": null,
+      "sockets": null,
+      "levelReq": 40,
+      "runes": [],
+      "implicits": [
+        "{enchant}14% increased Rarity of Items found",
+        "Maximum Quality is 40%"
+      ],
+      "explicits": [
+        "Adds 21 to 35 Fire damage to Attacks",
+        "Adds 19 to 32 Cold damage to Attacks",
+        "Adds 1 to 31 Lightning damage to Attacks",
+        "+12% to all Elemental Resistances",
+        "+43% to Cold Resistance",
+        "Leech 6.51% of Physical Attack Damage as Life",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Viper Knuckle",
+        "Breach Ring",
+        "Unique ID: 00580ffc45c43bf56c3bf96e07b572035a9906175c7280b70ee5561911b19801",
+        "Item Level: 82",
+        "LevelReq: 40",
+        "Implicits: 2",
+        "{enchant}14% increased Rarity of Items found",
+        "Maximum Quality is 40%",
+        "Adds 21 to 35 Fire damage to Attacks",
+        "Adds 19 to 32 Cold damage to Attacks",
+        "Adds 1 to 31 Lightning damage to Attacks",
+        "+12% to all Elemental Resistances",
+        "+43% to Cold Resistance",
+        "Leech 6.51% of Physical Attack Damage as Life",
+        "Corrupted"
+      ]
+    },
+    "Ring 2": {
+      "id": "17",
+      "rarity": "RARE",
+      "name": "Entropy Turn",
+      "base": "Breach Ring",
+      "itemLevel": 82,
+      "quality": null,
+      "sockets": null,
+      "levelReq": 40,
+      "runes": [],
+      "implicits": [
+        "Maximum Quality is 40%"
+      ],
+      "explicits": [
+        "Adds 12 to 18 Fire damage to Attacks",
+        "Adds 29 to 47 Cold damage to Attacks",
+        "23% increased Rarity of Items found",
+        "+50% to Cold Resistance",
+        "Gain 38 Life per Enemy Killed",
+        "{desecrated}32% increased Cold Damage",
+        "Corrupted"
+      ],
+      "rawLines": [
+        "Rarity: RARE",
+        "Entropy Turn",
+        "Breach Ring",
+        "Unique ID: 9d1c43833fd394b95f66a595f3c4e2adc7af797ccadc2c4d2cea09d6b1818c6c",
+        "Item Level: 82",
+        "LevelReq: 40",
+        "Implicits: 1",
+        "Maximum Quality is 40%",
+        "Adds 12 to 18 Fire damage to Attacks",
+        "Adds 29 to 47 Cold damage to Attacks",
+        "23% increased Rarity of Items found",
+        "+50% to Cold Resistance",
+        "Gain 38 Life per Enemy Killed",
+        "{desecrated}32% increased Cold Damage",
+        "Corrupted"
+      ]
+    },
+    "Flask 1": {
+      "id": "12",
+      "rarity": "MAGIC",
+      "name": "Undiluted Ultimate Life Flask of the Sylvan",
+      "base": null,
+      "itemLevel": 83,
+      "quality": 0,
+      "sockets": null,
+      "levelReq": 60,
+      "runes": [],
+      "implicits": [],
+      "explicits": [
+        "Gains 0.25 Charges per Second",
+        "49% increased Recovery rate"
+      ],
+      "rawLines": [
+        "Rarity: MAGIC",
+        "Undiluted Ultimate Life Flask of the Sylvan",
+        "Unique ID: c1a54d50785ca1aa6352e2184fc92a2c8961b36e39d62309b2fd6443676c2cdc",
+        "Item Level: 83",
+        "Quality: 0",
+        "LevelReq: 60",
+        "Implicits: 0",
+        "Gains 0.25 Charges per Second",
+        "49% increased Recovery rate"
+      ]
+    },
+    "Charm 1": {
+      "id": "9",
+      "rarity": "MAGIC",
+      "name": "Mistbound Silver Charm of the Perpetual",
+      "base": null,
+      "itemLevel": 81,
+      "quality": 0,
+      "sockets": null,
+      "levelReq": 10,
+      "runes": [],
+      "implicits": [
+        "Used when you are affected by a Slow"
+      ],
+      "explicits": [
+        "Recover 61 Mana when Used",
+        "56% increased Charges gained"
+      ],
+      "rawLines": [
+        "Rarity: MAGIC",
+        "Mistbound Silver Charm of the Perpetual",
+        "Unique ID: 07aff1d9301f68fa321b04fa0dd3e00df36cef9c90ac2bc14052ba8f03ffcdef",
+        "Item Level: 81",
+        "Quality: 0",
+        "LevelReq: 10",
+        "Implicits: 1",
+        "Used when you are affected by a Slow",
+        "Recover 61 Mana when Used",
+        "56% increased Charges gained"
+      ]
+    },
+    "Charm 2": {
+      "id": "11",
+      "rarity": "UNIQUE",
+      "name": "Sanguis Heroum",
+      "base": "Staunching Charm",
+      "itemLevel": 83,
+      "quality": 0,
+      "sockets": null,
+      "levelReq": 18,
+      "runes": [],
+      "implicits": [
+        "Used when you start Bleeding"
+      ],
+      "explicits": [
+        "Gains 0.17 Charges per Second",
+        "Creates Consecrated Ground on use"
+      ],
+      "rawLines": [
+        "Rarity: UNIQUE",
+        "Sanguis Heroum",
+        "Staunching Charm",
+        "Unique ID: 3f2af3cdc7f7bce0b6a5840765b66ada3166e4badb24b037e0461b76e3227813",
+        "Item Level: 83",
+        "Quality: 0",
+        "LevelReq: 18",
+        "Implicits: 1",
+        "Used when you start Bleeding",
+        "Gains 0.17 Charges per Second",
+        "Creates Consecrated Ground on use"
+      ]
+    },
+    "Charm 3": {
+      "id": "10",
+      "rarity": "UNIQUE",
+      "name": "Nascent Hope",
+      "base": "Thawing Charm",
+      "itemLevel": 81,
+      "quality": 0,
+      "sockets": null,
+      "levelReq": 12,
+      "runes": [],
+      "implicits": [
+        "Used when you become Frozen"
+      ],
+      "explicits": [
+        "23% Chance to gain a Charge when you Kill an Enemy",
+        "Energy Shield Recharge starts on use"
+      ],
+      "rawLines": [
+        "Rarity: UNIQUE",
+        "Nascent Hope",
+        "Thawing Charm",
+        "Unique ID: a7dbdddd455e9867506cdd3e307f52e3eb7a0fe7498a1465236c1da2f7a97dc8",
+        "Item Level: 81",
+        "Quality: 0",
+        "LevelReq: 12",
+        "Implicits: 1",
+        "Used when you become Frozen",
+        "23% Chance to gain a Charge when you Kill an Enemy",
+        "Energy Shield Recharge starts on use"
+      ]
+    },
+    "Flask 2": {
+      "id": "15",
+      "rarity": "MAGIC",
+      "name": "Tenacious Gargantuan Mana Flask of the Distiller",
+      "base": null,
+      "itemLevel": 52,
+      "quality": 6,
+      "sockets": null,
+      "levelReq": 40,
+      "runes": [],
+      "implicits": [],
+      "explicits": [
+        "65% more Recovery if used while on Low Mana",
+        "26% reduced Charges per use"
+      ],
+      "rawLines": [
+        "Rarity: MAGIC",
+        "Tenacious Gargantuan Mana Flask of the Distiller",
+        "Unique ID: 6874eb98c6f85a1f9c8a294913560efdf1ad18333816a3a74c15fe443566da69",
+        "Item Level: 52",
+        "Quality: 6",
+        "LevelReq: 40",
+        "Implicits: 0",
+        "65% more Recovery if used while on Low Mana",
+        "26% reduced Charges per use"
+      ]
+    }
+  }
+}

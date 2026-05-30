@@ -1,0 +1,132 @@
+[
+  {
+    "id": "cleave",
+    "name": "Cleave",
+    "description": "Attacks enemies in a cone in front of you, dealing area damage",
+    "moreDamageMultipliersPct": [
+      20
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Attack"
+  },
+  {
+    "id": "heavy-strike",
+    "name": "Heavy Strike",
+    "description": "A powerful single-target melee attack that stuns enemies",
+    "moreDamageMultipliersPct": [
+      40
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Attack"
+  },
+  {
+    "id": "glacial-cascade",
+    "name": "Glacial Cascade",
+    "description": "Ice spell that deals cold damage in a cascading area",
+    "moreDamageMultipliersPct": [
+      25
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Spell"
+  },
+  {
+    "id": "fireball",
+    "name": "Fireball",
+    "description": "Launches a fiery projectile that explodes on impact",
+    "moreDamageMultipliersPct": [
+      30
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Spell"
+  },
+  {
+    "id": "viper-strike",
+    "name": "Viper Strike",
+    "description": "Fast melee attack that inflicts poison damage over time",
+    "moreDamageMultipliersPct": [
+      40
+    ],
+    "moreAttackSpeedMultipliersPct": [
+      10
+    ],
+    "type": "Attack"
+  },
+  {
+    "id": "lightning-bolt",
+    "name": "Lightning Bolt",
+    "description": "Casts a bolt of lightning that chains between enemies",
+    "moreDamageMultipliersPct": [
+      35
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Spell"
+  },
+  {
+    "id": "whirlwind",
+    "name": "Whirlwind",
+    "description": "Spins in place, damaging all nearby enemies continuously",
+    "moreDamageMultipliersPct": [
+      15
+    ],
+    "moreAttackSpeedMultipliersPct": [
+      20
+    ],
+    "type": "Attack"
+  },
+  {
+    "id": "ice-shard",
+    "name": "Ice Shard",
+    "description": "Launches multiple ice projectiles in a cone",
+    "moreDamageMultipliersPct": [
+      20
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Spell"
+  },
+  {
+    "id": "rage",
+    "name": "Rage",
+    "description": "Increases attack damage and speed for a duration",
+    "moreDamageMultipliersPct": [
+      50
+    ],
+    "moreAttackSpeedMultipliersPct": [
+      25
+    ],
+    "type": "Buff"
+  },
+  {
+    "id": "hammer-of-the-gods",
+    "name": "Hammer of the Gods",
+    "description": "Devastating slam attack that creates shockwaves",
+    "moreDamageMultipliersPct": [
+      80
+    ],
+    "moreAttackSpeedMultipliersPct": [
+      -30
+    ],
+    "type": "Attack"
+  },
+  {
+    "id": "meteor",
+    "name": "Meteor",
+    "description": "Calls down a meteor from the sky after a delay",
+    "moreDamageMultipliersPct": [
+      100
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Spell"
+  },
+  {
+    "id": "poison-arrow",
+    "name": "Poison Arrow",
+    "description": "Shoots an arrow that creates a poisonous cloud",
+    "moreDamageMultipliersPct": [
+      25
+    ],
+    "moreAttackSpeedMultipliersPct": [
+      5
+    ],
+    "type": "Ranged"
+  }
+]

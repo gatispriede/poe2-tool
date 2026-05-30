@@ -1,0 +1,210 @@
+[
+  {
+    "id": "fireball",
+    "name": "Fireball",
+    "description": "Launches a fiery projectile that explodes on impact, dealing fire damage",
+    "moreDamageMultipliersPct": [
+      30
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Fire"
+  },
+  {
+    "id": "ice-shard",
+    "name": "Ice Shard",
+    "description": "Launches multiple ice projectiles in a cone, dealing cold damage",
+    "moreDamageMultipliersPct": [
+      20
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Cold"
+  },
+  {
+    "id": "lightning-bolt",
+    "name": "Lightning Bolt",
+    "description": "Casts a bolt of lightning that chains between enemies",
+    "moreDamageMultipliersPct": [
+      35
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Lightning"
+  },
+  {
+    "id": "glacial-cascade",
+    "name": "Glacial Cascade",
+    "description": "Creates cascading ice formations that deal cold damage in sequence",
+    "moreDamageMultipliersPct": [
+      25
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Cold"
+  },
+  {
+    "id": "incinerate",
+    "name": "Incinerate",
+    "description": "Channels fire damage that increases in intensity over time",
+    "moreDamageMultipliersPct": [
+      40
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Fire"
+  },
+  {
+    "id": "spark",
+    "name": "Spark",
+    "description": "Launches sparks that bounce around and deal lightning damage",
+    "moreDamageMultipliersPct": [
+      15
+    ],
+    "moreAttackSpeedMultipliersPct": [
+      10
+    ],
+    "type": "Elemental",
+    "element": "Lightning"
+  },
+  {
+    "id": "frost-bolt",
+    "name": "Frost Bolt",
+    "description": "Fires a slow-moving projectile that chills and freezes enemies",
+    "moreDamageMultipliersPct": [
+      20
+    ],
+    "moreAttackSpeedMultipliersPct": [
+      -10
+    ],
+    "type": "Elemental",
+    "element": "Cold"
+  },
+  {
+    "id": "flame-wall",
+    "name": "Flame Wall",
+    "description": "Creates a wall of fire that burns enemies passing through",
+    "moreDamageMultipliersPct": [
+      25
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Fire"
+  },
+  {
+    "id": "lightning-storm",
+    "name": "Lightning Storm",
+    "description": "Summons a storm cloud that strikes nearby enemies with lightning",
+    "moreDamageMultipliersPct": [
+      45
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Lightning"
+  },
+  {
+    "id": "ice-nova",
+    "name": "Ice Nova",
+    "description": "Creates an expanding ring of ice that deals cold damage",
+    "moreDamageMultipliersPct": [
+      30
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Cold"
+  },
+  {
+    "id": "meteor",
+    "name": "Meteor",
+    "description": "Calls down a meteor from the sky after a delay, dealing massive fire damage",
+    "moreDamageMultipliersPct": [
+      100
+    ],
+    "moreAttackSpeedMultipliersPct": [
+      -50
+    ],
+    "type": "Elemental",
+    "element": "Fire"
+  },
+  {
+    "id": "frozen-orb",
+    "name": "Frozen Orb",
+    "description": "Launches an orb that releases ice shards as it travels",
+    "moreDamageMultipliersPct": [
+      35
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Cold"
+  },
+  {
+    "id": "chain-lightning",
+    "name": "Chain Lightning",
+    "description": "Casts lightning that jumps between multiple enemies",
+    "moreDamageMultipliersPct": [
+      25
+    ],
+    "moreAttackSpeedMultipliersPct": [
+      5
+    ],
+    "type": "Elemental",
+    "element": "Lightning"
+  },
+  {
+    "id": "fire-nova",
+    "name": "Fire Nova",
+    "description": "Creates an expanding burst of fire damage around the caster",
+    "moreDamageMultipliersPct": [
+      35
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Fire"
+  },
+  {
+    "id": "ice-spear",
+    "name": "Ice Spear",
+    "description": "Launches ice spears that gain critical strike chance over distance",
+    "moreDamageMultipliersPct": [
+      20
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Cold"
+  },
+  {
+    "id": "lightning-warp",
+    "name": "Lightning Warp",
+    "description": "Teleports to target location with lightning damage",
+    "moreDamageMultipliersPct": [
+      40
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Lightning"
+  },
+  {
+    "id": "flame-dash",
+    "name": "Flame Dash",
+    "description": "Dashes through enemies, leaving a trail of fire",
+    "moreDamageMultipliersPct": [
+      15
+    ],
+    "moreAttackSpeedMultipliersPct": [
+      20
+    ],
+    "type": "Elemental",
+    "element": "Fire"
+  },
+  {
+    "id": "elemental-burst",
+    "name": "Elemental Burst",
+    "description": "Releases a burst of random elemental damage",
+    "moreDamageMultipliersPct": [
+      50
+    ],
+    "moreAttackSpeedMultipliersPct": [],
+    "type": "Elemental",
+    "element": "Mixed"
+  }
+]
