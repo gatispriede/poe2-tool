@@ -24,6 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lab": "node scripts/lab/skill-lab.js",
     "explore": "node scripts/explore.js",
     "check-keystones": "node scripts/check-keystones.js",
     "eject": "react-scripts eject",

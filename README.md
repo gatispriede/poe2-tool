@@ -2,6 +2,25 @@
 
 A comprehensive damage calculator for Path of Exile 2 that follows **Path of Building 2's calculation methodology** for accurate DPS calculations.
 
+### 🧪 Skill Lab — skill ↔ passive tree ↔ item relationships
+
+Pick a skill; the platform tells you every passive, item affix, unique and
+support gem in the PoB 0.5 data that changes what it does, split into **damage**,
+**area & coverage**, **application speed** and **sustain**, each ranked by
+marginal gain per passive point / gem socket / item slot — plus **which skills
+pair with it** (trigger hosts, corpse suppliers, ailment payloads, exposure).
+
+```bash
+npm start                                  # Skill Lab tab
+npm run lab -- "Spark"                     # same engine, in the terminal
+npm run lab -- "Detonate Dead" --synergy
+```
+
+See [`docs/skill-lab.md`](docs/skill-lab.md) for how to read the output and
+[`src/engine/README.md`](src/engine/README.md) for the model behind it.
+
+---
+
 ### 🎯 Key Features
 
 - ✅ **PoB2 Compatible Calculations** - Uses the same formula order as Path of Building 2
