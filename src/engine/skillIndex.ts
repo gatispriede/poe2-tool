@@ -29,7 +29,10 @@ export interface SourceMatch {
   /** Dominant bucket, used to file the source under one heading. */
   bucket: Bucket;
   strength: Applicability['strength'];
-  /** Gain per unit of cost — the number that actually ranks build choices. */
+  /** The gain on the axis this source is filed under. This is the number the
+   *  UI shows, so ranking and display can never disagree. */
+  bucketGain: number;
+  /** `bucketGain` per unit of cost — what actually ranks build choices. */
   efficiency: number;
   costLabel: string;
   /** Lowest parse confidence among the matched effects. */
@@ -45,19 +48,48 @@ export interface SkillAnalysis {
   counts: Record<Bucket, number>;
 }
 
-/** PoB support-gem gating: any required type matches, no excluded type present.
- *
- *  PoB computes a couple of these flags at runtime rather than storing them on
- *  the gem, so they are derived here — without `Cooldown`, every "cannot
- *  support skills with a cooldown" gem shows up on skills that have one. */
+/** PoB stores a support gem's skill-type requirements as a postfix boolean
+ *  expression, not a flat list: `["Attack", "Area", "AND"]` means Attack AND
+ *  Area, while `["Area", "MinionsCanExplode"]` (no operator) means either.
+ *  Reading it as a flat "any of" puts melee-only gems on spells. */
+export function evalSkillTypeExpression(
+  tokens: string[],
+  has: (type: string) => boolean,
+): boolean | undefined {
+  if (!tokens.length) return undefined;
+  const stack: boolean[] = [];
+  for (const token of tokens) {
+    if (token === 'AND') {
+      const a = stack.pop() ?? true;
+      const b = stack.pop() ?? true;
+      stack.push(a && b);
+    } else if (token === 'OR') {
+      const a = stack.pop() ?? false;
+      const b = stack.pop() ?? false;
+      stack.push(a || b);
+    } else if (token === 'NOT') {
+      stack.push(!(stack.pop() ?? false));
+    } else {
+      stack.push(has(token));
+    }
+  }
+  // Anything left unconsumed is an alternative, so they OR together.
+  return stack.some(Boolean);
+}
+
+/** PoB support-gem gating, with the two flags PoB computes at runtime rather
+ *  than storing on the gem — without `Cooldown`, every "cannot support skills
+ *  with a cooldown" gem shows up on skills that have one. */
 export function supportApplies(source: EffectSource, skill: SkillProfile): boolean {
   const types = new Set(skill.skillTypes);
   if (skill.cooldown !== undefined) types.add('Cooldown');
   if (types.has('InbuiltTrigger')) types.add('Triggered');
-  const required = source.requireSkillTypes ?? [];
-  if (required.length && !required.some((t) => types.has(t))) return false;
-  for (const t of source.excludeSkillTypes ?? []) if (types.has(t)) return false;
-  return true;
+  const has = (type: string) => types.has(type);
+
+  const required = evalSkillTypeExpression(source.requireSkillTypes ?? [], has);
+  if (required === false) return false;
+  const excluded = evalSkillTypeExpression(source.excludeSkillTypes ?? [], has);
+  return excluded !== true;
 }
 
 function dominantBucket(matches: EffectMatch[]): Bucket {
@@ -69,6 +101,18 @@ function dominantBucket(matches: EffectMatch[]): Bucket {
     totals[m.bucket] += Math.abs(v.dps) + Math.abs(v.aoe) + Math.abs(v.utility) + 0.001;
   }
   return (Object.keys(totals) as Bucket[]).reduce((a, b) => (totals[b] > totals[a] ? b : a), 'damage');
+}
+
+/** What a source is worth on one axis. Damage and coverage are separate
+ *  currencies, so a unique with a big damage line must not outrank a genuine
+ *  area source inside the area list. */
+export function gainOnAxis(total: ScoreVector, bucket: Bucket): number {
+  switch (bucket) {
+    case 'damage': return total.dps;
+    case 'aoe': return total.aoe;
+    case 'speed': return total.rate;
+    default: return total.utility;
+  }
 }
 
 const effectWeight = (m: EffectMatch): number =>
@@ -172,15 +216,17 @@ export function analyzeSource(
   const leading = matches.reduce((a, b) => (effectWeight(b) > effectWeight(a) ? b : a));
   const strength = leading.applicability.strength;
   const cost = Math.max(1, source.cost.amount);
-  const worth = total.dps + total.aoe * 0.5 + total.utility * 0.15;
+  const bucket = dominantBucket(matches);
+  const bucketGain = gainOnAxis(total, bucket);
 
   return {
     source,
     matches,
     total,
-    bucket: dominantBucket(matches),
+    bucket,
     strength,
-    efficiency: worth / cost,
+    bucketGain,
+    efficiency: bucketGain / cost,
     costLabel: describeCost(source),
     confidence: Math.min(...matches.map((m) => m.effect.parseConfidence)),
   };

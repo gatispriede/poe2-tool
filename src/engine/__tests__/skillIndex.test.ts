@@ -66,6 +66,16 @@ describe('skill index', () => {
     expect(names(all)).not.toContain('Hit and Run');
   });
 
+  it('reads PoB skill-type requirements as the boolean expression they are', () => {
+    // Overreach requires ["Attack", "Area", "AND"] — both, not either.
+    const overreach = sources.supports.find((s) => s.name === 'Overreach')!;
+    const comet = analyzeSkill(raw('Comet'), sources.all, { limitPerBucket: 0 });
+    const cometAll = [...comet.buckets.damage, ...comet.buckets.aoe, ...comet.buckets.speed];
+    expect(names(cometAll)).not.toContain('Overreach');
+    expect(names(sunder.buckets.aoe).concat(names(sunder.buckets.damage))).toContain('Overreach');
+    expect(overreach.requireSkillTypes).toContain('AND');
+  });
+
   it('gates support gems on PoB skill types', () => {
     const meleeOnly = sources.supports.find((s) => (s.requireSkillTypes ?? []).includes('Melee'));
     expect(meleeOnly).toBeDefined();

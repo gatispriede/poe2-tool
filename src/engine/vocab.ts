@@ -112,6 +112,9 @@ export const STATS: StatDef[] = [
 
   // ---- area / coverage --------------------------------------------------
   { key: 'presenceArea', label: 'Presence Area of Effect', bucket: 'aoe', re: /presence[^.]*area of effect|area of effect of your presence/i },
+  // A jewel's radius and your light radius are not the skill's area.
+  { key: 'jewelRadius', label: 'Jewel Radius', bucket: 'utility', re: /jewels?[^.]*radius|radius[^.]*jewels?/i },
+  { key: 'lightRadius', label: 'Light Radius', bucket: 'utility', re: /light radius/i },
   { key: 'areaOfEffect', label: 'Area of Effect', bucket: 'aoe', re: /area of effect|explosion radius|radius/i, implies: ['area'] },
   { key: 'projectileCount', label: 'Projectile Count', bucket: 'aoe', re: /number of projectiles|additional (?:projectiles?|arrows?|bolts?)|fires? an additional|projectiles? fired/i, implies: ['projectile'] },
   { key: 'chainCount', label: 'Chains', bucket: 'aoe', re: /number of chains|chains? (?:an )?additional|additional chains?|chain \d+ additional/i },

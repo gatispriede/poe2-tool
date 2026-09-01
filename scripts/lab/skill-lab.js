@@ -75,7 +75,7 @@ function printBucket(title, matches, limit) {
   if (!matches.length) return;
   console.log(`\n${paint('bold', title)}`);
   for (const m of matches.slice(0, limit)) {
-    const gain = m.total.dps || m.total.aoe || m.total.rate || m.total.utility;
+    const gain = m.bucketGain;
     const flag = m.strength === 'direct' ? paint('green', '●')
       : m.strength === 'conditional' ? paint('yellow', '◐') : paint('magenta', '○');
     const kind = paint('dim', m.source.kind.padEnd(10));

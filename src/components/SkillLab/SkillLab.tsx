@@ -75,7 +75,7 @@ function SkillHeader({ profile }: { profile: SkillProfile }) {
 }
 
 function SourceRow({ match }: { match: SourceMatch }) {
-  const gain = match.total.dps || match.total.aoe || match.total.rate || match.total.utility;
+  const gain = match.bucketGain;
   const leading = match.matches.reduce((a, b) =>
     (Math.abs(b.score.dps) + Math.abs(b.score.aoe) > Math.abs(a.score.dps) + Math.abs(a.score.aoe) ? b : a));
   const reason = leading.applicability.reasons[0];
