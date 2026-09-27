@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding2>
+	<Build level="92" className="Sorceress" ascendClassName="Stormweaver" targetVersion="0_1" mainSocketGroup="1" viewMode="TREE"/>
+	<Tree activeSpec="1">
+		<Spec ascendancyInternalId="Sorceress1" ascendClassId="1" classInternalId="7" masteryEffects="" secondaryAscendClassId="nil" nodes="51184,41965,1755,18845,4739,52199,25101,22439,5936,49512,61419,46819,8616,57710,39037,1826,60685,9485,56216,44871,37806,46157,53560,53266,35896,55668,25557,41029,46034,8569,49046,4203,42736,61921,38215,49996,33463,41877,24958,61834,17088,11604,56045,61196,8975,53960,30555,47635,53207,39423,29763,44293,14096,1543,59376,34058,56935,39886,47555,18407,22419,61338,14363,4776,4456,55708,36293,27785,63863,18651,11736,62677,59362,29009,5314,42302,9151,33245,6792,2408,35696,12253,14658,26598,32701,21746,43691,24647,40990,18815,15356,17420,25565,722,31765,57821,51741,39640,7998,2857,49759,39204,7246,8867,64789" treeVersion="0_5" classId="6"/>
+	</Tree>
+	<Skills activeSkillSet="1">
+		<SkillSet id="1">
+		<Skill mainActiveSkill="1" mainActiveSkillCalcs="1" enabled="true" includeInFullDPS="true">
+			<Gem level="20" quality="20" skillId="SparkPlayer" nameSpec="Spark" enabled="true" enableGlobal1="true" enableGlobal2="true" count="1"/>
+			<Gem level="1" quality="0" skillId="SupportMultishotPlayerTwo" nameSpec="Multishot II" enabled="true" enableGlobal1="true" enableGlobal2="true" count="1"/>
+			<Gem level="1" quality="0" skillId="SupportNovaProjectilesTwoPlayer" nameSpec="Nova Projectiles II" enabled="true" enableGlobal1="true" enableGlobal2="true" count="1"/>
+			<Gem level="1" quality="0" skillId="SupportChainPlayerThree" nameSpec="Chain III" enabled="true" enableGlobal1="true" enableGlobal2="true" count="1"/>
+			<Gem level="1" quality="0" skillId="SupportRapidCastingPlayerThree" nameSpec="Rapid Casting III" enabled="true" enableGlobal1="true" enableGlobal2="true" count="1"/>
+			<Gem level="1" quality="0" skillId="SupportProjectileAccelerationPlayerThree" nameSpec="Projectile Acceleration III" enabled="true" enableGlobal1="true" enableGlobal2="true" count="1"/>
+		</Skill>
+		<Skill mainActiveSkill="1" mainActiveSkillCalcs="1" enabled="false">
+			<Gem level="20" quality="20" skillId="SparkPlayer" nameSpec="Spark" enabled="true" enableGlobal1="true" enableGlobal2="true" count="1"/>
+			<Gem level="1" quality="0" skillId="SupportConsideredCastingPlayer" nameSpec="Considered Casting" enabled="true" enableGlobal1="true" enableGlobal2="true" count="1"/>
+			<Gem level="1" quality="0" skillId="SupportNovaProjectilesTwoPlayer" nameSpec="Nova Projectiles II" enabled="true" enableGlobal1="true" enableGlobal2="true" count="1"/>
+			<Gem level="1" quality="0" skillId="SupportChainPlayerThree" nameSpec="Chain III" enabled="true" enableGlobal1="true" enableGlobal2="true" count="1"/>
+			<Gem level="1" quality="0" skillId="SupportRapidCastingPlayerThree" nameSpec="Rapid Casting III" enabled="true" enableGlobal1="true" enableGlobal2="true" count="1"/>
+			<Gem level="1" quality="0" skillId="UnleashPlayer" nameSpec="Unleash" enabled="true" enableGlobal1="true" enableGlobal2="true" count="1"/>
+		</Skill>
+		</SkillSet>
+	</Skills>
+	<Items activeItemSet="1">
+		<Item id="1">
+Rarity: RARE
+Stormcall Wand
+Siphoning Wand
+Item Level: 82
+Quality: 20
+LevelReq: 80
+Implicits: 0
++7 to Level of all Lightning Spell Skills
+238% increased Spell Damage
+52% increased Cast Speed
++120 to maximum Mana
+		</Item>
+		<Item id="2">
+Rarity: RARE
+Tempest Collar
+Stellar Amulet
+Item Level: 82
+Quality: 20
+LevelReq: 80
+Implicits: 1
++15 to all Attributes
++3 to Level of all Lightning Spell Skills
+35% increased Critical Hit Chance for Spells
++30% to Lightning Resistance
+		</Item>
+		<Item id="3">
+Rarity: RARE
+Galvanic Loop
+Sapphire Ring
+Item Level: 82
+Quality: 20
+LevelReq: 80
+Implicits: 1
++25% to Cold Resistance
+238% increased Lightning Damage
+Adds 15 to 280 Lightning Damage to Spells
++35% to Fire Resistance
+		</Item>
+		<Item id="4">
+Rarity: RARE
+Arcing Band
+Amethyst Ring
+Item Level: 82
+Quality: 20
+LevelReq: 80
+Implicits: 1
++17% to Chaos Resistance
+210% increased Lightning Damage
++40% to Lightning Resistance
++90 to maximum Mana
+		</Item>
+		<Item id="5">
+Rarity: RARE
+Stormweave
+Elementalist Robe
+Item Level: 82
+Quality: 20
+LevelReq: 80
+Implicits: 0
++140 to maximum Energy Shield
++110 to maximum Life
++35% to Cold Resistance
+		</Item>
+		<Item id="6">
+Rarity: RARE
+Conductor Crown
+Feathered Tiara
+Item Level: 82
+Quality: 20
+LevelReq: 80
+Implicits: 0
+49% increased Cast Speed
++95 to maximum Life
++38% to Chaos Resistance
+		</Item>
+		<Item id="7">
+Rarity: RARE
+Voltaic Grasp
+Silk Gloves
+Item Level: 82
+Quality: 20
+LevelReq: 80
+Implicits: 0
+44% increased Cast Speed
+15% increased Projectile Damage
++80 to maximum Life
+		</Item>
+		<Item id="8">
+Rarity: RARE
+Stormstride
+Silk Slippers
+Item Level: 82
+Quality: 20
+LevelReq: 80
+Implicits: 0
+35% increased Movement Speed
++95 to maximum Life
++40% to Fire Resistance
+		</Item>
+		<Item id="9">
+Rarity: RARE
+Chargebinder
+Utility Belt
+Item Level: 82
+Quality: 20
+LevelReq: 80
+Implicits: 0
++120 to maximum Life
++35% to Lightning Resistance
+25% increased Flask Charges gained
+		</Item>
+		<Slot name="Weapon 1" itemId="1"/>
+		<Slot name="Amulet" itemId="2"/>
+		<Slot name="Ring 1" itemId="3"/>
+		<Slot name="Ring 2" itemId="4"/>
+		<Slot name="Body Armour" itemId="5"/>
+		<Slot name="Helmet" itemId="6"/>
+		<Slot name="Gloves" itemId="7"/>
+		<Slot name="Boots" itemId="8"/>
+		<Slot name="Belt" itemId="9"/>
+	</Items>
+</PathOfBuilding2>

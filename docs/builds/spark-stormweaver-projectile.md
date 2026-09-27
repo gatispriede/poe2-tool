@@ -165,6 +165,36 @@ Mods below were all verified present in `src/data/generated/item-mods.json`.
 
 ---
 
+## Path of Building import
+
+```bash
+node scripts/pob/spark-stormweaver.js --verify
+```
+
+| File | |
+| --- | --- |
+| `docs/builds/spark-stormweaver.pob.txt` | the import code — paste into PoB2 or pobb.in |
+| `docs/builds/spark-stormweaver.pob.xml` | the same build as readable XML |
+
+The generator does not hard-code the tree. It BFS's from the Sorceress start
+and from the Stormweaver ascendancy start through `src/engine/treeGraph.ts` —
+the same graph the Skill Lab prices nodes with — so the allocation is
+contiguous by construction and the node ids cannot drift from the dataset.
+Serialization goes through `buildPob2Xml` in
+`src/components/Explorer/pob2Export.ts`.
+
+Output: **level 92, 97 passive points + 8 ascendancy points, 105 nodes**, two
+skill groups (clear and single-target swap) and nine gear slots.
+
+`--verify` round-trips the code back through inflate and asserts eight
+structural properties (identical XML, correct class and ascendancy ids, tree
+version matching the dataset, Spark as main skill, both skill groups, all nine
+slots). The XML is also well-formed per `fast-xml-parser`.
+
+**The gear in the code is target gear, not owned gear.** Every mod on it was
+verified present in `src/data/generated/item-mods.json` and rolled at the top
+of its range, so PoB will compute an aspirational number, not your current one.
+
 ## Open items
 
 1. **Cross-check against poe.ninja.** Never done — the container cannot reach
@@ -172,9 +202,7 @@ Mods below were all verified present in `src/data/generated/item-mods.json`.
    of this.
 2. **Re-sync the dataset.** `npm run sync-data`. The current data predates 0.5.4
    and 0.5.5; Spark's numbers, the penetration notables and Original Sin may all
-   have moved.
-3. **Emit a PoB code.** `src/components/Explorer/pob2Export.ts` already
-   serializes a `GeneratedBuild` to PoB2 import XML and the base64-deflate build
-   code. The tree half is done (node list above); what remains is assembling the
-   `ParsedBuild` — gem list and item set — and feeding it through
-   `buildPob2Xml`.
+   have moved. The PoB code is generated against `treeVersion 0_5` — if the tree
+   changed in either patch, node ids may no longer resolve and the code will
+   need regenerating after the sync.
+3. ~~Emit a PoB code.~~ Done — see above.
